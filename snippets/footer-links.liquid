@@ -10,18 +10,22 @@
 </div> {% endcomment %}  -->
 
 <div class="">
-  <h4 class="hidden-xs text-left  title-under">{{ settings[title] }}</h4>
-  <h4 class="visible-xs" style="margin-top: 20px;">{{ settings[title] }}</h4>
+  <h4 class="hidden-xs text-left title-under">{{ settings[title] }}</h4>
+  <h4 class="visible-xs" style="margin-top: 20px">{{ settings[title] }}</h4>
   <div class="v-links-list">
     <ul>
-    
       {% for link in linklists[settings[footerLinks]].links %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-  
-      {% endfor %} 
-      {% if settings[title] == 'ABOUT' %}
-         <li><a href="https://nordiclifting.com/pages/sponsored-athlete-program-prequal">Sponsored Athlete Program</a></li>     
+      <li>
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      </li>
+      {% endfor %} {% if settings[title] == 'ABOUT' %}
+      <li>
+        <a
+          href="https://nordiclifting.com/pages/sponsored-athlete-program-prequal"
+          >Daguls</a
+        >
+      </li>
       {% endif %}
-    </ul>                 
+    </ul>
   </div>
-</div>    
+</div>
