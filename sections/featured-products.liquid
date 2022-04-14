@@ -1,0 +1,187 @@
+<!-- featured products -->
+<section class="content" data-section-id="{{ section.id }}" data-section-type="featuredproducts-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 {% if section.settings.show_lookbook %}col-xl-8{% else %}col-xl-12{% endif %}">
+        {%- assign name_collection = section.settings.collection -%}
+        {%- if name_collection == blank -%}{%- assign name_collection = "all" -%}{%- endif -%}
+        {%- assign collection = collections[name_collection] -%}
+        {% if collection.products.size == 0 %}
+        <span style="display: flex; justify-content: center;">{{ section.settings.title }}.&#160;Add products. Select collection in this section using the sidebar.</span>
+        {% else %}
+        {% assign length = section.settings.limit | plus: 0 %}
+        <div class="title-box">
+          <h1 class="{% if section.settings.center_title %}text-center{% else %}text-left{% endif %} text-uppercase title-under">{{ section.settings.title }}</h1>
+        </div>
+        <!-- /title -->
+        <div class="product-listing carousel-products-mobile row featprod-js-{{ section.id }}">
+          {% if section.settings.products_in_row == "2" %}{% assign smallproduct = true %}{% endif %}
+          
+          {% if section.settings.products_in_row == "5" %}
+          	{% for product in collection.products limit: length %}
+{%- include 'bold-product' with product, hide_action: 'skip' -%}
+              <div class="col-xs-6 col-sm-4 col-md-3 col-lg-5th col-xl-5th">
+                {% include "product-grid-item" hoverzoom: "true" %}
+              </div>
+            {% endfor %}
+          {% else %}
+            {% for product in collection.products limit: length %}
+{%- include 'bold-product' with product, hide_action: 'skip' -%}
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-{{ section.settings.products_in_row }} col-xl-{{ section.settings.products_in_row }}">
+              {% include "product-grid-item" hoverzoom: "true" %}
+            </div>
+            {% endfor %}
+          {% endif%}
+          
+          {% assign smallproduct = false %}
+        </div>
+        {% endif %}
+      </div>
+      {% if section.settings.show_lookbook %}
+        <!-- lookbook -->
+        <div class="col-xl-4 visible-xl">
+          <!-- title -->
+          <div class="title-box">
+            <h1 class="text-left text-uppercase title-under pull-left">{{ section.settings.title2 }}</h1>
+          </div>
+          <!-- /title -->
+          <a href="{{ block.settings.link }}" class="link-img-hover"{% if section.settings.image == blank %} style="display: block;"{% endif %}>
+            {% if section.settings.image != blank %}
+            <img src="{{ section.settings.image | img_url: 'x1024' }}" class="img-responsive" alt="{{ section.settings.image.alt }}">
+            {% else %}
+            <span class="editor-image" data-width="560" data-height="824"></span>
+            {% endif %}
+          </a>
+        </div>
+        <!-- /lookbook -->
+      {% endif %}
+    </div>
+  </div>
+</section>
+<!-- end featured products -->
+
+{% schema %}
+{
+  "name": "Products Grid",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "BY DEFAULT. SHOW ALL PRODUCTS. SELECT YOUR COLLECTION."
+    },
+    {
+      "type": "checkbox",
+      "id": "center_title",
+      "label": "Center Title",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "FEATURED PRODUCTS"
+    },
+    {
+      "label": "Collection",
+      "id": "collection",
+      "type": "collection"
+    },
+    {
+      "type": "select",
+      "id": "products_in_row",
+      "label": "Products In Row",
+      "options": [
+		{ "value": "6", "label": "2" },
+        { "value": "4", "label": "3" },
+        { "value": "3", "label": "4" },
+		{ "value": "5", "label": "5" },
+        { "value": "2", "label": "6" }
+      ],
+      "default": "3",
+	  "info": "For screen size > 1024"
+    },
+    {
+      "type": "text",
+      "id": "limit",
+      "label": "Items Length. Integer",
+      "default": "8"
+    },
+    {
+      "type": "header",
+      "content": "Image Block"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_lookbook",
+      "label": "Show Image Block",
+      "default": true,
+	  "info": "Work only in screen size > 1770"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Heading",
+      "default": "Lookbook"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link",
+      "info": "Optional"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Products Grid",
+      "category": "Products",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  var dtnow = new Date();
+  var startDate = new Date();
+  var endDate = new Date();
+  
+    {% for product in collection.products %}
+{%- include 'bold-product' with product, hide_action: 'skip' -%}
+      {% for collection in product.collections %}
+        {% capture sale_tag_spec %}{% include 'get-content-with-key' content: collection.description key: '[sale_tag_spec]' %}{% endcapture %}
+        {% assign sale_tag_spec = sale_tag_spec | strip | split: '[/sale_tag_spec]' | first %}
+        {% if sale_tag_spec != null %}
+             startDate = new Date("{{sale_tag_spec}}");
+             endDate = new Date(startDate);                
+             endDate.setDate(startDate.getDate() + 15); 
+             //endDate = endDate.toISOString().substr(0,10);
+  			
+  			if(dtnow >= startDate && dtnow <= endDate) {
+              jQuery(".product__label--sale." + "{{product.handle}}").css("display","block");  
+            }
+        {% else %}
+            {% capture sale_tag_repeat %}{% include 'get-content-with-key' content: collection.description key: '[sale_tag_repeat]' %}{% endcapture %}
+        	{% assign sale_tag_repeat = sale_tag_repeat | strip | split: '[/sale_tag_repeat]' | first %}
+            {% if sale_tag_repeat != null %}
+  				startDate = "{{sale_tag_repeat}}";
+        		if(startDate == "1") {
+                  if(dtnow.getDate() >= 1 && dtnow.getDate() <= 15) {
+                  	jQuery(".product__label--sale." + "{{product.handle}}").css("display","block");
+                  } 
+                } else if(startDate == "16") 
+                {
+                  if(dtnow.getDate() >= 16 && dtnow.getDate() <= 31) {
+                  	jQuery(".product__label--sale." + "{{product.handle}}").css("display","block");
+                  }
+                }
+  			{% endif %}
+        {% endif %}               
+      {% endfor %}
+    {% endfor %}
+</script>

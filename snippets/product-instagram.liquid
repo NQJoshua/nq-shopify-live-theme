@@ -1,0 +1,82 @@
+<!-- product instafeed -->
+<section id="productInstafeed" class="content">
+  <div class="container">
+    <h2 class="text-left text-uppercase">Instagram Feed</h2>
+    <span class="title-under">
+      <!-- Button HTML (to Trigger Modal) -->
+      <a href="#prodInstafeedModal" data-toggle="modal" style="font-style:italic;">Want to show up here?</a>
+    </span>      
+    <!-- Modal HTML -->
+    <div id="prodInstafeedModal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">INSTAGRAM FEED</h4>
+          </div>
+          <div class="modal-body text-center">
+            <p>Simply post a picture of yourself using one of our products and post it on Instagram with hashtag #NordicLifting</p>
+            <p>We go through our amazing customer submissions every week and repost the best ones!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row product-instafeed">
+      <div class="col col-xs-6 col-sm-4 col-md-3 col-lg-5th col-xl-5th">
+        {% if product.metafields.product.insta-src1 contains 'blockquote' 
+        or product.metafields.product.insta-src1 contains 'EmbeddedMedia' 
+        or product.metafields.product.insta-src1 contains 'EmbedFrame'
+        or product.metafields.product.insta-src1 contains 'iframe' %}
+        	{{ product.metafields.product.insta-src1 }}
+        {% else %}
+        	<a href="{{ product.metafields.product.insta-href1 }}" target="_blank" style="background-image: url('{{ product.metafields.product.insta-src1 }}');">
+        	</a>
+        {% endif %}
+      </div>
+      <div class="col col-xs-6 col-sm-4 col-md-3 col-lg-5th col-xl-5th">
+        {% if product.metafields.product.insta-src2 contains 'blockquote' 
+        or product.metafields.product.insta-src2 contains 'EmbeddedMedia'
+        or product.metafields.product.insta-src2 contains 'EmbedFrame'
+        or product.metafields.product.insta-src2 contains 'iframe' %}
+        	{{ product.metafields.product.insta-src2 }}
+        {% else %}
+          <a href="{{ product.metafields.product.insta-href2 }}" target="_blank" style="background-image: url('{{ product.metafields.product.insta-src2 }}');">
+          </a>
+        {% endif %}
+      </div>
+      <div class="col col-xs-6 col-sm-4 col-md-3 col-lg-5th col-xl-5th">
+        {% if product.metafields.product.insta-src3 contains 'blockquote' 
+        or product.metafields.product.insta-src3 contains 'EmbeddedMedia'
+        or product.metafields.product.insta-src3 contains 'EmbedFrame'
+        or product.metafields.product.insta-src3 contains 'iframe' %}
+        	{{ product.metafields.product.insta-src3 }}
+        {% else %}
+          <a href="{{ product.metafields.product.insta-href3 }}" target="_blank" style="background-image: url('{{ product.metafields.product.insta-src3 }}');">
+          </a>
+        {% endif %}
+      </div>
+      <div class="col col-xs-6 col-sm-4 col-md-3 col-lg-5th col-xl-5th">
+        {% if product.metafields.product.insta-src4 contains 'blockquote' 
+        or product.metafields.product.insta-src4 contains 'EmbeddedMedia'
+        or product.metafields.product.insta-src4 contains 'EmbedFrame'
+        or product.metafields.product.insta-src4 contains 'iframe' %}
+        	{{ product.metafields.product.insta-src4 }}
+        {% else %}
+          <a href="{{ product.metafields.product.insta-href4 }}" target="_blank" style="background-image: url('{{ product.metafields.product.insta-src4 }}');">
+          </a>
+        {% endif %}
+      </div>
+      <div class="col col-xs-6 col-sm-4 col-md-3 col-lg-5th col-xl-5th">
+        {% if product.metafields.product.insta-src5 contains 'blockquote' 
+        or product.metafields.product.insta-src5 contains 'EmbeddedMedia'
+        or product.metafields.product.insta-src5 contains 'EmbedFrame'
+        or product.metafields.product.insta-src5 contains 'iframe' %}
+        	{{ product.metafields.product.insta-src5 }}
+        {% else %}
+          <a href="{{ product.metafields.product.insta-href5 }}" target="_blank" style="background-image: url('{{ product.metafields.product.insta-src5 }}');">
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

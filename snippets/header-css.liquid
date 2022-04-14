@@ -1,0 +1,31 @@
+{% comment %}{{ 'slick.css' | asset_url | stylesheet_tag }}
+{{ 'slick-theme.css' | asset_url | stylesheet_tag }} 
+{{ 'slick-all.css' | asset_url | stylesheet_tag }}
+{{ 'magnific-popup.css' | asset_url | stylesheet_tag }}
+{{ 'settings.min.css' | asset_url | stylesheet_tag }} {% endcomment %}
+
+{{ 'combined-settings.min.css' | asset_url | stylesheet_tag }}
+{% if settings.show_cdtimer == true %}
+	{{ 'flipclock.css' | asset_url | stylesheet_tag }}
+{% endif %}
+{{ 'style.css' | asset_url | stylesheet_tag }}
+
+{% if settings.enable_custom_fonts %}
+  	{{ 'style-override-fonts.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
+{{ 'css-liquid.css' | asset_url | stylesheet_tag }}
+
+{% if settings.enable_rtl %}
+{{ 'style-rtl.min.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
+{{ 'daily-deals.scss' | asset_url | stylesheet_tag }}
+
+{% if settings.show_pbanners == true %}
+	{{ 'promo-banner.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
+{% if template == 'product' or template == 'article' %}
+	{{ 'social-sharer.min.css' | asset_url | stylesheet_tag }}
+{% endif %}

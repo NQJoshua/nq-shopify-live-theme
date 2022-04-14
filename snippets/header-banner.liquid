@@ -1,0 +1,57 @@
+{% comment %}<div id="customhdrBanner" class="no-padding cursor-pointer" onclick="location.href='https://nordiclifting.com/collections/all?utm_source=website&utm_medium=countdownbanner&utm_term=none&utm_content=none&utm_campaign=Blackfridaypromo';">{% endcomment %}
+<div id="customhdrBanner" class="no-padding cursor-pointer {% if settings.use_pbanner_full %}full-banner{% endif %}" onclick="location.href='https://nordiclifting.com/collections/all'">
+  <div id="imgBannerSml" class="row ">
+    {% if settings.use_pbanner_full %}
+    	<!--<div class="col">
+          <img src="{{ 'pbanner_full.jpg' | asset_url }}"/>
+    	</div>-->
+    {% else %}
+      <div class="col col-xs-6" style="border-right: 1px solid #000;">
+        <img src="{{ 'pbanner_left.jpg' | asset_url }}"/>
+      </div>
+      <div class="col col-xs-6">
+        <img src="{{'pbanner_right.jpg' | asset_url }}"/>
+      </div>
+    {% endif %}
+  </div>
+  
+  <div id="imgBannerLg" class="row">
+    {% if settings.use_pbanner_full %}
+    	<div class="col">
+          <img src="{{ 'pbanner_full.jpg' | asset_url }}"/>
+    	</div>
+    {% else %}
+      <div class="col col-img {% if settings.show_cdtimer %}col-md-4{% else %}col-md-6{%endif%}" {% if settings.show_cdtimer == false %} style="padding-right:0;"{%endif%}>
+        <img src="{{ 'pbanner_left.jpg' | asset_url }}"/>
+      </div>
+      {% if settings.show_cdtimer %}
+        <div class="col col-md-4 timer-container">
+          <h3 class="heading text-center"> {{ settings.promo_title }} </h3>
+          <div id="cdTimer" class="text-center"></div>
+        </div>
+      {% endif %}
+      <div class="col col-img {% if settings.show_cdtimer %}col-md-4{% else %}col-md-6{%endif%}" {% if settings.show_cdtimer == false %} style="padding-left:0;"{%endif%}>
+        <img src="{{ 'pbanner_right.jpg' | asset_url }}"/>
+      </div>
+    {% endif %}
+  </div>
+  
+  {% if settings.use_pbanner_full and settings.show_cdtimer %}
+          <div class="timer-container">
+            <h3 class="heading text-center"> {{ settings.promo_title }} </h3>
+            <div id="cdTimer" class="text-center"></div>
+          </div>
+      	{% endif %}
+</div>
+
+{{ 'jquery.plugin.min.js' | asset_url | script_tag }}
+{{ 'flipclock.min.js' | asset_url | script_tag }}
+
+ 
+   
+  
+ 
+ 
+  
+  
+  

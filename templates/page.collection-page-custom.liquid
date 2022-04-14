@@ -1,0 +1,99 @@
+<div>
+	<img src="{{ 'jan_sale_products_banner.png' | asset_url }}" style="width:100%;max-width:2010px;"/>
+</div><br/><br/>
+<h2 class="text-center text-uppercase title-under">January SUPER SALE</h2>
+
+{% assign collection = collections.january-sale-1 %}
+
+{% assign pagination_limit_const = settings.pagination_limit | times: 1 %}{% assign supercollection = collection.products %}
+{% capture collection_grid %}{% if settings.listing_page_design != "disable-sidebar" and settings.listing_page_design == "left-right-sidebar" %}col-md-6 col-lg-6 col-xl-8{% else %}{% if settings.listing_page_design != "disable-sidebar" and settings.listing_page_design != "closed-sidebar"  %}col-md-8 col-lg-9 col-xl-10{% else %}col-md-12 col-lg-12 col-xl-12{% endif %}{% endif %}{% endcapture %}
+{% capture product_grid %}{% case settings.products_in_column %}{% when 'two' %}col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6{% when 'three' %}col-xs-6 col-sm-4 col-md-6 col-lg-4 col-xl-4{% when 'four' %}col-xs-6 col-sm-4 col-md-4 col-lg-3 col-xl-3{% when 'six' %}col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-2{% when 'five' %}col-xs-6 col-sm-4 col-md-6 col-lg-4 col-xl-one-fifth{% when 'nine' %}col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-one-nine{% else %}{% endcase %}{% endcapture %}
+
+{% paginate collection.products by 1000 %}
+{% assign _collectionMax = collection.products %}
+{% endpaginate %}
+<div class="container collection-page">
+  <div class="row">
+    <div id="centerCol">
+      <div class="product-listing row">
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}	
+
+        {% assign collection = collections.january-sale-2 %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}
+
+        {% assign collection = collections.january-sale-3 %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}
+
+        {% assign collection = collections.january-sale-4 %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}
+        
+        {% assign collection = collections.january-sale-5 %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}
+        
+        {% comment %}{% assign collection = collections.january-sale-6 %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}{% endcomment %}
+        
+        {% assign collection = collections.january-sale-7 %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}
+        
+        {% assign collection = collections.january-sale-8 %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item-wvariant" hoverzoom: "true" %}</div>
+        {% endfor %}
+        
+      </div>
+    </div>
+  </div>
+  <hr style="border: 2px solid #d31215; margin-bottom: 100px;">
+  <h3 class="text-center text-uppercase">OTHER PRODUCTS</h3><br/><br/>
+  <div class="row">
+    <div id="centerCol">
+      <div class="product-listing row">
+        {% comment %}{% assign collection = collections.nordic-lifting %}
+        {% for product in collection.products %}
+        	<div class="{{ product_grid }}">{% include "product-grid-item" hoverzoom: "true" %}</div>
+        {% endfor %}{% endcomment %}
+        
+        {% assign more_products = 'elbow-compression-sleeves,wrist-wraps-14-inches,foam-roller-deep-tissue,weightlifting-gloves-with-wrist-support,powerlifting-shoes-megin,super-heavy-duty-wrist-wraps-24-inches,ankle-and-wrist-weights,wrist-wraps-and-lifting-straps-bundle,foam-roller-muscle-massage,lifting-straps-2-pairs,strapwrapz,weightlifting-belt-5,multi-purpose-wrist-wraps-30-inches,weightlifting-gloves-for-women,cross-training-wrist-wraps-32-inches,gymnastic-rings-set' | split:',' %}
+        {% for m_product in more_products %}
+        	{% for product in collections['all'].products %}
+        		{% if product.handle == m_product %}
+        			<div class="{{ product_grid }}">{% include "product-grid-item" hoverzoom: "true" %}</div>
+        		{% endif %}
+        	{% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  jQuery(window).load(function() {
+    $('a[data-pr_id="38912772618"][data-var_id="40295155220"]').trigger('click');
+    //$('.knee-sleeves-camo-grey a[data-pr_id="39348891466"][data-var_id="39348892106"]').trigger('click');
+    //$('.knee-sleeves-pink a[data-pr_id="39348891466"][data-var_id="39348892618"]').trigger('click');
+    //$('.knee-sleeves-black a[data-pr_id="39348891466"][data-var_id="39348891466"]').trigger('click');
+  });
+</script>
+
+<style>
+  /*.weightlifting-gloves .options-swatch--color,
+  .knee-sleeves-pink .options-swatch--color,
+  .knee-sleeves-camo-grey .options-swatch--color,
+  .knee-sleeves-black .options-swatch--color { display: none !important; }*/
+  .weightlifting-gloves .options-swatch--color { display: none !important; }
+</style>

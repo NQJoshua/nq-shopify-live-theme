@@ -1,0 +1,15 @@
+{% if product.metafields.product.videos != blank %}
+  {% assign videos = product.metafields.product.videos %}
+  <section id="productVideosSection" class="content half-width">
+    <h2 class="text-left text-uppercase title-under">Product Video</h2>
+    <div class="row">
+      {% for video in videos %}
+      {% if video != '' %}
+      <div class="col-md-10">
+        <div class="youtube-player" data-id="{{ video }}"></div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

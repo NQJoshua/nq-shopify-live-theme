@@ -1,0 +1,52 @@
+{% if settings.showfooterlogo %}
+<div class="footer-logo hidden-xs">
+  <!--  Logo  --> 
+  <a class="logo" href="{{ shop.url }}"> 
+    <img data-src="{{ "footerlogo.png" | asset_url }}" alt="{{ shop.name }}" title="{{ shop.name }} logo">
+    <noscript><img src="{{ "footerlogo.png" | asset_url }}" alt="{{ shop.name }}" title="{{ shop.name }} logo"></noscript>
+  </a> 
+  <!-- /Logo --> 
+</div>
+{% endif %}
+
+{% comment %}{% if settings.showfootercontenttext %}
+<div class="box-about">
+  <div class="mobile-collapse">
+    <h4 class="mobile-collapse__title visible-xs">{{ settings.footercontenttexttitle }}</h4>
+    <div class="mobile-collapse__content">
+      {{ settings.footercontenttext }}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if settings.showfooternewsletter %}
+<!-- subscribe-box -->
+<div class="subscribe-box offset-top-20">
+  <div class="mobile-collapse">
+	{% include "newsletter_widget" %}
+  </div>
+</div>
+<!-- /subscribe-box -->
+{% endif %}{% endcomment %}
+
+{% if settings.showfootercontenttext %}
+<div class="box-about">
+  <div class="">
+    <h4 class="visible-xs">{{ settings.footercontenttexttitle }}</h4>
+    <div class="">
+      {{ settings.footercontenttext }}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if settings.showfooternewsletter %}
+<!-- subscribe-box -->
+<div class="subscribe-box offset-top-20">
+  <div class="">
+	{% include "newsletter_widget" %}
+  </div>
+</div>
+<!-- /subscribe-box -->
+{% endif %}

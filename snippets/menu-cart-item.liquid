@@ -1,0 +1,37 @@
+<li class="cart__item row">
+  <div class="col col-md-1">
+    <div class="cart__item__image">
+    <a href="{{item.url}}" target="_blank"><img src="{{ item.image | product_img_url: 'small' }}" alt=""/></a>
+  </div>
+  </div>
+  <div class="col col-md-4">
+    <div class="cart__item__info__title">
+      <h2 class="title-center"><a href="{{item.url}}" target="_blank">{{item.title}}</a></h2>
+    </div>
+  </div>
+  <div class="col col-xs-3 col-md-2">
+    <div class="hidden-md hidden-lg text-muted">Price</div>
+    <div class="cart__item__info__price"><span>{{item.price | money}}</span></div>
+  </div>
+  <div class="col col-xs-3 col-md-2">
+    <div class="hidden-md hidden-lg text-muted">Qty</div>
+    <div class="cart__item__info__price">      
+      <input type="number" value="{{ item.quantity }}" style="width: 70px;"
+         onchange="setQuantity('{{ item.variant.id }}', this.value, {{ item.price }})" />
+    </div>      
+  </div>
+  <div class="col col-xs-3 col-md-2">
+    <div class="hidden-md hidden-lg text-muted">Total</div>
+    <div class="cart__item__info__price">
+      <!--<span>{{ cart.currency.symbol }}</span>-->
+      <span id="itemTotal-{{ item.variant.id }}">{{ item.price | times: item.quantity | money }}</span>
+    </div>
+  </div>
+  <div class="col col-md-1">
+    <div class="cart__item__delete"><a href="javascript:void(0);" onclick="Shopify.removeItem({{ item.variant.id }})" class="icon icon-delete"><span>{{ 'cart.header.button_delete' | t }}</span></a></div>
+  </div>
+</li>
+
+<script>
+	function setQuantity(t,a,n){$("#itemTotal-"+t).html(Shopify.formatMoney(n*a,"{{ money }}")),$.ajax({type:"POST",url:"/cart/change.js",data:{quantity:a,id:t},dataType:"json",success:function(){$(".shopping-cart__total").css("display","none"),$(".cart__total .loading-icon").css("display","inline"),$.ajax({type:"GET",url:"/cart.js",dataType:"json",success:function(t){$(".bigcounter").html(t.item_count),$(".cart__total .loading-icon").css("display","none"),$(".shopping-cart__total").html(t.total_price/100),$(".shopping-cart__total").css("display","inline")}})}})}
+</script>

@@ -1,0 +1,309 @@
+{% assign inv_man = product.selected_or_first_available_variant.inventory_management %}{% assign inv_qua = product.selected_or_first_available_variant.inventory_quantity %}
+{% if settings.show_product_sku or settings.show_product_quantity %}
+<div class="wrapper hidden-xs">
+  {% if settings.show_product_sku %}
+  <div class="product-info__sku pull-left" {% if product.selected_or_first_available_variant.sku == '' %}style="display:none;"{% endif %}>{{ 'products.product.sku' | t }} <strong class="sku">{{ product.selected_or_first_available_variant.sku }}</strong></div>
+  {% endif %}
+  {% if settings.show_product_quantity %}
+  <div class="product-info__availability {% if settings.show_product_sku and product.selected_or_first_available_variant.sku != "" %}pull-right{% else %}pull-left{% endif %}">{{ 'products.product.availability' | t }} 
+    <input type="hidden" value="{{inv_qua}}" class="inv_qua"/>
+    <strong class="color {% if inv_man %}
+                   {% if inv_qua == 0 %}color-red {% elsif inv_qua > 0 %}color-green-custom{% endif %}
+                   {% endif %}">
+      			   {% if inv_man %}{% if inv_qua <= 0 %}{{ "products.product.sold_out" | t }}{% elsif inv_qua > 0 and inv_qua < 20 %}{{inv_qua}} {{ 'products.product.in_stock' | t }}{% else %}{{ 'products.product.many_in_stock' | t }}{% endif %}{% else %}{{ 'products.product.many_in_stock' | t }}{% endif %}</strong></div>
+  {% endif %}
+</div>
+{% endif %}
+<div class="product-info__vendor">
+  by {{ product.vendor }}
+</div>
+<div class="product-info__title">
+  <h1>{{ product.title }}</h1>
+</div>
+
+
+{% if settings.show_product_sku or settings.show_product_quantity %}
+<div class="wrapper visible-xs">
+  {% if settings.show_product_sku %}
+  <div class="product-info__sku pull-left" {% if product.selected_or_first_available_variant.sku == '' %}style="display:none;"{% endif %}>{{ 'products.product.sku' | t }} <strong class="sku">{{ product.selected_or_first_available_variant.sku }}</strong></div>
+  {% endif %}
+  {% if settings.show_product_quantity %}
+  <div class="product-info__availability {% if settings.show_product_sku %}pull-right{% else %}pull-left{% endif %}">{{ 'products.product.availability' | t }} 
+    <strong class="color">{% if inv_man %}
+      	{% if inv_qua > 0 %}{{inv_qua}} {{ 'products.product.in_stock' | t }}
+      	{% else %}{{ "products.product.sold_out" | t }}
+      	{% endif %}
+      {% else %}{{ 'products.product.many_in_stock' | t }}{% endif %}</strong></div>
+  {% endif %}
+</div>
+{% endif %}
+
+<div class="visible-xs">
+  {% include "product-page-gallery" type: "mobile" %}
+</div>
+
+<div class="rating">    
+  {% comment %}<div class="star_rating" data-toggle="tooltip" title="{{ product.metafields.product.starrating-desc }}">{{ product.metafields.product.starrating }}</div> {% endcomment %}
+ {% comment %} <div class="" data-toggle="tooltip" title="{{ product.metafields.product.starrating-desc }}">
+    {% assign star_rating = product.metafields.product.starrating | plus: 0 %}
+    {% assign star_int = star_rating | floor %}
+    {% assign star_dec = star_rating | minus: star_int | times: 10 | floor %}
+    
+    {% for i in (1..star_int) %}
+    	<i class="fa fa-star" aria-hidden="true"></i>
+    {% endfor %}
+    <i class="fa fa-star fa-2" aria-hidden="true" style="padding-right:{{star_dec}}px; max-width: 15.8px; overflow: hidden;"></i>
+  </div> {% endcomment %}
+  
+{% capture starrating %}{% include 'get-content-with-key' content: product.description key: '[starrating]' %}{% endcapture %}
+{% assign starrating = starrating | strip | split: '[/starrating]' | first | plus: 0 %}
+{% assign starrating = starrating | divided_by: 5 | times: 100 %}
+{% capture starrating_desc %}{% include 'get-content-with-key' content: product.description key: '[starrating_desc]' %}{% endcapture %}
+{% assign starrating_desc = starrating_desc | strip | split: '[/starrating_desc]' | first %}
+{% capture starrating_reviews %}{% include 'get-content-with-key' content: product.description key: '[starrating_reviews]' %}{% endcapture %}
+{% assign starrating_reviews = starrating_reviews | strip | split: '[/starrating_reviews]' | first %}
+
+  <div class="star-ratings-sprite" data-toggle="tooltip" title="{{ starrating_desc }}"><span style="width:{{starrating}}%" class="star-ratings-sprite-rating"></span></div>
+  <span>{{ starrating_reviews }}</span>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    {% comment %}{% if settings.show_product_rating %}<div class="product-info__review">
+    <div class="rating"><span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span></div>	
+    </div>{% else %}<br>{% endif %} {% endcomment %}
+
+    <div class="price-box product-info__price">
+      {% if sale_on %}
+      <span class="price-box__new">{{ product.price_min | money }}</span> <span class="price-box__old">{{ product.compare_at_price_min | money }}</span>
+      {% else %}
+      <span>{{ product.price_min | money }}</span><span class="price-box__old"></span>
+      {% endif %}
+    </div>
+  </div>
+  <div class="col-md-8">
+    {% assign free_shipping_min = settings.free_shipping_min | times: 1 %}
+    {% assign price_min = product.price_min | money_without_currency | times: 1 %}
+    <!--<div id="ShipOpt">
+      <div class="media">
+        <div class="media-left">
+            <img class="pull-left" src="{{"delivery-truck.png" | asset_url }}" width="30"/>
+        </div>
+        <div class="media-body">
+          {% assign current_date = "now" | date: "%A" %}
+          {% comment %}{% if price_min >= free_shipping_min %}
+          	<span><strong>FREE SHIPPING!</strong></span><br>Want it delivered 
+          {% else %}
+          	<span><strong>WANT IT DELIVERED</strong></span>
+          {% endif %} {% endcomment %}
+          
+          <span><strong>WANT IT DELIVERED</strong></span>
+          {% if current_date == "Friday" %}
+          	{% assign seconds = 3 | times: 24 | times: 60 | times: 60 %}
+          {% elsif current_date == "Saturday" %}
+          	{% assign seconds = 2 | times: 24 | times: 60 | times: 60 %}
+          {% else %}
+          	{% assign seconds = 1 | times: 24 | times: 60 | times: 60 %}
+          {% endif %}
+          <i><u style="color:#d31215"><b>{{ "now" | date: "%s" | plus: seconds | date: "%A, %b %d" }} ?</b></u></i>
+        </div>
+      </div>
+    </div>
+    <div id="ShipOptInfo" class="panel panel-default">
+      - Want it <b>{{ "now" | date: "%s" | plus: seconds | date: "%A, %b %d" }}</b>? <br/> Order now and choose Priority Shipping at checkout.<br/>
+      - Want it in <b>2 business days</b>? <br/> Order now and choose Expedited Shipping at checkout.<br/>
+      - Want it in <b>3-6 business days</b>? <br/> Order now and choose Standard Shipping at checkout.<br/>
+    </div>-->
+    
+    <div id="ShipOpt">
+      <div class="media">
+        <div class="media-left">
+            <img class="pull-left" src="{{"delivery-truck.png" | asset_url }}" width="30"/>
+        </div>
+        <div class="media-body" style="width: 100%;">
+          {% assign current_date = "now" | date: "%A" %}
+            {% if price_min >= free_shipping_min %}
+          		{% if current_date == "Friday" %}
+                  {% assign seconds = 3 | times: 144 | times: 60 | times: 60 %}
+                {% elsif current_date == "Saturday" %}
+                  {% assign seconds = 2 | times: 144 | times: 60 | times: 60 %}
+                {% else %}
+                  {% assign seconds = 1 | times: 144 | times: 60 | times: 60 %}
+                {% endif %}
+          		<div class="free_shipping">
+                  <span><strong>FREE SHIPPING!</strong></span>
+                  <span><i><u style="color:#d31215"><b>Receive by {{ "now" | date: "%s" | plus: seconds | date: "%A, %b %d" }}</b></u></i></span>
+          		</div>  
+          		Want it delivered 
+          		<div id="free_shipping_info" class="panel panel-default">
+                  Free Standard Shipping, 3-6 Business Days
+                </div>
+    		{% else %}
+          		<span><strong>WANT IT DELIVERED</strong></span>
+            {% endif %}
+          <!--<span><strong>WANT IT DELIVERED</strong></span>-->   
+          {% if current_date == "Friday" %}
+          	{% assign seconds = 3 | times: 24 | times: 60 | times: 60 %}
+          {% elsif current_date == "Saturday" %}
+          	{% assign seconds = 2 | times: 24 | times: 60 | times: 60 %}
+          {% else %}
+          	{% assign seconds = 1 | times: 24 | times: 60 | times: 60 %}
+          {% endif %}
+          <span class="prio_shipping">
+          	<i><u style="color:#d31215"><b>{{ "now" | date: "%s" | plus: seconds | date: "%A, %b %d" }} ?</b></u></i>
+          </span> 
+          <div id="prio_shipping_info" class="panel panel-default">
+          - Want it <b>{{ "now" | date: "%s" | plus: seconds | date: "%A, %b %d" }}</b>? <br/> Order now and choose Priority Shipping at checkout.<br/>
+          - Want it in <b>2 business days</b>? <br/> Order now and choose Expedited Shipping at checkout.<br/>
+          - Want it in <b>3-6 business days</b>? <br/> Order now and choose Standard Shipping at checkout.<br/>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if product.description contains "[custom_html]" %}
+<div class="divider divider--xs product-info__divider hidden-xs"></div>
+<div class="product-info__description">
+  {% include "get-content-with-key" content: product.description key: "[custom_html]" %}
+</div>
+{% endif %}
+{% assign min_qua = settings.count_start_show | plus: 0 %}
+{% capture display %}{% if inv_man %}{% if inv_qua == 0 or inv_qua > min_qua %}style="display:none"{% endif %}{% else %}style="display:none"{% endif %}{% endcapture %}
+{% capture display %}{% if product.description contains '[countdown]' and product.available %}style="display:block"{% else %}{{ display }}{% endif %}{% endcapture %}
+<div class="divider divider--xs product-info__divider divider_alarm" {{ display }}></div>
+<div class="product_message_alarm" {% if display != '' %}{{ display }}{% else %}style="display: block; margin-top: 30px;"{% endif %}>
+  <span class="color-red"><span class="font35 font-lighter percent_parent">
+    <!--<span class="percent">{% if sale_on %}{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | times: 100.0 | divided_by: product.selected_or_first_available_variant.compare_at_price | money_without_currency | replace: ',', '.' | times: 100 | remove: '.0'}}{% endif %}</span>-->
+    {% if sale_on %}% {{ "products.product_stock_message.off" | t }}.{% endif %}</span> {{ "products.product_stock_message.message_html" | t: quantity: inv_qua }}</span>
+  {% unless product.description contains '[countdown]' and product.available %}<br><br>{% endunless %}
+</div>
+  <!-- countdown_box -->
+      {% if product.description contains '[countdown]' and product.available %}
+        {% assign countdown = product.content | split: '[/countdown]' | first %}
+        {% assign countdown = countdown | split: '[countdown]' | last %}
+        {% assign date = countdown | split: ' ' | first | split: '/' %}
+        {% assign time = countdown | split: ' ' | last | split: ':' %}
+        <div class="countdown-product" style="padding-bottom: 10px;">
+          <div id="{{ product.id }}{{ productCount }}"></div>
+        </div>
+        <script>
+          jQuery(function ($) {
+              // countdown ini
+              var yyyy = {{ date[0] }};
+              var mm = {{ date[1] | minus:1 }};
+              var dd = {{ date[2] }};
+              var hour = {{ time[0] }};
+              var min = {{ time[1] }};
+              var sec = {{ time[2] }};
+
+              var sH = {{'now' | date: "%H" }};//s = shopify
+              var sD = {{'now' | date: "%-d" }};
+              var sM = {{'now' | date: "%m" }};
+              var sY = {{'now' | date: "%Y" }};
+
+              var qH = new Date();
+              var qD = qH.getDate();//q = jQuery
+              var qM = qH.getMonth() + 1;
+              var qY = qH.getFullYear();
+              var qH = qH.getHours();
+
+              if(qD > sD) {
+                qH += 24;
+              }
+              else {
+                if(qD < sD) {
+                  if(qM > sM) {
+                    qH += 24;
+                  }
+                  else {
+                    if(qY > sY) {
+                      qH += 24;
+                    }
+                    else {
+                      sH += 24;
+                    }
+                  }
+                }
+              }
+
+              var fH = sH - qH;
+
+              if ($("#{{ product.id }}{{ productCount }}").length > 0){$('#{{ product.id }}{{ productCount }}').countdown({until: new Date(yyyy, mm, dd, hour, min, sec), timezone: fH});}
+          });
+        </script>
+      {% endif %}
+
+<div class="divider divider--xs product-info__divider"></div>
+<!--<form id="add-item-form" action="/cart/add" method="post">-->
+{% form 'product', product, id: "add-item-form" %}
+  {% if product.available %}
+	<div class="row">
+      <div class="col-md-6">
+        {% if product.variants[0].option1 != "Default Title" %}
+        <div>
+          {% if product.options.size == 1 %}
+          <div class="selector-wrapper"><label>{{ product.options | first }}</label></div>
+          {% endif %}
+          <select id="product-select" name="id">
+            {% for variant in product.variants %}
+            {%- include 'bold-variant' with variant, hide_action: 'skip' -%}
+            {% if variant.available %}
+            <option value="{{ variant.id }}"{% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %}>{{ variant.title }} - {{ variant.price | money }}</option>
+            {% endif %}
+            {% endfor %}
+          </select>
+          {% if settings.variant_combobox == false %}{% for option in product.options %}{% include 'swatch' with option productdesingcenter: false %}{% endfor %}{% endif %}
+        </div>
+        {% else %}
+        <input type="hidden" name="id" value="{{ product.variants[0].id }}" />
+        {% endif %}
+
+        <!--<div class="divider divider--sm"></div>-->
+        <div class="qty-wrapper wrapper">
+          <div class="pull-left"><span class="qty-label">{{ 'products.product.quantity' | t }}</span></div>
+          <input type="text" name="quantity" class="input--ys qty-input pull-left" value="1">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="wrapper">
+          <button type="submit" class="btn btn--ys btn--xxl addtocart">{{ 'products.product.add_to_cart_html' | t }}</button>
+          {% if settings.enable_payment_button %}
+          {{ form | payment_button }}
+          {% endif %}
+        </div>
+      </div>
+  </div>
+  <div class="divider divider--xs product-info__divider"></div>
+  {% include 'product-payment-icons' %}	
+  <script>
+    jQuery('.addtocart').click(function(e) {
+      e.preventDefault();
+      Shopify.addItemFromFormStart('add-item-form', {{ product.id }});
+	});
+  </script>  
+  {% else %}
+  <br>
+  <div class="pull-left"><button disabled class="btn btn--ys btn--xxl">{{ 'products.product.unavailable' | t }}</button></div>
+  <br>
+  <br>
+  <br>
+  {% endif %}
+<!--</form>-->
+{% endform %}
+
+<ul class="product-link">
+  {% if settings.product_item_show_wishlist %}{% if shop.customer_accounts_enabled or settings.product_item_show_wishlist_temporary %}<li class="text-right">{% include "wishlist-product" %}</li>{% endif %}{% endif %}
+</ul>
+<div class="divider divider--xs product-info__divider"></div>
+<h4>Share this Product</h4>
+{% include 'social-share-products' %}
+
+<!--<style>
+  #ShipOpt { margin-bottom: 10px; }
+  #ShipOptInfo { display: none; font-size: 14px; padding: 8px; margin-top: 10px; z-index: 10000; position: absolute; /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.29), 0 1px 2px rgba(0, 0, 0, 0.12);*/ background-color: #000; color: #ccc;}
+  #ShipOpt:hover + #ShipOptInfo {
+      display: block;
+  }
+</style>-->

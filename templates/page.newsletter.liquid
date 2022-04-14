@@ -1,0 +1,44 @@
+<div class="container" style="max-width:600px;color:#000;margin-top:50px;margin-bottom:50px;">
+  {%comment%}{{ page.content }}{%endcomment%}
+  <a href="https://nordiclifting.com/"><img class="logo img-responsive" src="//cdn.shopify.com/s/files/1/1822/7073/t/2/assets/logo.png?v=11615393944413912184" alt="Nordic Lifting logo" title="Nordic Lifting logo"></a>
+  <div style="text-align:center;font-weight:500;">NORDIC LIFTING NEWS</div>
+  <h1 style="text-align: center;font-size: 4rem;font-weight: 700;">SIGN UP AND</h1>
+<h1 style="text-align: center;font-size: 4rem;font-weight: 700;">GET 30% OFF</h1>
+<div style="text-align: center;font-size:1.8rem;"><strong>Be the first to know about the latest news and get exclusive offers!</strong></div>
+<div style="text-align: center;"><strong></strong></div>
+<div style="text-align: left;margin-top:50px;"><strong>SIGN UP NOW AND GET:</strong></div>
+<div style="text-align: left;">
+<ul>
+<li>Newsletter subscriber-exclusive discount codes offering 30% OFF our next featured products (limited time only!)</li>
+<li>Nordic Lifting Fitness Tips eBook</li>
+<li>Product Instruction videos and more!</li>
+</ul>
+</div>
+  <form class="omnisend-subscribe-form">
+    {{ form.errors | default_errors }}
+    {% if form.posted_successfully? %}
+      <p class="form--success">Success!</p>
+    {% else %}
+       <div class="input-group password__input-group" style="margin-top: 50px;">
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <div>
+           <span>Email: * </span>
+        <input type="email"
+          name="contact[email]"
+          id="Email"
+          class="input-group__field newsletter__input omnisend-subscribe-input-email"
+          value="{% if customer %}{{ customer.email }}{% endif %}"
+          autocorrect="off"
+          autocapitalize="off" required
+          style="height: 60px;border: 1px solid #736d6d;width: 62%;padding: 2.4% 2.5%;font-size: 18px;color: #777777;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;display: inline-block;width:100%;max-width:400px;">      
+        </div>
+         <div style="margin-top:20px;"><span>* </span><input type="checkbox" name="contact[confirm_subscribe]" required><span> Yes, I would like to sign-up to the Nording Lifting Newsletter</span></div>
+<span class="input-group__btn">
+          <button type="submit" class="btn newsletter__submit btn--ys btn--xl" name="commit" id="Subscribe" style="width: 100%;max-width: 300px;margin-top: 20px;">
+            <span class="newsletter__submit-text--large">LET'S GO</span>
+          </button>
+        </span>
+      </div>
+    {% endif %}
+</form>
+</div>

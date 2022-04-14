@@ -1,0 +1,10 @@
+{% if settings.show_pbanners and settings.custom_collection %}
+  <input type="hidden" id="col-handle" value="{{ collection.handle }}"/>
+  {% if collection.handle == 'all' %}
+      {% include "collection-page-sale" current_pagination_limit: settings.pagination_limit %}
+  {% else %}
+      {% include "collection-page" current_pagination_limit: settings.pagination_limit %}
+  {% endif %}
+{% else %}
+	{% include "collection-page" current_pagination_limit: settings.pagination_limit %}
+{% endif %}

@@ -1,0 +1,366 @@
+{%- include 'bold-product' with product, hide_action: 'break', output: 'none' -%}
+{% assign sale_on = false %}
+{% if product.compare_at_price_min > product.price_min %}
+  {% assign sale_on = true %}
+{% endif %}
+
+{% comment %} Main Image URL. {% endcomment %}
+{% assign main_url_image = product.selected_or_first_available_variant.featured_image | default: product.featured_image %}
+
+{% assign PAGE_CONST = "product_custom_page" %}
+{% assign current_product = product %}
+
+{% assign images_color = '' %}{% for i in (1..10) %}{% assign key = 'filter_color' | append: forloop.index %}{% assign value = '__' | append: settings[key] | handle | downcase | strip | append: '__' | append: forloop.index %}{% assign images_color = images_color | append: value | append: ';' %}{% endfor %}
+
+{% if settings.product_page_design == "default" %}
+
+
+<section class="content offset-top-0">
+  <div class="container">
+    <div id="product" class="row product-info-outer">
+
+      {% include "product-switcher" %}
+
+      <div class="col-sm-12 col-md-12 col-lg-12 {% if settings.show_productpage_htmlblock %}col-xl-8{% endif %}">
+        <div class="row">
+          <div class="{% if settings.product_header_type == "default" %}col-sm-6 col-md-6 col-lg-6 col-xl-6{%else%}col-sm-4 col-md-4 col-lg-4 col-xl-4{% endif %} hidden-xs">
+            {% include "product-page-gallery" type: "default" %}
+          </div>
+          <div class="product-info {% if settings.product_header_type == "default" %}col-sm-6 col-md-6 col-lg-6 col-xl-6{%else%}col-sm-8 col-md-8 col-lg-8 col-xl-8{% endif %}">
+            {% include "product-page-description" %}
+          </div>
+        </div>
+        
+        {% include 'product-video-reviews-full' %}
+        
+        <div id="productBadges" class="row content">
+          <div class="delivery-banner col-lg-4" onclick="window.location.href = '#'">
+            <div class="delivery-banner__icon"><span class="icon-local_shipping"></span></div>
+            <div class="delivery-banner__text">
+              <h3>Free Shipping</h3>
+              <h5>on all orders of $50 or more</h5>
+              <p>Automatically applied at checkout. All products are eligible. Ships from USA warehouse. <img class="lazyload" data-src="{{'usa-flag.png' | asset_url }}" /></p>
+            </div>
+          </div>
+          <div class="delivery-banner col-lg-4" onclick="window.location.href = '#'">
+            <div class="delivery-banner__icon"><span class="icon-replay_30"></span></div>
+            <div class="delivery-banner__text">
+              <h3>No-Hassle Returns</h3>
+              <h5>within 30 days</h5>
+              <p>You may return/exchange an unused item in new condition within 30 days of its arrival.</p>
+            </div>
+          </div>
+          <div class="delivery-banner col-lg-4" onclick="window.location.href = '#'">
+            {% if product.handle == "gymnastic-rings-set" %}
+            <div class="delivery-banner__icon"><span><i class="material-icons">&#xEB3D;</i></span></div>
+              <div class="delivery-banner__text">
+                <h3>Lifetime Warranty</h3>
+            {% else %}
+              <div class="delivery-banner__icon"><span class="icon-check_circle"></span></div>
+              <div class="delivery-banner__text">
+                <h3>1-year Warranty</h3>
+            {% endif %}
+              <h5>covers any manufacturer defects</h5>
+              <p>We're extremely confident in the quality of our products. Got an issue? Just get in touch, we'll help!</p>
+            </div>
+          </div>
+        </div>
+        
+        {% if settings.product_tabs_work != "design3full" %}<div class="row content{% if settings.product_tabs_work == "design3" %} tabdesign3{% endif %}">{% include "product-page-tabs" %}</div>{% endif %}
+      </div>
+
+      {% comment %}{% if settings.show_productpage_htmlblock %}<div class="custom-product-block col-xl-4 visible-xl">{{ settings.productpage_htmlblock }}</div>{% endif %}{% endcomment %}
+      
+      {% if settings.show_productpage_htmlblock %}
+      <div class="custom-product-block col-xl-4 visible-xl">
+        <div class="delivery-banner" onclick="window.location.href = '#'">
+            <div class="delivery-banner__icon"><span class="icon-local_shipping"></span></div>
+            <div class="delivery-banner__text">
+              <h3>Free Shipping</h3>
+              <h5>on all orders of $50 or more</h5>
+              <p>Automatically applied at checkout. All products are eligible. Ships from USA warehouse. <img src="{{'usa-flag.png' | asset_url }}" /></p>
+            </div>
+          </div>
+          <div class="delivery-banner" onclick="window.location.href = '#'">
+            <div class="delivery-banner__icon"><span class="icon-replay_30"></span></div>
+            <div class="delivery-banner__text">
+              <h3>No-Hassle Returns</h3>
+              <h5>within 30 days</h5>
+              <p>You may return/exchange an unused item in new condition within 30 days of its arrival.</p>
+            </div>
+          </div>
+          <div class="delivery-banner" onclick="window.location.href = '#'">
+            {% if product.handle == "gymnastic-rings-and-straps" %}
+              <div class="delivery-banner__icon"><span><i class="material-icons">&#xEB3D;</i></span> </div>
+              <div class="delivery-banner__text">
+                <h3>Lifetime Warranty</h3>
+            {% else %}
+              <div class="delivery-banner__icon"><span class="icon-check_circle"></span></div>
+              <div class="delivery-banner__text">
+                <h3>1-year Warranty</h3>
+            {% endif %}
+              <h5>covers any manufacturer defects</h5>
+              <p>We're extremely confident in the quality of our products. Got an issue? Just get in touch, we'll help!</p>
+            </div>
+          </div>
+      </div>
+      {% endif %}
+      
+      
+    </div>
+	
+  </div>
+ 
+</section>
+
+{% endif %}
+
+
+
+{% if settings.product_page_design == "design2" %}
+{% include "product-page-gallery-2" %}
+<section class="content">
+  <div class="container">
+    <div class="product-info product-info-big text-center product-info-outer">
+      {% include "product-switcher" %}
+      {% include "product-page-description-2" %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+  {% if product.variants[0].option1 != "Default Title" %}
+    {% include "swatch-javascript" %}
+  {% else %}
+	<script>
+      if(jQuery('.product-info .product-info__sku .sku').length) {
+        if(jQuery('.product-info .product-info__sku .sku').text() == "") {
+          var $ava = jQuery(".product-info .product-info__availability");
+          if($ava.hasClass('product-info__availability')){ $ava.removeClass('product-info__availability') }
+          jQuery('.product-info .product-info__sku').remove();
+        }
+      }
+	</script>
+  {% endif %}
+
+
+{% if settings.product_tabs_work == "design3full" or settings.product_page_design == "design2" %}{% include "product-page-tabs2" %}{% endif %} 
+
+{% include 'product-instagram' %}
+
+<div>
+
+</div>
+
+<!-- product reviews -->
+<section class="content">
+  <div class="container">
+ 	 <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+     <a href="{{ product.metafields.product.amz-reviews }}" target="_blank">See More Customer Reviews on Amazon</a>
+  </div>
+</section>
+
+<!-- related products -->
+
+{% if settings.show_upsell_collection and product.description contains '[upsell]' %}
+{% comment %} {% assign name_collection = settings.product_upsell_collection %}
+{% if name_collection == blank %}{% assign name_collection = "all" %}{% endif %}{% assign selected_collection = collections[name_collection] %}{% endcomment %} 
+{% assign _lenght = settings.product_upsell_collection_count | plus: 0 %}
+
+
+{% capture upsell %}{% include 'get-content-with-key' content: product.description key: '[upsell]' %}{% endcapture %}
+{% assign upsell = upsell | strip | split: '[/upsell]' | first %}
+
+
+{% assign product_upsell = collections[upsell] %}
+
+<section class="content product-upsell">
+  <div class="container">
+    <!-- title -->
+    <div class="title-with-button">
+      <div class="{% if settings.upsell_collection_title_center %}carousel-products__button{% else %}carousel-products__center{% endif %} pull-right"> <span class="btn-prev"></span> <span class="btn-next"></span> </div>
+      <h2 class="{% if settings.upsell_collection_title_center %}text-center text-uppercase  title-under{% else %}text-left text-uppercase title-under{% endif %}">{{ settings.product_upsell_collection_title }}</h2>
+    </div>
+    <!-- /title --> 
+
+    <!-- carousel -->
+    {% comment %}<div class="carousel-products row" id="carouselRelated">{% endcomment %}
+    <div class="carousel-products row">
+      {% assign _product_id = product.id %}
+     {% comment %} {% for product in selected_collection.products limit: _lenght %}
+        {% if _product_id != product.id %}
+          <div class="col-xs-6 col-sm-4 col-md-5th col-lg-3 col-xl-one-six">
+            {% include "product-grid-item" collection: selected_collection %}
+          </div>
+        {% endif %}
+      {% endfor %} {% endcomment %} 
+   		
+     {% if product.handle == "weight-lifting-gloves-for-women" %}
+      {% for product in product_upsell.products limit: _lenght %}
+        {% if _product_id != product.id %}
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            {% include "product-grid-item-custom-image" collection: product_upsell %}
+          </div>
+        {% endif %}
+      {% endfor %}
+     {% else %}
+      	{% for product in product_upsell.products limit: _lenght %}
+        {% if _product_id != product.id %}
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            {% include "product-grid-item" collection: product_upsell %}
+          </div>
+        {% endif %}
+      {% endfor %}
+     {% endif %}
+    </div>
+    <!-- /carousel --> 
+  </div>
+</section>
+<!-- /related products -->
+  
+{% include 'recently-viewed' %}
+  
+{% endif %}
+  
+  
+
+
+
+<!--<script type="text/javascript">
+  jQuery(document).ready(function($){
+      /* Get iframe src attribute value i.e. YouTube video url and store it in a variable */
+      var url = $("#productVideo").attr('src');
+
+      /* Assign empty url value to the iframe src attribute when modal hide, which stop the video playing */
+      $("#videoModal").on('hide.bs.modal', function(){
+          $("#productVideo").attr('src', '');
+      });
+
+      /* Assign the initially stored url back to the iframe src attribute when modal is displayed again */
+      $("#videoModal").on('show.bs.modal', function(){
+          $("#productVideo").attr('src', url);
+      });
+  });
+</script> -->
+  
+  
+  <script async type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "product",
+        "brand":  {{product.vendor | json}},
+       "logo": "https://cdn.shopify.com/s/files/1/1822/7073/t/2/assets/logo.png?v=11615393944413912184",
+      "name": {{product.title | json}},
+      "category": {{product.type | json}},
+      {%- if product.featured -%}
+      {%- assign image_size = product.featured_image.width | append 'x' -%}
+        "image": [
+            {{product.feature_image.src | img_url: image_size | prepend: "https:" | json}}
+        ],
+      {%- endif -%}
+     "description": {{product.description | strip_html | truncate: 200 | json}},
+      "url": {{shop.url | append: product.url | json}},
+     {%- if current_variant.sku != blank -%}
+     "sku": {{current_variant.sku | json}},
+     {%- endif-%}
+     
+   
+       "offers": [ 
+       {%- for variant in product.variants -%}{
+      "@type": "Offer",
+      {%- if variant.sku != blank -%}
+      "sku": {{variant.sku | json}},
+      {%- endif -%}
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/{%- if product.available -%}InStock{%- else-%}OutOfStock{%- endif -%}",
+      "price": {{variant.price | money_with_currency | json}},
+      "priceCurrency": {{cart.currency.iso_code | json }},
+      "url": {{shop.url | append: variant.url | json }},
+      "seller": {
+          "@type": "Organization",
+          "name": "Nordic Lifting"
+      	}
+  } {% unless forloop.last %}, {% endunless %}
+         {%- endfor -%} 
+         ]
+       }
+</script>
+  
+  
+  
+<script>
+  jQuery(window).load(function(){
+    setTimeout(function(){
+      {% if product.description contains '[reviews]' %}
+          {% capture reviews %}{% include 'get-content-with-key' content: product.description key: '[reviews]' %}{% endcapture %}
+          {% assign reviews = reviews | strip | split: '[/reviews]' %}
+          {% if reviews.size > 0 %}{% for _review in reviews %}	  
+      {{ _review }}
+          {% endfor %}{% endif %}
+      {% endif %}
+      
+    },5000);
+    if ($(window).width() < 768) {
+       //$("#productVideosSection .bs-example").find("a.video-frame").contents().unwrap();
+    }    
+  });
+  
+  $('#refundFormContainer').load('https://nordic-lifting.myshopify.com/pages/refund-exchange/ #refundForm');
+  {%comment%}$( "#productVideosSection .modal .close" ).click(function() {
+    $('#productVideo').get(0).stopVideo();
+  });{%endcomment%}
+  
+  /*$("#videoModal1").on('hidden.bs.modal', function (e) {
+    $("#videoModal1 iframe").attr("src", $("#videoModal1 iframe").attr("src"));
+  });
+  $("#videoModal2").on('hidden.bs.modal', function (e) {
+    $("#videoModal2 iframe").attr("src", $("#videoModal2 iframe").attr("src"));
+  });
+  $("#videoModal3").on('hidden.bs.modal', function (e) {
+    $("#videoModal3 iframe").attr("src", $("#videoModal3 iframe").attr("src"));
+  });
+  $("#videoModal4").on('hidden.bs.modal', function (e) {
+    $("#videoModal4 iframe").attr("src", $("#videoModal4 iframe").attr("src"));
+  });*/
+  
+//   function setVariantDefaults(){var o=[];$('#add-item-form .swatch-element.available input[type="radio"]').each(function(){"Black"!=this.value&&"Large"!=this.value&&"1-pack"!=this.value||o.push(this.id)}),o.forEach(function(o){rad="#add-item-form #"+o,$(rad).trigger("click"),$(rad).attr("checked","checked")})}$("#imageZoom").click(function(){$("#zoomModal").css("display","block"),$("#modalZoomImg").attr("src",$(this).attr("src"))}),$("#imageZoomTop").click(function(){$("#zoomModalTop").css("display","block"),$("#modalZoomImgTop").attr("src",$(this).attr("img"))}),$(".zoom-close").click(function(){$("#zoomModal").css("display","none"),$("#zoomModalTop").css("display","none")}),$(window).bind("load",function(){setTimeout(setVariantDefaults,3e3)});
+</script>
+  
+  <script text="text/javascript">
+  var _learnq = _learnq || [];
+
+  var item = {
+    Name: {{ product.title|json }},
+    ProductID: {{ product.id|json }},
+    Categories: {{ product.collections|map:'title'|json }},
+    ImageURL: "https:{{ product.featured_image.src|img_url:'grande' }}",
+    URL: "{{ shop.secure_url }}{{ product.url }}",
+    Brand: {{ product.vendor|json }},
+    Price: {{ product.price|money|json }},
+    CompareAtPrice: {{ product.compare_at_price_max|money|json }}
+  };
+
+  _learnq.push(['track', 'Viewed Product', item]);
+  _learnq.push(['trackViewedItem', {
+    Title: item.Name,
+    ItemId: item.ProductID,
+    Categories: item.Categories,
+    ImageUrl: item.ImageURL,
+    Url: item.URL,
+    Metadata: {
+      Brand: item.Brand,
+      Price: item.Price,
+      CompareAtPrice: item.CompareAtPrice
+    }
+  }]);
+</script>
+  
+  <style>
+  	/* Style the Image Used to Trigger the Modal */
+#imageZoom{border-radius:5px;cursor:pointer;transition:.3s}#imageZoom:hover{opacity:.7}
+    
+/*================ ZOOM IMAGE MODAL ========================*/
+
+/* The Modal (background) */
+.modal-zoom.modal{display:none;position:fixed;z-index:1000000;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.9)}.modal-zoom .modal-content{margin:auto;width:80%;max-width:610px;margin-top:20px}.modal-zoom .modal-content{-webkit-animation-name:zoom;-webkit-animation-duration:.6s;animation-name:zoom;animation-duration:.6s}@-webkit-keyframes zoom{from{-webkit-transform:scale(0)}to{-webkit-transform:scale(1)}}@keyframes zoom{from{transform:scale(0)}to{transform:scale(1)}}.zoom-close{position:absolute;top:15px;right:35px;color:#f1f1f1;font-size:40px;font-weight:700;transition:.3s}.zoom-close:focus,.zoom-close:hover{color:#bbb;text-decoration:none;cursor:pointer}@media only screen and (max-width:700px){.modal-zoom .modal-content{width:100%}.zoom-close{top:0}.modal-zoom .modal-content{margin-top:55px}}
+  </style>

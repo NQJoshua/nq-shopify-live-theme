@@ -1,0 +1,35 @@
+<script> /*BF timer */
+var clock;
+$(document).ready(function () {
+  var currentDate = new Date();
+  var futureDate = new Date("{{ settings.countdown_date }}");
+  var addSec = 0;
+  var timezoneDiff = futureDate.getTimezoneOffset();
+  if(timezoneDiff < 480) {
+    addSec = addSec + 28800 + (timezoneDiff * -1 * 60);
+  } else {
+    addSec = addSec + (28800 - (timezoneDiff * 60));
+  }
+  var diff = ((futureDate.getTime() / 1000) + addSec) - (currentDate.getTime() / 1000);
+    if (diff <= 0) {
+      //remove sale banners
+      	/*$('#customhdrBanner').css('display','none');
+      	$('#bf-banner').css('display','none');
+      	$('.navbar .sale-link').text('Products');
+      	//$('.bf-video').css('margin-top','0');
+      	$('#allproducts-banner').css('display','none');
+      	$('#header').css('padding-top', '30px');
+      	$('.collection-page .title-under').text('Products');     
+      	$('.top-bannerstrip').css('display','block');
+      	$('.navbar-nav .dropdown-mega-menu.dropdown-one-col:first-of-type').text("Products");
+      	$('.title-box .products-sale').text("Products");*/
+    } else { // Instantiate a coutdown FlipClock
+    	clock = $('#cdTimer').FlipClock(diff, {
+        	clockFace: 'DailyCounter',
+        	countdown: true,
+    	});
+  	}
+  
+  //$('.product-instafeed .Header').css('display','none');
+});
+</script>

@@ -1,0 +1,197 @@
+.cursor-pointer {cursor: pointer;}
+#customhdrBanner {
+  margin-bottom: 30px;
+  background-color: #2A2F33;
+}
+#customhdrBanner img {
+  width: 100%;
+}
+#customhdrBanner .heading {
+  color: #fff;
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+#customhdrBanner .timer-container {
+  padding-top: 15px;
+}
+#customhdrBanner.full-banner .timer-container {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+.no-padding { padding: 0 !important; }
+.top-bannerstrip { display: none; }
+#header { padding-top: 0; }
+.stuck-nav { border: none !important;}
+
+
+#imgBannerSml { display: none; }
+#imgBannerSml .col { width: 50% !important; }
+#imgBannerSml.row {  margin: 0; }
+.flip-clock-wrapper {
+  width: 380px;
+  margin: 0 auto;
+}
+.flip-clock-wrapper ul li { line-height: 58px; }
+.flip-clock-wrapper ul li a div.up:after {
+  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+  color: #111;
+  text-shadow: 0 1px 1px #555;
+  background-color: #ddd;
+}
+.flip-clock-wrapper ul { 
+  margin: 0;
+  height: 58px; 
+  width: 38px;
+  border-radius: 0;
+  background: #fff;
+}
+.flip-clock-wrapper ul li a div div.inn { font-size: 32px; }
+.flip-clock-dot.top, .flip-clock-dot.bottom { display: none; }
+
+.flip-clock-wrapper ul:nth-of-type(odd) { 
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.flip-clock-wrapper ul:nth-of-type(even) { 
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.flip-clock-divider .flip-clock-label {
+  color: #999;
+  text-transform: uppercase;
+  top: 65px;
+  right: -58px;
+}
+.flip-clock-divider.minutes .flip-clock-label {
+  right: -67px;
+}
+.flip-clock-divider.seconds .flip-clock-label {
+  right: -68px;
+}
+.flip-clock {
+  display: inline-block;
+  width: auto;
+}
+.flip-clock-divider { height: 50px; }
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bf-video { 
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+#allProductsBanner img {
+  width:100%;
+  max-width:1275px;
+}
+
+@media screen and (min-width: 1600px) { 
+  #customhdrBanner .timer-container { padding-top: 25px; }
+  #customhdrBanner.full-banner .timer-container {padding-top: 25px;padding-bottom: 25px;}
+}
+@media screen and (min-width: 1700px) { 
+  #customhdrBanner .timer-container { padding-top: 30px; }
+  #customhdrBanner.full-banner .timer-container {padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1800px) { 
+  #customhdrBanner .timer-container { padding-top: 35px; }
+  #customhdrBanner.full-banner .timer-container {padding-top: 35px;padding-bottom: 35px;}
+}
+@media screen and (max-width: 1320px) {
+    #customhdrBanner .heading {margin-bottom: 10px;}
+    .flip-clock-wrapper ul { height: 48px; }
+    .flip-clock-wrapper ul li { line-height: 48px; }
+    .flip-clock-wrapper ul li a div div.inn { font-size: 28px; }
+    .flip-clock-divider .flip-clock-label { top: 56px; }
+  }
+  
+  @media screen and (max-width: 1224px) 
+  { 
+    .flip-clock-wrapper { width: 318px; }
+    .flip-clock-wrapper ul { 
+      padding: 16px;
+      width: auto;
+      height: 40px;
+    }
+    .flip-clock-wrapper ul li a div div.inn { font-size: 25px; }
+    .flip-clock-wrapper ul { height: 40px; }
+    .flip-clock-wrapper ul li { line-height: 40px; }
+    .flip-clock-divider .flip-clock-label {
+      top: 45px;
+      right: -49px;
+    }
+    .flip-clock-divider.minutes .flip-clock-label { right: -59px; }
+  }
+  
+  @media screen and (max-width: 1129px)
+  { 
+    #customhdrBanner .timer-container {
+      padding-top: 14px;
+    }
+    #customhdrBanner.full-banner .timer-container {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    #customhdrBanner .heading { font-size: 17px; }
+    .flip-clock-divider .flip-clock-label { font-size: 9px; }
+    .flip-clock-wrapper ul { height: 37px; }
+    .flip-clock-wrapper ul li { line-height: 37px; }
+    .flip-clock-divider .flip-clock-label {
+      top: 43px;
+      right: -43px;
+    }
+    .flip-clock-divider.minutes .flip-clock-label { right: -52px; }
+    .flip-clock-divider.seconds .flip-clock-label { right: -55px; }
+  }
+  @media screen and (max-width: 1024px)
+  {
+    #imgBannerSml { display: block; }
+    #imgBannerLg .col-img { display: none; }
+    #imgBannerLg { padding-bottom: 15px; }
+  }
+  
+  
+  @media screen and (max-width: 540px) {
+    
+    .flip-clock-wrapper {
+    width: 220px;
+}
+    .flip-clock-wrapper ul li a div div.inn {
+    font-size: 16px;
+}
+    .flip-clock-wrapper ul { 
+      padding: 10px; 
+      width: auto;
+    }
+    #imgBannerSml .col {
+      width: 100% !important;
+      border-bottom: 1px solid #000;
+    }
+    /*#header .cart { top: 78%; }*/
+    .flip-clock-divider .flip-clock-label { right: -32px; }
+    .flip-clock-divider.minutes .flip-clock-label { right: -42px; }
+    .flip-clock-divider.seconds .flip-clock-label { right: -43px; }
+	
+    #imgBannerSml { display: none; }
+    #imgBannerLg.row { margin: 0;}
+    #imgBannerLg .col-img { display: block; }
+    #imgBannerLg { padding-bottom: 0; }
+    #customhdrBanner .timer-container { padding-bottom: 14px; }
+}

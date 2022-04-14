@@ -1,0 +1,15 @@
+{% if product.metafields.product.video_reviews != blank %}
+  {% assign video_reviews = product.metafields.product.video_reviews %}
+  <section id="productVideoReviewsSection" class="content full-width">
+    <h2 class="text-left text-uppercase title-under">Video Reviews</h2>
+    <div class="row">
+      {% for video_review in video_reviews %}
+      {% if video_review != '' %}
+      <div class="col-md-5 col-sm-6">
+        <div class="youtube-player" data-id="{{ video_review }}"></div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

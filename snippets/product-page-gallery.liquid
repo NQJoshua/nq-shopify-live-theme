@@ -1,0 +1,71 @@
+{% if type == "default" %}
+ {% assign featured_alt = product.selected_or_first_available_variant.option1 %}
+  {% if settings.productpage_zoomenable %}
+    <div class="product-main-image">
+      <div class="product-main-image__item">
+        <img class="product-zoom" id="bigImg" src='{{ main_url_image.src | product_img_url: '2048x2048' }}' zoom-image="{{ main_url_image | product_img_url: '2048x2048' }}" alt="{{ main_url_image.alt | escape }}" />
+      </div>
+      <div class="product-main-image__zoom"></div>
+    </div>
+
+    {% if product.images.size > 1 %}
+	<div id="thumbnails">
+    <div id="thumbs-carousel" class="product-images-carousel"> 
+     
+	{% assign image_alt = product.selected_variant.option2 | append: ' ' | append: product.selected_variant.option1 %}
+         
+    	{% assign hasvariant = product.variants | size %}
+        <ul id="smallGallery" data-slick='{"adaptiveHeight": true}'>
+        {% if product.options contains 'Color' %}
+          {% if product.options contains 'Pack' %}
+          		{% for image in product.images %}
+                  {% if image.alt == image_alt %}
+                    {% include 'product-image-thumbnail' %}
+                  {% endif %}
+          		{% endfor %}
+           {% else %}
+          	{% for image in product.images %}
+              {% if image.alt contains product.selected_or_first_available_variant.option1 %}
+                {% include 'product-image-thumbnail' %}
+              {% endif %}
+          	{% endfor %}
+      	  {% endif %}
+       {% elsif product.options contains 'Weight' %}
+          {% for image in product.images %}
+              {% if image.alt contains product.selected_or_first_available_variant.option1 %}
+                  {% include 'product-image-thumbnail' %}
+              {% endif %}
+          {% endfor %}
+          {% else %}
+              {% for image in product.images %}
+                  {% include 'product-image-thumbnail' %}
+              {% endfor %}
+      {% endif %}
+        </ul>
+      </div>
+	</div>
+
+  	{% endif %}
+  {% else %}
+    <div class="product-main-image slider-no-zoom">
+      <div class="slider-for slider-product-large">
+        {% for image in product.images %}<div><img id="bigImg" class="lazyload" data-src="{{ image.src | product_img_url: '2048x2048' }}" alt="{{ image.alt }}"></div>{% endfor %}
+      </div>
+      <div class="slider-nav slider-product-small">
+        {% for image in product.images %}<div><img src="{{ image.src | product_img_url: 'medium' }}" alt="{{ image.alt }}"></div>{% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% else %}
+  <div class="clearfix"></div>
+  <ul id="mobileGallery"  data-slick='{"adaptiveHeight": true}'>
+    {% for image in product.images %}<li><img class="lazyload" data-src="{{ image.src | product_img_url: '1024x1024' }}" alt="" /></li>{% endfor %}
+  </ul>
+{% endif %}
+
+{% if product.description contains "[video]" %}
+<a href="{% include "get-content-with-key" content: product.content key: "[video]" %}" class="video-link"><span class="icon icon-videocam"></span>Video</a>
+{% endif %}
+{% include 'product-video-reviews-half' %}
+
+ 

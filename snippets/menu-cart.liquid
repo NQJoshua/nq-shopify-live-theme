@@ -1,0 +1,57 @@
+{% if template != "cart" %}
+{% assign cursorStyle = '' %}{% if cart.item_count == 0 %}{% assign cursorStyle = ' style="cursor:default;"' %}{% endif %}
+<!-- shopping cart start -->
+<div class="cart link-inline header-cart{% if hiddensmall %} mobile-menu-off{% endif %}">
+  <div class="dropdown text-right">
+    <!--<a class="dropdown-toggle"{{cursorStyle}}>
+      <span class="icon icon-shopping_basket"></span>
+      <span class="badge badge--cart bigcounter">{{ cart.item_count }}</span>
+    </a>-->
+    <a id="openHeaderCart">
+      <span class="icon icon-shopping_basket"></span>
+      <span class="badge badge--cart bigcounter">{{ cart.item_count }}</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu--xs-full slide-from-top cart-group-1" role="menu">
+      <div class="container">
+
+          <div class="cart__top">{{ 'cart.header.title' | t }}</div>
+          <a href="#" class="icon icon-close cart__close"><span>{{ "general.menu.button_close" | t }}</span></a>
+          <div class="row headers visible-md visible-lg">
+            <div class="col col-md-5"></div>
+            <div class="col col-md-2"><h4 class="text-muted">Price</h4></div>
+            <div class="col col-md-2"><h4 class="text-muted">Quantity</h4></div>
+            <div class="col col-md-2"><h4 class="text-muted">Total</h4></div>
+            <div class="col col-md-1"></div>
+          </div>
+          <ul class="cart-items">
+            {% for item in cart.items limit:20 %}{% include "menu-cart-item" %}{% endfor %}
+          </ul>
+          <div class="cart__bottom">
+            <a href="/checkout" class="btn btn--ys btn-checkout">{{ 'cart.header.checkout' | t }} <span class="icon icon--flippedX icon-reply"></span></a>
+            <!--<div class="cart__total">{{ 'cart.header.total' | t }} <span class="shopping-cart__total"> {{ cart.total_price | money }}</span></div>-->
+            <div class="cart__total">
+              <span class="cart__total-label">{{ 'cart.header.total' | t }}</span>
+              <span>{{ cart.currency.symbol }}</span>
+              <img class="loading-icon" src="{{'ajax-loader.gif' | asset_url }}"/>
+              <span class="shopping-cart__total"> {{ cart.total_price | money_without_currency }}</span>
+            </div>
+            <a href="/cart" class="btn btn--ys"><span class="icon icon-shopping_basket"></span>{{ 'cart.header.view_cart' | t }}</a>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- shopping cart end -->
+{% endif %}
+
+<script>
+  $( "#openHeaderCart" ).click(function() {
+    $( ".cart .dropdown-menu.slide-from-top" ).css('top','0');
+    $( ".cart .dropdown-menu.slide-from-top" ).css('display','block');
+  });
+  
+  $( ".cart__close" ).click(function() {
+    $( ".cart .dropdown-menu.slide-from-top" ).css('top','-200%');
+  });
+</script>

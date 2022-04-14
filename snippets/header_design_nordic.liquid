@@ -1,0 +1,51 @@
+<header id="header">
+  {% if settings.show_pbanners == true %}
+  	{% include 'header-banner' %}
+  {% endif %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <!-- logo start --> 
+        <a href="/"><img class="logo img-responsive" src="{{ headerlogo }}" alt="Nordic Lifting logo" title="Nordic Lifting logo"/></a> 
+        <!-- logo end --> 
+      </div>
+      <div class="col-sm-5 text-right searchbar-container">
+        <div class="search-outer visible-mobile-menu-off">
+          <form id="search__form" action="/search" method="get">
+            <div class="input-outer">
+              <input type="hidden" name="type" value="product" />
+              <input type="text" name="q" id="search" value="" maxlength="128" placeholder="{{ 'general.search.place_holder' | t }}">
+              <button type="submit" title="" class="icon icon-search"></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-sm-5 text-right slogan-container">
+        <!-- slogan start -->
+        <div class="slogan">{{ settings.header_slogan }}</div>
+        <!-- slogan end --> 						
+        <div class="settings"{% unless settings.show_multiple_currencies %} style="display: none;"{% endunless %}>
+          {% include "header-currency" showTitle:true %}
+          {% include "header-language" align: 'text-right' showTitle: true %}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="stuck-nav">
+    <div class="container offset-top-5">
+      <div class="row">
+        <div class="pull-left col-sm-9 col-md-9 col-lg-10">
+          {% include "main-menu" %}
+        </div>
+        <div class="pull-right col-sm-3 col-md-3 col-lg-2">
+          <div class="text-right">
+          	{% include "menu-search" %}
+            {% include "menu-customer" %}
+            {% include "menu-cart" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

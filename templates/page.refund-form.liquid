@@ -1,0 +1,94 @@
+<div id="refundPage">
+{% capture text %}{% include "get-content-with-key" content: page.content key: "[content]" %}{% endcapture %}
+{% capture map %}{% include "get-content-with-key" content: page.content key: "[map]" %}{% endcapture %}
+
+<div class="container">
+  {{ page.content }}
+</div>
+
+<!-- map -->
+{% if map != "" %}<section class="content-bottom"><div id="map"></div></section>{% endif %}
+<!-- /map -->
+<section id="refundForm" class="container refund-form">		
+  <div class="row">
+    {% if text != "" %}<div class="col-md-3 col-sm-12">{{ text }}</div>{% endif %}
+    <div class="{% if text != "" %}col-md-9{% else %}col-md-7 col-sm-10{% endif %}">
+      <p>Fill out the small form below to set up the return process.</p>
+      <div class="divider divider--lg visible-xs"></div>
+     
+      
+      {% form 'contact' %}
+        {% if form.posted_successfully? %}
+        <div class="successForm feedback">
+          <div class="alert alert-success" role="alert">
+            {{ 'contact.form.post_success' | t }}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if form.errors %}
+        <div class="errorForm feedback">
+          <div class="alert alert-danger" role="alert">
+            {{ 'contact.form.post_error' | t }}
+          </div>
+          {% for field in form.errors %}
+          <div class="alert alert-danger" role="alert">
+           {{ 'contact.form.post_field_error_html' | t: field: field, error: form.errors.messages[field] }}
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <!-- input -->
+       
+          <input name="contact[subject]" type="hidden" class="form-control" id="inputSubject" value="Request for Return">
+          <div>
+            <div class="form-group">
+              <label for="inputEmail">{{ 'contact.form.email_html' | t }}</label>
+              <input name="contact[email]" type="email" class="form-control" id="inputEmail">
+            </div>
+          </div>
+          <div>
+            <div class="form-group">
+              <label for="orderNo">{{ 'contact.form.orderno' | t }}</label>
+              <input name="contact[orderno]" type="text" class="form-control" id="orderNo">
+            </div>
+          </div>
+          <!-- textarea -->
+          <div>
+            <div class="form-group">
+              <label for="textareaMessage">{{ 'contact.form.message_html' | t }}</label>
+              <textarea name="contact[body]" class="form-control" rows="12"  id="textareaMessage"></textarea>
+            </div>
+          </div>
+          <!-- /textarea -->
+       
+        <!-- /input -->
+        <!-- button -->
+        <div class="pull-right note">{{ 'contact.form.required_fields' | t }}</div>
+        <button class="btn btn--ys btn--xl btn-top" type="submit">{{ 'contact.form.send' | t }}</button>
+        <!-- /button -->						   
+      {% endform %}
+    </div>
+  </div>				
+</section>
+  <br/><br/>
+  <div class="container">
+    <p><b>How much time do I have to make a return?</b></p>
+    <p>Your Nordic Lifting products are eligible for a return within 30 days of purchase.</p>
+    <p> </p>
+    <p><b>Is the original packaging required?</b></p>
+    <p>Yes, all products must be returned together with their original packaging. Failing to do so will result in a 10$ fee.</p>
+    <p> </p>
+    <p><b>Can I return a product after I have finished using it?</b></p>
+    <p>We cannot accept returns for used items. You may only return an item within 30 days of purchasing it.</p>
+    <p> </p>
+    <p><b>Will return shipping carry an additional fee?</b></p>
+    <p>Customers within the US will only be charged for the return shipping fees. International customers are responsible for shipping both ways.</p>
+    <p> </p>
+    <p><b>What if my received item is defective?</b></p>
+    <p>On the off chance where your Nordic Lifting item arrives damaged or defective, please do not hesitate to contact us at support@nordicquality.org. We will resolve any issues that occur ASAP.</p>
+    <p> </p>
+    <p><b>How long will I have to wait to receive my refund?</b></p>
+    <p>The return process usually takes anywhere from 1 to 3 days to complete.</p>
+  </div>
+</div>

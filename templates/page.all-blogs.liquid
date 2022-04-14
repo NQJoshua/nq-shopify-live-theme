@@ -1,0 +1,140 @@
+<meta property="og:title" content="Blogs" />
+
+<meta property="og:description" content="Nordic Lifting Blogs" />
+
+<meta property="og:image" content="" />
+
+<meta property="og:url" content="https://nordiclifting.com/pages/blog" />
+
+<div class="container">
+  {{ page.content }}
+
+  {% assign products_in_row = 3 %} {% assign featuredBlogs =
+  'fitness,diet,weightlifting,news-1' | split:',' %} {% assign blog_show_date =
+  true %} {% assign blog_show_author = false %} {% assign show_comments = false
+  %} {% assign featuredArticles = false %} {% for featuredBlog in featuredBlogs
+  %} {% if blogs[featuredBlog].articles %} {% if featuredArticles %} {% assign
+  featuredArticles = featuredArticles | concat:blogs[featuredBlog].articles %}
+  {% else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {%
+  endif %} {% endif %} {% endfor %}
+
+  <!-- recent-posts-carousel -->
+  <section class="content" data-section-id="allBlogs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- title -->
+          <div class="title-with-button">
+            {% comment %}
+            <div class="carousel-products__button pull-right">
+              <span class="btn-prev"></span>
+              <span class="btn-next"></span>
+            </div>
+            {% endcomment %}
+            <h2 class="text-center text-uppercase title-under">Blog</h2>
+          </div>
+          <!-- /title -->
+          {% unless blog.empty? %}
+          <!-- carousel-new -->
+          <div class="product-listing row" id="postsCarousel">
+            {% if featuredArticles %} {% assign featuredArticles =
+            featuredArticles | sort:'published_at' | reverse %} {% for article
+            in featuredArticles %} {% if article.comments.size > 0 %}{% assign
+            comment_url = article.url | append: '#comments' %}{% else %}{%
+            assign comment_url = article.url | append: '#addcomment' %}{% endif
+            %}
+            <!-- slide-->
+            <div class="col-md-4 col-sm-6">
+              <!--  -->
+              <div class="recent-post-box">
+                {% if article.image != blank %}
+                <div
+                  class="col-lg-12 {% if products_in_row < 3 %}col-xl-6{% else %}col-xl-12{% endif %}"
+                >
+                  <a href="{{ article.url }}"
+                    ><span class="figure">
+                      <img
+                        data-src="{{ article.image.src | img_url: '560x560' }}"
+                        width="560"
+                        height="560"
+                        alt="{{ article.image.alt }}"
+                      />
+                      <noscript
+                        ><img
+                          src="{{ article.image.src | img_url: '560x560' }}"
+                          width="560"
+                          height="560"
+                          alt="{{ article.image.alt }}"
+                      /></noscript>
+                      {% if blog_show_date %}<span
+                        class="figcaption label-top-left"
+                        ><span
+                          ><b>{{ article.published_at | date: "%d" }}</b
+                          ><em>{{
+                            article.published_at | date: "%b" | downcase
+                          }}</em></span
+                        ></span
+                      ></span
+                    >{% endif %}
+                  </a>
+                </div>
+                {% endif %}
+                <div
+                  class="col-lg-12 {% if products_in_row < 3 %}col-xl-6{% else %}col-xl-12{% endif %}"
+                >
+                  <div class="recent-post-box__text">
+                    <h4>
+                      <a href="{{ article.url }}">{{ article.title }}</a>
+                    </h4>
+                    {% if blog_show_author %}
+                    <div class="author">
+                      {{
+                        "blogs.general.author_by_html"
+                          | t: author:article.author
+                      }}
+                    </div>
+                    {% endif %}
+                    <p>
+                      {% if article.excerpt.size > 0 %}{{ article.excerpt }}{%
+                      endif %}
+                    </p>
+                    {% if show_comments %}{% if blog.comments_enabled? %}<a
+                      class="link-commet"
+                      href="{{ comment_url }}"
+                      ><span class="icon icon-message"></span
+                      ><span class="number">{{ article.comments.size }}</span>
+                      {{ "blogs.general.comment" | t }}</a
+                    >{% endif %}{% endif %}
+                  </div>
+                </div>
+              </div>
+              <!-- / -->
+            </div>
+            <!-- /slide -->
+            {% endfor %} {% endif %}
+          </div>
+          <!-- /carousel-new -->
+          {% else %}
+          <span style="display: flex; justify-content: center"
+            >This section doesn’t currently include any content. Add content to
+            this section using the sidebar.</span
+          >
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /recent-posts-carousel -->
+  {% if products_in_row > 2 %}
+  <style>
+    @media (min-width: 1770px) {
+      [data-section-id~="allBlogs"] .recent-post-box p {
+        padding-right: 15px;
+      }
+      [data-section-id~="allBlogs"] .recent-post-box > div:last-child {
+        padding-left: 0 !important;
+      }
+    }
+  </style>
+  {% endif %}
+</div>
