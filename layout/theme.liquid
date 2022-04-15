@@ -197,13 +197,24 @@
    -->
 
    <meta property="og:image"  
-    content=
-    {% if page.handle == "our-company" %}
+    content="
+     {% if page.handle == "our-company" %}
       {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Our_Company_32d6c0b5-2049-409d-bd22-31561f4a3cef.jpeg?v=1503682400" 
      | image.url: width: 1200, height: 600}}
      {% elsif page.handle == "wholesale" %}
-     {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Wholesale.jpeg?v=1503368444" | image.url: width: 1200 height: 600}}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Wholesale.jpeg?v=1503368444" | image.url: width: 1200 height: 600}}
+     {% elsif page.handle == "shipping" %}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Shipping.jpeg?v=1503368836" | image.url: width: 1200 height: 600}}
+     {% elsif page.handle == "faq" %}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/FAQ.jpeg?v=1503369542" | image.url: width: 1200 height: 600}}
+      {% elsif page.handle == "refund-exchange" %}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Refund.jpeg?v=1503369216" | image.url: width: 1200 height: 600}}
+      {% elsif page.handle == "nordic-lifting-influencers" %}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Nordic_Lifting_Influencer_OG_image.jpg?v=1650007723" | image.url: width: 1200 height: 600}}
+      {% elsif page.handle == contact" %}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Nordic_Lifting_Influencer_OG_image.jpg?v=1650007723" | image.url: width: 1200 height: 600}}
     {% endif %} 
+    "
    />
  
 	
