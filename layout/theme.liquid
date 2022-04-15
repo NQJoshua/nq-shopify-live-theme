@@ -179,9 +179,16 @@
 
     {% endcomment %}
     	
-      		{% if page.handle == "our-company" %}
-      			<meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Our_Company_32d6c0b5-2049-409d-bd22-31561f4a3cef.jpeg?v=1503682400" | image.url: width: 1200 height: 600}} />
-            {% elsif page.handle == "wholesale" %}
+    {% if page.handle == "our-company" %}
+    <meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Our_Company_32d6c0b5-2049-409d-bd22-31561f4a3cef.jpeg?v=1503682400" | image.url: width: 1200 height: 600}} />
+    {% elsif page.handle == "wholesale" %}
+   <meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Wholesale.jpeg?v=1503368444" | image.url: width: 1200 height: 600}} />
+    {% elsif page.handle == "shipping" %}
+   <meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Shipping.jpeg?v=1503368836" | image.url: width: 1200 height: 600}} />
+   {% elsif page.handle == "faq" %}
+   <meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/FAQ.jpeg?v=1503369542" | image.url: width: 1200 height: 600}} />
+   {% elsif page.handle == "refund-exchange" %}
+   <meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Refund.jpeg?v=1503369216" | image.url: width: 1200 height: 600}} />
   
   <meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Wholesale.jpeg?v=1503368444" | image.url: width: 1200 height: 600}} />
    			{% endif %}    
