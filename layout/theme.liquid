@@ -197,7 +197,7 @@
    -->
 
    <meta property="og:image"  
-    content="
+    content=
      {% if page.handle == "our-company" %}
       {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Our_Company_32d6c0b5-2049-409d-bd22-31561f4a3cef.jpeg?v=1503682400" 
      | image.url: width: 1200, height: 600}}
@@ -211,10 +211,12 @@
       {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Refund.jpeg?v=1503369216" | image.url: width: 1200 height: 600}}
       {% elsif page.handle == "nordic-lifting-influencers" %}
       {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Nordic_Lifting_Influencer_OG_image.jpg?v=1650007723" | image.url: width: 1200 height: 600}}
-      {% elsif page.handle == contact" %}
-      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/Nordic_Lifting_Influencer_OG_image.jpg?v=1650007723" | image.url: width: 1200 height: 600}}
+      {% elsif page.handle == "contact" %}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/PngItem_606346.png?v=1650011986" | image.url: width: 1200 height: 600}}
+      {% elsif page.handle == "privacy-policy" %}
+      {{"https://cdn.shopify.com/s/files/1/1822/7073/files/nordic_lifting_privacy_policy.png?v=1650014993" | image.url: width: 1200 height: 600}}
     {% endif %} 
-    "
+    
    />
  
 	
