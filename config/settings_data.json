@@ -428,7 +428,7 @@
     "title_pass_pass": "ENTER STORE USING PASSWORD:",
     "button_pass": "ENTER",
     "footer_address_pass": "<a href=\"\/\"><span>NORDIC LIFTING<\/span><\/a> © 2017 . All Rights Reserved.",
-    "show_pbanners": false,
+    "show_pbanners": true,
     "show_cdtimer": false,
     "custom_collection": false,
     "promo_title": "",
