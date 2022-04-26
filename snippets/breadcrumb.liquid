@@ -8,7 +8,7 @@ http://docs.shopify.com/support/your-website/navigation/creating-a-breadcrumb-na
     <ol class="breadcrumb breadcrumb--ys pull-left">
       <li class="home-link"><a href="/" class="icon icon-home"></a></li>
       {% if template contains 'product' %} {% if collection %} {% if
-      collection.handle == "All" %} {% else %} {% capture url %}/collections/{{
+      collection.handle%} {% capture url %}/collections/{{
         collection.handle
       }}{% endcapture %}
       <li>{{ collection.title | link_to: url }}</li>
