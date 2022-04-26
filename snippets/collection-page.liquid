@@ -20,18 +20,21 @@
     {% endif %}
     
     <aside class="{{ collection_grid }}" id="centerColumn">
-      {% comment %}{% if collection.handle == 'all' %}
+      {% comment %}
+      {% if collection.handle == 'all' %}
       	<div class="title-box"><h2 class="text-center text-uppercase title-under products-sale">St. Patrick's Day Sale</h2></div>
       {% else %}
       	<div class="title-box"><h1 class="text-center text-uppercase title-under">{{ collection.title }}</h1></div>
-      {% endif %}{% endcomment %}
-
-       
-      {% if collection.title == 'All'}
-      {% else %}
-      <div class="title-box"><h1 class="text-center text-uppercase title-under">{{ collection.title }}</h1>
-        <p class="text-center">{{collection.description}}</p></div>
       {% endif %}
+      {% endcomment %}
+
+
+      {% if collection.handle == 'all' %}
+      {% else %}
+      	<div class="title-box"><h1 class="text-center text-uppercase title-under">{{ collection.title }}</h1></div>
+      {% endif %}
+       
+
       
       {% if settings.show_collection_description %}
         {% comment %}{{ collection.description }}{% endcomment %}
