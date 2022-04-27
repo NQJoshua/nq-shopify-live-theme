@@ -3,6 +3,11 @@
 <!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
 <!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+{% if request.path == "/download" %}
+<!-- Need to login -->
+<meta content="0; url=/account/login?checkout_url={{ request.path }}" http-equiv="refresh" />
+{% else %}
 <head>
 
   <!-- Organization Schema and Website Schema-->
@@ -401,4 +406,5 @@ var _learnq=_learnq||[];_learnq.push(["account","JyeuQE"]),function(){var t=docu
 
 
 </body>
+{% endif %}
 </html>
