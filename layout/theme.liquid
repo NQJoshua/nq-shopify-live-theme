@@ -4,7 +4,13 @@
 <!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
 
-{% if request.path == "/download" %}
+
+{% unless customer %}
+ {% assign send_to_login = true %}
+{% endunless %}
+
+
+{% if send_to_login and request.path == "/pages/download" %}
 <!-- Need to login -->
 <meta content="0; url=/account/login?checkout_url={{ request.path }}" http-equiv="refresh" />
 {% else %}
