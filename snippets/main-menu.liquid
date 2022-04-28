@@ -109,7 +109,9 @@
       
 		{% comment %} Main Menu {% endcomment %}
        	{% assign level_2 = linklists[child_list_handle] %}
-      
+         
+       
+       
       <li class="dropdown dropdown-mega-menu{% if submenu_type != "type2" and submenu_type != "type3" %}{% if level_2.links[0].handle contains "two_column" or level_2.links[0].handle contains "three_column" %} dropdown-two-col{% else %} dropdown-one-col{% endif %}{% endif %}">
         <a href="{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown"><span class="act-underline {%if link.title == 'Black Friday Sale' or link.title == 'Cyber Monday Sale'%}sale-link {% endif %}">
           {% assign check_title = link.title | strip | downcase %}
@@ -118,6 +120,7 @@
           {% if hotArray contains check_title %}<span class="badge badge--menu badge--color">{{ "general.menu_icons.sale" | t }}</span>{% endif %}
           {{ link.title }}</span>
         </a>
+        
         
  		{% if submenu_type != "type2" and submenu_type != "type3" %}
           {% unless level_2.empty? %}

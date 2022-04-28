@@ -9,10 +9,15 @@
  {% assign send_to_login = true %}
 {% endunless %}
 
+{% unless customer.orders_count %}
+{% assign send_to_login_again = true %}
 
-{% if send_to_login and request.path == "/pages/download" %}
+{% endunless %}
+{% if send_to_login and {request.path == "/pages/download" or request.path == "/pages/bonus"} %}
 <!-- Need to login -->
 <meta content="0; url=/account/login?checkout_url={{ request.path }}" http-equiv="refresh" />
+
+
 {% else %}
 <head>
 
