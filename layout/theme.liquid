@@ -276,9 +276,12 @@
 
 </head>
 
-<!-- <header>
+{% if collection.handle == "promo" %}
+<header>
  <a href="https://nordiclifting.com/collections/promo" onclick="mothersDay()"> <img src="https://cdn.shopify.com/s/files/1/1822/7073/collections/Mother_say_Banner_1.jpg?v=1651215189" alt="Nordic Lifting Mother's Day Deals Banner Logo" style="width: 100vw; height: 50vh;" /> </a>
-</header> -->
+</header>
+
+{% endif %}
 <body class="{% if template == "index" or template contains "page.home-page_layout" or settings.hide_title_underline %} another-title index{% if template == "index" and settings.home_page_layout == 'home-page_layout-2' %} indexlayout2{% endif %}{% endif %}{% if page.handle == "sponsored-athlete-program" or page.handle == "sponsored-athlete-program-logo" or page.handle == "sponsored-athlete-program-prequal" or page.handle == "warranty-vip" %} page-lp{% endif %}"{{ l9 }}{% if settings.use_scale_product_image %} id="fitImageInTheme"{% endif %}>
   {% if settings.show_helper and template == "index" %}{% section "show-helper" %}{% endif %}
   {% if page.handle != "sponsored-athlete-program" and page.handle != "sponsored-athlete-program-logo" and page.handle != "sponsored-athlete-program-prequal" and page.handle != "warranty-vip" and page.handle != "nordic-lifting-news" %}
