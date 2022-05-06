@@ -2,7 +2,7 @@
 
 <meta property="og:description" content="Nordic Lifting Blogs" />
 
-<meta property="og:image" content="" />
+<meta property="og:image" content="{{ article.image.src }}" />
 
 <meta property="og:url" content="https://nordiclifting.com/pages/blog" />
 
@@ -10,7 +10,7 @@
   {{ page.content }}
 
   {% assign products_in_row = 3 %} {% assign featuredBlogs =
-  'fitness,diet,weightlifting,news-1' | split:',' %} {% assign blog_show_date =
+  "fitness,holiday,weighlifting,diet" | split:',' %} {% assign blog_show_date =
   true %} {% assign blog_show_author = false %} {% assign show_comments = false
   %} {% assign featuredArticles = false %} {% for featuredBlog in featuredBlogs
   %} {% if blogs[featuredBlog].articles %} {% if featuredArticles %} {% assign
@@ -34,6 +34,7 @@
             <h2 class="text-center text-uppercase title-under">Blog</h2>
           </div>
           <!-- /title -->
+
           {% unless blog.empty? %}
           <!-- carousel-new -->
           <div class="product-listing row" id="postsCarousel">
