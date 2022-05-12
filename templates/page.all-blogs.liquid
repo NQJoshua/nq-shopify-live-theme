@@ -5,12 +5,12 @@
 <meta property="og:image" content="{{ article.image.src }}" />
 
 <meta property="og:url" content="https://nordiclifting.com/pages/blog" />
-
+  
 <div class="container">
   {{ page.content }}
 
   {% assign products_in_row = 3 %} {% assign featuredBlogs =
-  "fitness,news,weightlifting,diet,holiday" | split:',' %} {% assign
+  "fitness,news,weightlifting,diet,holiday,FAQ" | split:',' %} {% assign
   blog_show_date = true %} {% assign blog_show_author = false %} {% assign
   show_comments = false %} {% assign featuredArticles = false %} {% for
   featuredBlog in featuredBlogs %} {% if blogs[featuredBlog].articles %} {% if
@@ -46,29 +46,7 @@
             %}
             <!-- slide-->
             <div class="col-md-4 col-sm-6">
-              <!--  -->
-              <div class="recent-post-box">
-                {% if article.image != blank %}
-                <div
-                  class="col-lg-12 {% if products_in_row < 3 %}col-xl-6{% else %}col-xl-12{% endif %}"
-                >
-                  <a href="{{ article.url }}"
-                    ><span class="figure">
-                      <img
-                        data-src="{{ article.image.src | img_url: '560x560' }}"
-                        width="560"
-                        height="560"
-                        alt="{{ article.image.alt }}"
-                      />
-                      <noscript
-                        ><img
-                          src="{{ article.image.src | img_url: '560x560' }}"
-                          width="560"
-                          height="560"
-                          alt="{{ article.image.alt }}"
-                      /></noscript>
-                      {% if blog_show_date %}<span
-                        class="figcaption label-top-left"
+              <!-- 
                         ><span
                           ><b>{{ article.published_at | date: "%d" }}</b
                           ><em>{{
