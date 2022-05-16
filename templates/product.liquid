@@ -355,6 +355,27 @@
   }]);
 </script>
   
+<script>
+  
+  let firstTab = document.querySelector(`.nav-tabs li.active:nth-child(1)`);
+  
+  function faqLink () {
+    let screenWidth = window.innerWidth;
+    
+
+    if(firstTab.classList.contains('active')) {
+    firstTab.classList.remove('active');    
+    faqTab.classList.add('active');
+    }
+
+    if(screenWidth >= 375 ) window.scrollTo(0, 4300);  
+    if(screenWidth >= 744) window.scrollTo(0, 4000);
+    if(screenWidth >= 1000) window.scrollTo(0, 2200);
+
+  }
+
+ </script>
+
   <style>
   	/* Style the Image Used to Trigger the Modal */
 #imageZoom{border-radius:5px;cursor:pointer;transition:.3s}#imageZoom:hover{opacity:.7}
