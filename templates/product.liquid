@@ -357,14 +357,13 @@
   
 <script>
   
-  let firstTab = document.querySelector(`.nav-tabs li.active:nth-child(1)`);
-  let faqTab = document.querySelector(`.nav-tabs li:nth-child(5)`);
+  let allTab = document.querySelector(`.nav-tabs li:not(:last-child`);
+  let faqTab = document.querySelector(`.nav-tabs li:last-child`);  
   function faqLink () {
     let screenWidth = window.innerWidth;
     
-
-    if(firstTab.classList.contains('active')) {
-    firstTab.classList.remove('active');    
+    if(allTab.classList.contains('active')) {
+    allTab.classList.remove('active');    
     faqTab.classList.add('active');
     }
 
