@@ -143,6 +143,57 @@
 	</script>
   {% endif %}
 
+<!-- insert FAQs here -->
+
+{% if product.description contains '[faqs]'%}
+ {% assign faqContent = product.description | split: '[/faqs]' | first %}
+ {% assign faqContent = faqContent | split: '[faqs]' | last %}
+ {% style %}
+ 
+
+ .container.faqs h3 {
+  
+  font-size: 1.4em;
+ }
+
+ #faqs-section {
+   visibility: hidden;
+   
+ }
+ .content.faqs {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+.container.faqs {
+  border: 1px solid #e5e5e5; 
+  padding: 1.2em; 
+
+  margin-top: 2em;
+}
+
+@media(min-width: 1000px) {
+  .container.faqs h3 {
+  
+    font-size: 2em;
+   }
+  h3 {
+    font-size: 2em;
+  }
+  .container.faqs {
+    width: 78.97%; 
+  }
+}
+ 
+ {% endstyle %}
+ <h3 id="faqs-section">Frequently Asked Questions</h3>
+ <section class="content faqs">
+  <div class="container faqs" >
+    <h3>Frequently Asked Questions</h3>
+      <div >{{ faqContent }}</div>  
+  </div>
+</section>
+{% endif %}
 
 {% if settings.product_tabs_work == "design3full" or settings.product_page_design == "design2" %}{% include "product-page-tabs2" %}{% endif %} 
 
