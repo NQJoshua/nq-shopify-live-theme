@@ -1364,8 +1364,56 @@
       "1652945512fbc18201": {
         "type": "custom_html",
         "settings": {
-          "custom_html": "<style>\n #collections {\ntext-align: center;\n\n}\n<\/style>\n\n\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>",
+          "custom_html": "<style>\n #collections {\ntext-align: center;\noutline: 1px solid black;\nmargin-top: 1em;\n}\n<\/style>\n\n\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>",
           "custom_html_example": ""
+        }
+      },
+      "1652945521bffe5572": {
+        "type": "banners-info",
+        "disabled": true,
+        "blocks": {
+          "1652945521bffe5572-0": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          },
+          "1652945521bffe5572-1": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          },
+          "1652945521bffe5572-2": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          },
+          "1652945521bffe5572-3": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1652945521bffe5572-0",
+          "1652945521bffe5572-1",
+          "1652945521bffe5572-2",
+          "1652945521bffe5572-3"
+        ],
+        "settings": {
+          "show_border": true,
+          "button_name": "Shop Now!"
         }
       }
     },
@@ -1377,6 +1425,7 @@
       "16160038318cf1c4dd",
       "1479767951397",
       "1479768233251",
+      "1652945521bffe5572",
       "1479768269224",
       "1479766932162"
     ]
