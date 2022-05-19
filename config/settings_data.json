@@ -1364,7 +1364,7 @@
       "1652945512fbc18201": {
         "type": "custom_html",
         "settings": {
-          "custom_html": "<style>\n #collections {\ntext-align: center;\nmargin-top: 1em;\n}\n<\/style>\n\n\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>",
+          "custom_html": "<style>\n #collections {\ntext-align: center;\nmargin-top: 1em;\n}\n<\/style>\n\n\n<div> <\/div>\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>",
           "custom_html_example": ""
         }
       },
@@ -1418,10 +1418,10 @@
       }
     },
     "content_for_index": [
+      "1479770924814",
       "1652945512fbc18201",
       "1479771757508",
       "16160030376d2165ea",
-      "1479770924814",
       "16160038318cf1c4dd",
       "1479767951397",
       "1479768233251",
