@@ -1364,7 +1364,7 @@
       "1652945512fbc18201": {
         "type": "custom_html",
         "settings": {
-          "custom_html": "<style>\n\n.collection-title {\n\ndisplay: flex;\njustify-content: center;\nmargin-top: 2em;\n}\n #collections {\n padding: 0;\nmargin: 0;\n\n}\n<\/style>\n\n<div class=\"collection-title\">\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>\n<\/div>",
+          "custom_html": "<style>\n\n.collection-title {\nposition:  relative;\ndisplay: flex;\njustify-content: center;\n\n}\n #collections {\nposition: absolute;\n\n}\n<\/style>\n\n<div class=\"collection-title\">\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>\n<\/div>",
           "custom_html_example": ""
         }
       }
