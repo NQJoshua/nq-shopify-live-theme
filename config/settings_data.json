@@ -1078,6 +1078,7 @@
           },
           "e769efb6-5743-43fb-a341-6a1fc51055ff": {
             "type": "featured_collection",
+            "disabled": true,
             "settings": {
               "collection": "",
               "usecollectionimage": false,
