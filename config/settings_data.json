@@ -1075,12 +1075,24 @@
               "use_custom_color": "no",
               "color_title": "#ffffff"
             }
+          },
+          "e769efb6-5743-43fb-a341-6a1fc51055ff": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "",
+              "usecollectionimage": false,
+              "custom_name": "",
+              "show_item_button": "yes",
+              "use_custom_color": "no",
+              "color_title": "#ffffff"
+            }
           }
         },
         "block_order": [
           "1479771757508-2",
           "1479771757508-0",
-          "1479771757508-1"
+          "1479771757508-1",
+          "e769efb6-5743-43fb-a341-6a1fc51055ff"
         ],
         "settings": {
           "items": "3",
