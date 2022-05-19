@@ -1359,6 +1359,13 @@
           "base_color": "#1fc0a0",
           "active_color": "#333333"
         }
+      },
+      "1652945512fbc18201": {
+        "type": "custom_html",
+        "settings": {
+          "custom_html": "<h2>Collections><\/h2>",
+          "custom_html_example": "<section class=\"content\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\tYour Content\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/section>"
+        }
       }
     },
     "content_for_index": [
@@ -1369,7 +1376,8 @@
       "1479767951397",
       "1479768233251",
       "1479768269224",
-      "1479766932162"
+      "1479766932162",
+      "1652945512fbc18201"
     ]
   },
   "presets": {
