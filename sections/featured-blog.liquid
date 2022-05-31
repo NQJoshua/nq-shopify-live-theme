@@ -3,7 +3,7 @@
 {%- else -%}{%- assign img_url = 'layout9_image1.jpg' | asset_url -%}
 {%- endif -%}
 {% assign products_in_row = section.settings.products_in_row | plus: 0 %}
-{% assign featuredBlogs = 'fitness,diet,weightlifting,news-1' | split:',' %}
+{% assign featuredBlogs = 'fitness,diet,weightlifting,news-1,holiday,faq' | split:',' %}
 {% assign featuredArticles = false %}
 
 {% for featuredBlog in featuredBlogs %}
