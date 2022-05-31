@@ -1,13 +1,11 @@
-{%- assign blog = blogs[section.settings.blog] -%} {%- if section.settings.image
-!= blank -%}{%- assign img_url = section.settings.image | img_url: '2048x2048'
--%} {%- else -%}{%- assign img_url = 'layout9_image1.jpg' | asset_url -%} {%-
-endif -%} {% assign products_in_row = section.settings.products_in_row | plus: 0
-%} {% assign featuredBlogs = 'fitness,diet,weightlifting,news-1' | split:',' %}
-{% assign featuredArticles = false %} {% for featuredBlog in featuredBlogs %} {%
-if blogs[featuredBlog].articles %} {% if featuredArticles %} {% assign
-featuredArticles = featuredArticles | concat:blogs[featuredBlog].articles %} {%
-else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
-{% endif %} {% endfor %}
+{% assign products_in_row = 3 %} {% assign featuredBlogs =
+'fitness,diet,weightlifting,news-1,holiday,faq' | split:',' %} {% assign
+blog_show_date = true %} {% assign blog_show_author = false %} {% assign
+show_comments = false %} {% assign featuredArticles = false %} {% for
+featuredBlog in featuredBlogs %} {% if blogs[featuredBlog].articles %} {% if
+featuredArticles %} {% assign featuredArticles = featuredArticles |
+concat:blogs[featuredBlog].articles %} {% else %} {% assign featuredArticles =
+blogs[featuredBlog].articles %} {% endif %} {% endif %} {% endfor %}
 
 <!-- recent-posts-carousel -->
 <section
@@ -102,6 +100,7 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
                   <p>
                     {% if article.excerpt.size > 0 %}{{ article.excerpt }}{%
                     else %}{{ article.content | strip_html | truncatewords: section.settings.truncate, section.settings.truncate_last_symbols
+
 
                     }}{% endif %}
                   </p>
