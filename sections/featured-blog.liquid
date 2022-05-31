@@ -102,8 +102,6 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
                   <p>
                     {% if article.excerpt.size > 0 %}{{ article.excerpt }}{%
                     else %}{{ article.content | strip_html | truncatewords: section.settings.truncate, section.settings.truncate_last_symbols
-
-
                     }}{% endif %}
                   </p>
                   {% if section.settings.show_comments %}{% if
@@ -150,7 +148,7 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
     }
   }
 </style>
-{% endif %} {% schema - %} { "name": "Blog posts", "class": "index-section",
+{% endif %} {% schema %} { "name": "Blog posts", "class": "index-section",
 "settings": [ { "type": "text", "id": "title", "label": "Heading", "default":
 "Blog posts" }, { "id": "blog", "type": "blog", "label": "Blog" }, { "type":
 "select", "id": "products_in_row", "label": "Products In Row", "options": [ {
