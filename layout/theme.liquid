@@ -22,6 +22,10 @@
 
   <!-- Organization Schema and Website Schema-->
 
+
+  {% if handle contains 'page-handle-you-want-to-exclude' %}
+<meta name="robots" content="noindex">
+{% endif %}
 <script defer type="application/ld+json">
   {
     "@context": "https://schema.org",

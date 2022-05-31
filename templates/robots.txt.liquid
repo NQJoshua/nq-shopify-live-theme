@@ -11,6 +11,6 @@ robots.default_groups %}
 group.sitemap != blank -%}
 {{ group.sitemap }}
 {%- endif -%} {%- if group.user_agent.value == 'Nutch' -%} {%- else -%}
-{{ "Disallow: /login" }}
-{{ "Disallow: /download" }}
+{{ "Disallow: /account/login" }}
+{{ "Disallow: /pages/download" }}
 {%- endif -%} {% endfor %}
