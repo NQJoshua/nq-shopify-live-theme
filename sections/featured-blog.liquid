@@ -56,9 +56,7 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
           append: '#comments' %}{% else %}{% assign comment_url = article.url |
           append: '#addcomment' %}{% endif %}
           <!-- slide-->
-          <div
-            class="col-sm-3 {% if products_in_row < 3 %}col-xl-6{% else %}col-xl-12{% endif %}"
-          >
+          <div class="col-md-4 col-sm-6">
             <!--  -->
             <div class="recent-post-box">
               {% if article.image != blank %}
@@ -68,11 +66,19 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
                 <a href="{{ article.url }}"
                   ><span class="figure">
                     <img
-                      class="lazyload"
                       data-src="{{ article.image.src | img_url: '560x560' }}"
+                      width="560"
+                      height="560"
                       alt="{{ article.image.alt }}"
                     />
-                    {% if section.settings.blog_show_date %}<span
+                    <noscript
+                      ><img
+                        src="{{ article.image.src | img_url: '560x560' }}"
+                        width="560"
+                        height="560"
+                        alt="{{ article.image.alt }}"
+                    /></noscript>
+                    {% if blog_show_date %}<span
                       class="figcaption label-top-left"
                       ><span
                         ><b>{{ article.published_at | date: "%d" }}</b
@@ -92,7 +98,7 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
                   <h4>
                     <a href="{{ article.url }}">{{ article.title }}</a>
                   </h4>
-                  {% if section.settings.blog_show_author %}
+                  {% if blog_show_author %}
                   <div class="author">
                     {{
                       "blogs.general.author_by_html" | t: author:article.author
@@ -101,11 +107,9 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
                   {% endif %}
                   <p>
                     {% if article.excerpt.size > 0 %}{{ article.excerpt }}{%
-                    else %}{{ article.content | strip_html | truncatewords: section.settings.truncate, section.settings.truncate_last_symbols
-                    }}{% endif %}
+                    endif %}
                   </p>
-                  {% if section.settings.show_comments %}{% if
-                  blog.comments_enabled? %}<a
+                  {% if show_comments %}{% if blog.comments_enabled? %}<a
                     class="link-commet"
                     href="{{ comment_url }}"
                     ><span class="icon icon-message"></span
