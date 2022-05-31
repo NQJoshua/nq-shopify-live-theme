@@ -104,7 +104,6 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
                     else %}{{ article.content | strip_html | truncatewords: section.settings.truncate, section.settings.truncate_last_symbols
 
 
-
                     }}{% endif %}
                   </p>
                   {% if section.settings.show_comments %}{% if
@@ -151,4 +150,36 @@ else %} {% assign featuredArticles = blogs[featuredBlog].articles %} {% endif %}
     }
   }
 </style>
-{% endif %}
+{% endif %} {% schema - %} { "name": "Blog posts", "class": "index-section",
+"settings": [ { "type": "text", "id": "title", "label": "Heading", "default":
+"Blog posts" }, { "id": "blog", "type": "blog", "label": "Blog" }, { "type":
+"select", "id": "products_in_row", "label": "Products In Row", "options": [ {
+"value": "2", "label": "2" }, { "value": "3", "label": "3" }, { "value": "4",
+"label": "4" } ], "default": "3", "info": "For screen size > 1770" }, { "type":
+"select", "id": "post_limit", "label": "Posts Limit", "default": "3", "options":
+[ { "value": "3", "label": "3" }, { "value": "4", "label": "4" }, { "value":
+"6", "label": "6" }, { "value": "9", "label": "9" }, { "value": "12", "label":
+"12" } ] }, { "type": "checkbox", "id": "blog_show_author", "label": "Show
+author", "default": true }, { "type": "checkbox", "id": "blog_show_date",
+"label": "Show date", "default": true }, { "type": "checkbox", "id":
+"show_comments", "label": "Show comments", "default": true }, { "type":
+"paragraph", "content": "_____" }, { "type": "paragraph", "content": "Work only
+for the field \"Content\". Field \"Excerpt\" will show full." }, { "type":
+"text", "id": "truncate", "label": "Show Words", "default": "15", "info":
+"Integer" }, { "type": "text", "id": "truncate_last_symbols", "label": "Last
+Symbols", "default": "..." }, { "type": "select", "id": "step", "label": "Slides
+To Scroll", "default": "1", "options": [ { "value": "1", "label": "1" }, {
+"value": "2", "label": "2" }, { "value": "3", "label": "3" }, { "value": "4",
+"label": "4" } ] }, { "type": "header", "content": "Autoplay" }, { "type":
+"checkbox", "id": "module_autoplay", "label": "Auto-rotate slides", "default":
+false }, { "type": "select", "id": "delay_time", "label": "Change slides every",
+"options": [ { "value": "5000", "label": "5 seconds" }, { "value": "6000",
+"label": "6 seconds" }, { "value": "7000", "label": "7 seconds" }, { "value":
+"8000", "label": "8 seconds" }, { "value": "9000", "label": "9 seconds" }, {
+"value": "10000", "label": "10 seconds" } ], "default": "7000" }, { "type":
+"header", "content": "Background Image" }, { "type": "checkbox", "id":
+"showbgimage", "label": "Show Background Image?", "default": false }, { "type":
+"image_picker", "id": "image", "label": "Image", "info": "After change image
+click SAVE. The page will be updated to fully." } ], "presets": [ { "name":
+"Blog posts", "category": "Blog", "settings": { "blog": "News", "post_limit":
+"3" } } ] } {% endschema %}
