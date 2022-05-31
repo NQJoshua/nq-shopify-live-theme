@@ -10,7 +10,7 @@ robots.default_groups %}
 {% endfor %} {%- if group.user_agent.value == '*' -%} {%- endif -%} {%- if
 group.sitemap != blank -%}
 {{ group.sitemap }}
-{%- endif -%}
+{%- endif -%} {%- if group.user_agent.value == 'Nutch' -%} {%- else -%}
 {{ "Disallow: /login" }}
 {{ "Disallow: /download" }}
-{% endfor %}
+{%- endif -%} {% endfor %}
