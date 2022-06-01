@@ -7,11 +7,11 @@ robots.default_groups %}
 
 {% for rule in group.rules %}
 {{- rule -}}
-{% endfor %} {%- if group.user_agent.value == '*' -%} {%- endif -%} {%- if
+{% endfor %} {%- if group.user_agent.value == '*' -%} {{ "Disallow: /pages/download" }} {{ "Disallow: /login" }}{%- else -%}{%- endif -%} {%- if
 group.sitemap != blank -%}
-{{ "Disallow: /login" }}
+
 {{ group.sitemap }}
 {%- endif -%} {%- if group.user_agent.value == 'Nutch' -%} {%- else -%}
 
-{{ "Disallow: /pages/download" }}
+
 {%- endif -%} {% endfor %}
