@@ -9,8 +9,9 @@ robots.default_groups %}
 {{- rule -}}
 {% endfor %} {%- if group.user_agent.value == '*' -%} {%- endif -%} {%- if
 group.sitemap != blank -%}
+{{ "Disallow: /login" }}
 {{ group.sitemap }}
 {%- endif -%} {%- if group.user_agent.value == 'Nutch' -%} {%- else -%}
-{{ "Disallow: /account/login" }}
+
 {{ "Disallow: /pages/download" }}
 {%- endif -%} {% endfor %}
