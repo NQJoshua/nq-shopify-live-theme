@@ -151,7 +151,7 @@
   {% endif %}
   {% capture headerlogo %}{% if settings.transparent_header and template == "index" %}{{ "logotransparent.png" | asset_url }}{% else %}{{ "logo.png" | asset_url }}{% endif %}{% endcapture %}
   
-  {% include 'preloader-main' %}
+
   
   <div id="fb-root"></div>
   
@@ -213,7 +213,7 @@
     </div>
 
   	{% if template == "index" and settings.transparent_footer %}
-  		{% include "footer-fixed" %}
+  		 "footer-fixed" %}
   	{% else %}
   		{% if page.handle != "sponsored-athlete-program" and page.handle != "sponsored-athlete-program-logo" and page.handle != "sponsored-athlete-program-prequal" %}
           {% include settings.footer_design %}
