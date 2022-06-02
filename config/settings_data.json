@@ -155,7 +155,7 @@
     "transparent_header": false,
     "headertransparentcolor": "#ffffff",
     "headertransparentbgcolor": "#ffffff",
-    "header_slogan": "Any questions? Contact us at <a href=\"mailto:support@nordiclifting.com\" class=\"email-link\">support@nordiclifting.com<\/a><p>\nCall us  <a href=\"tel:17025001498\" class=\"phone-link\"><i class=\"fa fa-phone-square\" aria-hidden=\"true\"><\/i> +1 (702) 500-1498<\/a><\/p>",
+    "header_slogan": "Any questions? Contact us at <a href=\"mailto:support@nordiclifting.com\" class=\"email-link\">support@nordiclifting.com</a><p>\nCall us  <a href=\"tel:17025001498\" class=\"phone-link\"><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> +1 (702) 500-1498</a></p>",
     "show_line": true,
     "showfixedbar": true,
     "transparent_footer": false,
@@ -173,44 +173,44 @@
     "blockName3": "MY ACCOUNT",
     "footer-links-3": "",
     "show_footer_soc_but": true,
-    "footer_soc_but": "<li><a class=\"icon fa fa-facebook\" href=\"https:\/\/www.facebook.com\/NordicLifting\" target=\"_blank\"><\/a><\/li>\n            <li><a class=\"icon fa fa-twitter\" href=\"https:\/\/twitter.com\/nordiclifting\" target=\"_blank\"><\/a><\/li>\n            <li><a class=\"icon fa fa-google-plus\" href=\"https:\/\/plus.google.com\/117340899296060412047\" target=\"_blank\"><\/a><\/li>\n            <li><a class=\"icon fa fa-instagram\" href=\"https:\/\/www.instagram.com\/nordiclifting\/\" target=\"_blank\"><\/a><\/li>\n            <li><a class=\"icon fa fa-youtube-square\" href=\"https:\/\/www.youtube.com\/user\/NordicLifting\" target=\"_blank\"><\/a><\/li>",
+    "footer_soc_but": "<li><a class=\"icon fa fa-facebook\" href=\"https://www.facebook.com/NordicLifting\" target=\"_blank\"></a></li>\n            <li><a class=\"icon fa fa-twitter\" href=\"https://twitter.com/nordiclifting\" target=\"_blank\"></a></li>\n            <li><a class=\"icon fa fa-google-plus\" href=\"https://plus.google.com/117340899296060412047\" target=\"_blank\"></a></li>\n            <li><a class=\"icon fa fa-instagram\" href=\"https://www.instagram.com/nordiclifting/\" target=\"_blank\"></a></li>\n            <li><a class=\"icon fa fa-youtube-square\" href=\"https://www.youtube.com/user/NordicLifting\" target=\"_blank\"></a></li>",
     "showfooternewsletter": true,
-    "footer_address": "<div class=\"col-lg-12\">\n<a href=\"\/\"><span>NORDIC LIFTING<\/span><\/a> © 2013 - 2020. All Rights Reserved.<\/div>",
+    "footer_address": "<div class=\"col-lg-12\">\n<a href=\"/\"><span>NORDIC LIFTING</span></a> © 2013 - 2020. All Rights Reserved.</div>",
     "contentBlockAll": true,
     "showfooterlogo": true,
     "showfootercontenttext": true,
     "footercontenttexttitle": "ABOUT US",
-    "footercontenttext": "<p> At Nordic Lifting we value outstanding product quality & impeccable customer support. This means that every single one of our products adheres to meticulous build standards with a fair price tag on top of that. We have a stellar team of customer service experts in the team, ready to answer any questions or issues you may come across.<\/p>",
+    "footercontenttext": "<p> At Nordic Lifting we value outstanding product quality & impeccable customer support. This means that every single one of our products adheres to meticulous build standards with a fair price tag on top of that. We have a stellar team of customer service experts in the team, ready to answer any questions or issues you may come across.</p>",
     "contentBlockAll_design2": true,
     "showfooterlogo_design2": true,
     "showfootercontenttext_design2": true,
     "footercontenttexttitle_design2": "ABOUT US",
-    "footercontenttext_design2": "<p> No more need to look for other ecommerce themes. We provide huge number of different layouts. Yourstore comes packed with free and useful features developed to make your website creation easier. Innovative clean design, advanced functionality, UI made for humans, extensive documenta- tion and support i continue this list infinitely... <\/p>\r\n\t\t\t\t\t\t\t\t\t<!-- address -->\r\n\t\t\t\t\t\t\t\t\t<address class=\"box-address\">\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-home\"><\/span> 7563 St. Vincent Place, Glasgow <br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-call\"><\/span> <b class=\"color-dark\">+777 2345 7885 <\/b><br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-access_time\"><\/span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-markunread\"><\/span> <a class=\"color\" href=\"mailto:info@mydomain.com\">info@mydomain.com<\/a>\r\n\t\t\t\t\t\t\t\t\t<\/address>\r\n\t\t\t\t\t\t\t\t\t<!-- \/address -->",
+    "footercontenttext_design2": "<p> No more need to look for other ecommerce themes. We provide huge number of different layouts. Yourstore comes packed with free and useful features developed to make your website creation easier. Innovative clean design, advanced functionality, UI made for humans, extensive documenta- tion and support i continue this list infinitely... </p>\r\n\t\t\t\t\t\t\t\t\t<!-- address -->\r\n\t\t\t\t\t\t\t\t\t<address class=\"box-address\">\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-home\"></span> 7563 St. Vincent Place, Glasgow <br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-call\"></span> <b class=\"color-dark\">+777 2345 7885 </b><br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-access_time\"></span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-markunread\"></span> <a class=\"color\" href=\"mailto:info@mydomain.com\">info@mydomain.com</a>\r\n\t\t\t\t\t\t\t\t\t</address>\r\n\t\t\t\t\t\t\t\t\t<!-- /address -->",
     "contentBlockAll_design3": true,
     "showfooterlogo_design3": true,
     "showfootercontenttext_design3": true,
     "footercontenttexttitle_design3": "Contact",
-    "footercontenttext_design3": "<address class=\"box-address\">\r\n\t<span class=\"icon icon-home\"><\/span> 7563 St. Vincent Place, Glasgow <br>\r\n\t<span class=\"icon icon-call\"><\/span> <b class=\"color-dark\">+777 2345 7885 <\/b><br>\r\n\t<span class=\"icon icon-access_time\"><\/span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t<span class=\"icon icon-markunread\"><\/span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com<\/a>\r\n<\/address>",
+    "footercontenttext_design3": "<address class=\"box-address\">\r\n\t<span class=\"icon icon-home\"></span> 7563 St. Vincent Place, Glasgow <br>\r\n\t<span class=\"icon icon-call\"></span> <b class=\"color-dark\">+777 2345 7885 </b><br>\r\n\t<span class=\"icon icon-access_time\"></span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t<span class=\"icon icon-markunread\"></span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com</a>\r\n</address>",
     "show_top_line": true,
     "contentBlockAll_design4": true,
-    "footercontenttext_design4": "<div class=\"col-sm-6 col-md-3\">\r\n\t<!--  -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title\">Shipping AND Delivery<\/h4>\r\n\t\t<div class=\"v-links-list mobile-collapse__content\">\r\n\t\t\t<p>\r\n\t\t\t\tWe're dedicated to delivering your purchase as quickly and affordably as possible. We offer a range of delivery and pickup options, so you can choose the shipping method that best meets your needs.\r\n\t\t\t<\/p>\r\n\t\t<\/div>\r\n\t<\/div>\r\n\t<!-- \/ -->\r\n<\/div>\r\n<div class=\"col-sm-6 col-md-3\">\r\n\t<!--  -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title\">Payment Methods<\/h4>\r\n\t\t<div class=\"v-links-list mobile-collapse__content\">\r\n\t\t\t<p>\r\n\t\t\t\tEvery country and shopper has their prefered method to pay online. Offering your buyers safe and convenient payment choices can help your sale go smoothly, earn you positive Feedback, and bring them back for more.\r\n\t\t\t<\/p>\r\n\t\t<\/div>\r\n\t<\/div>\r\n\t<!-- \/ -->\r\n<\/div>\r\n<div class=\"divider divider--lg visible-sm\"><\/div>\r\n<div class=\"col-sm-6 col-md-3\">\r\n\t<!-- -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title text-uppercase\">Contact<\/h4>\r\n\t\t<div class=\" mobile-collapse__content\">\t\t\t\t\t\t\t\r\n\t\t\t<!-- address -->\r\n\t\t\t<address class=\"box-address\">\r\n\t\t\t\t<span class=\"icon icon-home\"><\/span> 7563 St. Vincent Place, Glasgow <br>\r\n\t\t\t\t<span class=\"icon icon-call\"><\/span> <b>+777 2345 7885 <\/b><br>\r\n\t\t\t\t<span class=\"icon icon-access_time\"><\/span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t\t\t\t<span class=\"icon icon-markunread\"><\/span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com<\/a>\r\n\t\t\t<\/address>\r\n\t\t\t<!-- \/address -->\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t<\/div>\r\n\t<\/div>\r\n\t<!-- \/ -->\r\n<\/div>\r\n<div class=\"col-sm-6 col-md-3\">\r\n\t<!--  -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title\">Facebook like box<\/h4>\r\n\t\t<div class=\"v-links-list mobile-collapse__content\">\r\n\t\t\t<!--======= facebook =======-->\r\n\t\t\t\r\n\t\t\t\t<div class=\"display-inline-block\"><iframe src=\"\/\/facebook.com\/plugins\/likebox.php?id=134612429900944&width=270px&connections=9&stream=false&header=false&height=236\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:270px; height:236px;\" allowtransparency=\"true\"><\/iframe><\/div>\r\n\t\t\t\r\n\t\t\t<!--======= \/facebook =======-->\r\n\t\t<\/div>\r\n\t<\/div>\r\n\t<!-- \/ -->\r\n<\/div>",
+    "footercontenttext_design4": "<div class=\"col-sm-6 col-md-3\">\r\n\t<!--  -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title\">Shipping AND Delivery</h4>\r\n\t\t<div class=\"v-links-list mobile-collapse__content\">\r\n\t\t\t<p>\r\n\t\t\t\tWe're dedicated to delivering your purchase as quickly and affordably as possible. We offer a range of delivery and pickup options, so you can choose the shipping method that best meets your needs.\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- / -->\r\n</div>\r\n<div class=\"col-sm-6 col-md-3\">\r\n\t<!--  -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title\">Payment Methods</h4>\r\n\t\t<div class=\"v-links-list mobile-collapse__content\">\r\n\t\t\t<p>\r\n\t\t\t\tEvery country and shopper has their prefered method to pay online. Offering your buyers safe and convenient payment choices can help your sale go smoothly, earn you positive Feedback, and bring them back for more.\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- / -->\r\n</div>\r\n<div class=\"divider divider--lg visible-sm\"></div>\r\n<div class=\"col-sm-6 col-md-3\">\r\n\t<!-- -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title text-uppercase\">Contact</h4>\r\n\t\t<div class=\" mobile-collapse__content\">\t\t\t\t\t\t\t\r\n\t\t\t<!-- address -->\r\n\t\t\t<address class=\"box-address\">\r\n\t\t\t\t<span class=\"icon icon-home\"></span> 7563 St. Vincent Place, Glasgow <br>\r\n\t\t\t\t<span class=\"icon icon-call\"></span> <b>+777 2345 7885 </b><br>\r\n\t\t\t\t<span class=\"icon icon-access_time\"></span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t\t\t\t<span class=\"icon icon-markunread\"></span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com</a>\r\n\t\t\t</address>\r\n\t\t\t<!-- /address -->\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- / -->\r\n</div>\r\n<div class=\"col-sm-6 col-md-3\">\r\n\t<!--  -->\r\n\t<div class=\"mobile-collapse\">\r\n\t\t<h4 class=\"text-left text-uppercase  title-under  mobile-collapse__title\">Facebook like box</h4>\r\n\t\t<div class=\"v-links-list mobile-collapse__content\">\r\n\t\t\t<!--======= facebook =======-->\r\n\t\t\t\r\n\t\t\t\t<div class=\"display-inline-block\"><iframe src=\"//facebook.com/plugins/likebox.php?id=134612429900944&width=270px&connections=9&stream=false&header=false&height=236\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:270px; height:236px;\" allowtransparency=\"true\"></iframe></div>\r\n\t\t\t\r\n\t\t\t<!--======= /facebook =======-->\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- / -->\r\n</div>",
     "shownewslettertext_design4": true,
     "newslettertitle_design4": "Contact",
-    "newslettertext_design4": "<!-- address -->\r\n<address class=\"box-address\">\r\n\t<span class=\"icon icon-home\"><\/span> 7563 St. Vincent Place, Glasgow <br>\r\n\t<span class=\"icon icon-call\"><\/span> <b>+777 2345 7885 <\/b><br>\r\n\t<span class=\"icon icon-access_time\"><\/span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t<span class=\"icon icon-markunread\"><\/span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com<\/a>\r\n<\/address>\r\n<!-- \/address -->",
+    "newslettertext_design4": "<!-- address -->\r\n<address class=\"box-address\">\r\n\t<span class=\"icon icon-home\"></span> 7563 St. Vincent Place, Glasgow <br>\r\n\t<span class=\"icon icon-call\"></span> <b>+777 2345 7885 </b><br>\r\n\t<span class=\"icon icon-access_time\"></span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t<span class=\"icon icon-markunread\"></span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com</a>\r\n</address>\r\n<!-- /address -->",
     "contentBlockAll_design5": true,
-    "footercontenttext_design5": "<h4 class=\"mobile-collapse__title text-left text-uppercase visible-xs\">telephone<\/h4>\r\n<div class=\"mobile-collapse__content\">\r\n\t<address class=\"font-medium\">\r\n\t\t<span class=\"icon icon-call\"><\/span> +777 2345 7885\t\t\t\t\t\t\t\t\t\t\r\n\t<\/address>\r\n\t<span class=\"color-gray\">7 Days a week from  10:00 am to 6:00 pm<\/span>\r\n<\/div>",
+    "footercontenttext_design5": "<h4 class=\"mobile-collapse__title text-left text-uppercase visible-xs\">telephone</h4>\r\n<div class=\"mobile-collapse__content\">\r\n\t<address class=\"font-medium\">\r\n\t\t<span class=\"icon icon-call\"></span> +777 2345 7885\t\t\t\t\t\t\t\t\t\t\r\n\t</address>\r\n\t<span class=\"color-gray\">7 Days a week from  10:00 am to 6:00 pm</span>\r\n</div>",
     "show_top_line_d6": false,
     "show_fotter_content1_design6": false,
     "footer_text1_design6": "Html Code",
-    "footer_text_design6": "<!-- address -->\r\n<address class=\"box-address\">\r\n<span class=\"icon icon-home\"><\/span> 7563 St. Vincent Place, Glasgow <br>\r\n<span class=\"icon icon-call\"><\/span> <b class=\"color-dark\">+777 2345 7885 <\/b><br>\r\n<span class=\"icon icon-access_time\"><\/span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n<span class=\"icon icon-markunread\"><\/span> <a class=\"color\" href=\"mailto:info@mydomain.com\">info@mydomain.com<\/a>\r\n<\/address>\r\n<!-- \/address -->",
+    "footer_text_design6": "<!-- address -->\r\n<address class=\"box-address\">\r\n<span class=\"icon icon-home\"></span> 7563 St. Vincent Place, Glasgow <br>\r\n<span class=\"icon icon-call\"></span> <b class=\"color-dark\">+777 2345 7885 </b><br>\r\n<span class=\"icon icon-access_time\"></span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n<span class=\"icon icon-markunread\"></span> <a class=\"color\" href=\"mailto:info@mydomain.com\">info@mydomain.com</a>\r\n</address>\r\n<!-- /address -->",
     "main_menu_selected": "main-menu",
     "menu_icon_hot": "",
     "menu_icon_new": "WOMEN’s",
     "submenu_type3": "Collection 1,collection-1",
     "submenu_type_and_list_1": "",
     "submenu_type_and_list_grid_1": "3",
-    "submenu_images_1": "\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/collections\/col2_0f261e67-0c31-4ac4-9385-9bf1885ee3f6_grande.jpg?v=1488724751,https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/col1.jpg?14392045424531818316, \/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/collections\/5_Elbow_Sleeve_Black_new_grande.jpg?v=1509647034,https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/col1.jpg?14392045424531818316",
-    "submenu_customhtml_1": "<div class=\"row\">\r\n<div class=\"col-sm-6\"> <a href=\"#\" class=\"discolor-hover\"><img class=\"img-responsive\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/banner-megamenu-01.jpg?16466298140297529436\" alt=\"\"><\/a>\r\n<\/div>\r\n<div class=\"col-sm-6\"> <a href=\"#\" class=\"discolor-hover\"><img class=\"img-responsive\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/banner-megamenu-02.jpg?16466298140297529436\" alt=\"\"><\/a>\r\n<\/div>\r\n<\/div>",
+    "submenu_images_1": "//cdn.shopify.com/s/files/1/1822/7073/collections/col2_0f261e67-0c31-4ac4-9385-9bf1885ee3f6_grande.jpg?v=1488724751,https://cdn.shopify.com/s/files/1/1822/7073/files/col1.jpg?14392045424531818316, //cdn.shopify.com/s/files/1/1822/7073/collections/5_Elbow_Sleeve_Black_new_grande.jpg?v=1509647034,https://cdn.shopify.com/s/files/1/1822/7073/files/col1.jpg?14392045424531818316",
+    "submenu_customhtml_1": "<div class=\"row\">\r\n<div class=\"col-sm-6\"> <a href=\"#\" class=\"discolor-hover\"><img class=\"img-responsive\" src=\"//cdn.shopify.com/s/files/1/1236/4838/files/banner-megamenu-01.jpg?16466298140297529436\" alt=\"\"></a>\r\n</div>\r\n<div class=\"col-sm-6\"> <a href=\"#\" class=\"discolor-hover\"><img class=\"img-responsive\" src=\"//cdn.shopify.com/s/files/1/1236/4838/files/banner-megamenu-02.jpg?16466298140297529436\" alt=\"\"></a>\r\n</div>\r\n</div>",
     "submenu_showcollection_1": true,
     "submenu_collectiontitle_1": "FEATURED",
     "submenu_collectiontitlelink_1": "#",
@@ -219,7 +219,7 @@
     "submenu_type_and_list_2": "",
     "submenu_type_and_list_grid_2": "2",
     "submenu_images_2": "",
-    "submenu_customhtml_2": "<div class=\"hor-line\"><\/div>\n<ul class=\"list-inline brands-list\">\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-01.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-03.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-02.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-05.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-04.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-06.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-07.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-08.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-09.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<li><a href=\"#\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/brand-10.png?7991156427119609511\" alt=\"\"><\/a><\/li>\n<\/ul>",
+    "submenu_customhtml_2": "<div class=\"hor-line\"></div>\n<ul class=\"list-inline brands-list\">\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-01.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-03.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-02.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-05.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-04.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-06.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-07.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-08.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-09.png?7991156427119609511\" alt=\"\"></a></li>\n<li><a href=\"#\"><img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/brand-10.png?7991156427119609511\" alt=\"\"></a></li>\n</ul>",
     "submenu_showcollection_2": true,
     "submenu_collectiontitle_2": "FEATURED",
     "submenu_collectiontitlelink_2": "#",
@@ -227,7 +227,7 @@
     "submenu_collectionlength_2": "4",
     "submenu_type_and_list_3": "",
     "submenu_type_and_list_grid_3": "5th",
-    "submenu_images_3": "https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/collections\/6_Ankle_Wrist_Weights_grande.jpg?v=1509646702,\n\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/collections\/5_Elbow_Sleeve_Black_new_grande_a983cbd1-a1f5-41d7-b6bc-91c922c02571_grande.jpg?v=1518405426,\n\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Heavy_Duty_Wrist_Wraps_-_8_grande_f8484a8f-4df4-459a-94bc-9c326b01a9a1_415x.progressive.jpg?v=1523115151,\n\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/collections\/4_-_MEGIN_Powerlifting_Shoes_2-min_grande.jpg?v=1518281489",
+    "submenu_images_3": "https://cdn.shopify.com/s/files/1/1822/7073/collections/6_Ankle_Wrist_Weights_grande.jpg?v=1509646702,\n//cdn.shopify.com/s/files/1/1822/7073/collections/5_Elbow_Sleeve_Black_new_grande_a983cbd1-a1f5-41d7-b6bc-91c922c02571_grande.jpg?v=1518405426,\n//cdn.shopify.com/s/files/1/1822/7073/files/Heavy_Duty_Wrist_Wraps_-_8_grande_f8484a8f-4df4-459a-94bc-9c326b01a9a1_415x.progressive.jpg?v=1523115151,\n//cdn.shopify.com/s/files/1/1822/7073/collections/4_-_MEGIN_Powerlifting_Shoes_2-min_grande.jpg?v=1518281489",
     "submenu_customhtml_3": "",
     "submenu_showcollection_3": true,
     "submenu_collectiontitle_3": "FEATURED",
@@ -277,10 +277,10 @@
     "product_tab_title_1": "Description",
     "show_product_tab_2": false,
     "product_tab_title_2": "Custom Tab",
-    "product_tab_desc_2": "<h5><strong class=\"color text-uppercase\">Lorem ipsum dolor sit amet conse ctetur adipisicing elit<\/strong><\/h5>\r\n\t\t\t\t\t\t\t\t<div class=\"divider divider--xs\"><\/div>\r\n\t\t\t\t\t\t\t\t<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  orem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n\t\t\t\t\t\t\t\t<ul class=\"marker-list-circle\">\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Lorem ipsum dolor sit amet<\/span><\/li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Conse ctetur adipisicing<\/span><\/li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Elit sed do eiusmod tempor<\/span><\/li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Incididunt ut laborev<\/span><\/li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Et dolore magna aliqua<\/span><\/li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Ut enim ad min<\/span><\/li>\r\n\t\t\t\t\t\t\t\t<\/ul>",
+    "product_tab_desc_2": "<h5><strong class=\"color text-uppercase\">Lorem ipsum dolor sit amet conse ctetur adipisicing elit</strong></h5>\r\n\t\t\t\t\t\t\t\t<div class=\"divider divider--xs\"></div>\r\n\t\t\t\t\t\t\t\t<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  orem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>\r\n\t\t\t\t\t\t\t\t<ul class=\"marker-list-circle\">\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Lorem ipsum dolor sit amet</span></li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Conse ctetur adipisicing</span></li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Elit sed do eiusmod tempor</span></li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Incididunt ut laborev</span></li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Et dolore magna aliqua</span></li>\r\n\t\t\t\t\t\t\t\t\t<li><span class=\"text-uppercase\">Ut enim ad min</span></li>\r\n\t\t\t\t\t\t\t\t</ul>",
     "show_product_tab_3": false,
     "product_tab_title_3": "SIZING GUIDE",
-    "product_tab_desc_3": "<h5><strong class=\"color text-uppercase\">Clothing - Single Size Conversion (Continued)<\/strong><\/h5>\r\n\t\t\t\t\t\t\t\t<div class=\"divider divider--xs\"><\/div>\r\n\t\t\t\t\t\t\t\t<div class=\"table-responsive\">\r\n\t\t\t\t\t\t\t\t\t<table class=\"table table-params\">\r\n\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">UK<\/span><\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>18<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>20<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>22<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>24<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>26<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<\/ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">European<\/span><\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>46<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>48<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>50<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>52<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>54<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<\/ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">US<\/span><\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>14<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>16<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>18<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>20<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>22<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<\/ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">Australia<\/span><\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>8<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>10<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>12<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>14<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>16<\/li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<\/ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<\/td>\r\n\t\t\t\t\t\t\t\t\t\t\t<\/tr>\r\n\t\t\t\t\t\t\t\t\t\t<\/tbody>\r\n\t\t\t\t\t\t\t\t\t<\/table>\r\n\t\t\t\t\t\t\t\t<\/div>",
+    "product_tab_desc_3": "<h5><strong class=\"color text-uppercase\">Clothing - Single Size Conversion (Continued)</strong></h5>\r\n\t\t\t\t\t\t\t\t<div class=\"divider divider--xs\"></div>\r\n\t\t\t\t\t\t\t\t<div class=\"table-responsive\">\r\n\t\t\t\t\t\t\t\t\t<table class=\"table table-params\">\r\n\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">UK</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>18</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>20</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>22</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>24</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>26</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">European</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>46</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>48</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>50</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>52</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>54</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">US</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>14</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>16</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>18</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>20</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>22</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"text-right\"><span class=\"color\">Australia</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"sizes-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>8</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>10</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>12</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>14</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>16</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t</div>",
     "show_product_tab_4": false,
     "product_tab_title_4": "TAGS",
     "show_product_tab_5": false,
@@ -291,7 +291,7 @@
     "product_upsell_collection": "elbow-compression",
     "product_upsell_collection_count": "8",
     "show_productpage_htmlblock": true,
-    "productpage_htmlblock": "<div class=\"delivery-banner\" onclick=\"window.location.href = '#'\">\n            <div class=\"delivery-banner__icon\"><span class=\"icon-local_shipping\"><\/span><\/div>\n            <div class=\"delivery-banner__text\">\n              <h3>Free Shipping<\/h3>\n              <h5>on all orders of $50 or more<\/h5>\n              <p>Automatically applied at checkout. All products are eligible. Ships from USA warehouse.<\/p>\n            <\/div>\n          <\/div>\n          <div class=\"delivery-banner\" onclick=\"window.location.href = '#'\">\n            <div class=\"delivery-banner__icon\"><span class=\"icon-replay_30\"><\/span><\/div>\n            <div class=\"delivery-banner__text\">\n              <h3>No-Hassle Returns<\/h3>\n              <h5>within 30 days<\/h5>\n              <p>You may return\/exchange an unused item in new condition within 30 days of its arrival.<\/p>\n            <\/div>\n          <\/div>\n          <div class=\"delivery-banner\" onclick=\"window.location.href = '#'\">\n            <div class=\"delivery-banner__icon\"><span class=\"icon-check_circle\"><\/span><\/div>\n            <div class=\"delivery-banner__text\">\n              <h3>1-year Warranty<\/h3>\n              <h5>covers any manufacturer defects<\/h5>\n              <p>We're extremely confident in the quality of our products. Got an issue? Just get in touch, we'll help!<\/p>\n            <\/div>\n          <\/div>",
+    "productpage_htmlblock": "<div class=\"delivery-banner\" onclick=\"window.location.href = '#'\">\n            <div class=\"delivery-banner__icon\"><span class=\"icon-local_shipping\"></span></div>\n            <div class=\"delivery-banner__text\">\n              <h3>Free Shipping</h3>\n              <h5>on all orders of $50 or more</h5>\n              <p>Automatically applied at checkout. All products are eligible. Ships from USA warehouse.</p>\n            </div>\n          </div>\n          <div class=\"delivery-banner\" onclick=\"window.location.href = '#'\">\n            <div class=\"delivery-banner__icon\"><span class=\"icon-replay_30\"></span></div>\n            <div class=\"delivery-banner__text\">\n              <h3>No-Hassle Returns</h3>\n              <h5>within 30 days</h5>\n              <p>You may return/exchange an unused item in new condition within 30 days of its arrival.</p>\n            </div>\n          </div>\n          <div class=\"delivery-banner\" onclick=\"window.location.href = '#'\">\n            <div class=\"delivery-banner__icon\"><span class=\"icon-check_circle\"></span></div>\n            <div class=\"delivery-banner__text\">\n              <h3>1-year Warranty</h3>\n              <h5>covers any manufacturer defects</h5>\n              <p>We're extremely confident in the quality of our products. Got an issue? Just get in touch, we'll help!</p>\n            </div>\n          </div>",
     "quickview_sku": false,
     "quickview_availability": false,
     "quickview_showrating": false,
@@ -321,10 +321,10 @@
     "truncate_last_symbols_recent": "...",
     "blog_sidebar_customhtml1_show": false,
     "blog_sidebar_customhtml1_title": "ARCHIVES",
-    "blog_sidebar_customhtml1_content": "<ul class=\"categories-list\">\r\n    <li><a href=\"#\">July 2016<\/a><\/li>\r\n    <li><a href=\"#\">Juny 2016<\/a><\/li>\r\n    <li><a href=\"#\">May 2016<\/a><\/li>\r\n    <li><a href=\"#\">April 2016<\/a><\/li>\t\t\t              \r\n  <\/ul>",
+    "blog_sidebar_customhtml1_content": "<ul class=\"categories-list\">\r\n    <li><a href=\"#\">July 2016</a></li>\r\n    <li><a href=\"#\">Juny 2016</a></li>\r\n    <li><a href=\"#\">May 2016</a></li>\r\n    <li><a href=\"#\">April 2016</a></li>\t\t\t              \r\n  </ul>",
     "blog_sidebar_customhtml2_show": false,
     "blog_sidebar_customhtml2_title": "META",
-    "blog_sidebar_customhtml2_content": "<ul class=\"categories-list\">\r\n<li><a href=\"#\">Entries RSS<\/a><\/li>\r\n<li><a href=\"#\">WordPress.org<\/a><\/li>\r\n<li><a href=\"#\">Magento<\/a><\/li>\r\n<li><a href=\"#\">Shopify<\/a><\/li>\r\n<\/ul>",
+    "blog_sidebar_customhtml2_content": "<ul class=\"categories-list\">\r\n<li><a href=\"#\">Entries RSS</a></li>\r\n<li><a href=\"#\">WordPress.org</a></li>\r\n<li><a href=\"#\">Magento</a></li>\r\n<li><a href=\"#\">Shopify</a></li>\r\n</ul>",
     "pagination_limit": "50",
     "products_in_column": "four",
     "enable_infinite_scroll": true,
@@ -348,7 +348,7 @@
     "show_sidebar_collection": false,
     "sidebar_collection": "",
     "show_sidebar_customhtml": false,
-    "sidebar_customhtml": "<p class=\"light-font\">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.<\/p>\n<ul class=\"marker-list\">\n<li>Lorem ipsum dolor sit amet<\/li>\n<li>Conse ctetur adipisicing<\/li>\n<li>Elit sed do eiusmod tempor<\/li>\n<\/ul>\n<p class=\"light-font\">Amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labor.<\/p>",
+    "sidebar_customhtml": "<p class=\"light-font\">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>\n<ul class=\"marker-list\">\n<li>Lorem ipsum dolor sit amet</li>\n<li>Conse ctetur adipisicing</li>\n<li>Elit sed do eiusmod tempor</li>\n</ul>\n<p class=\"light-font\">Amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labor.</p>",
     "filter_color1": "",
     "filter_color2": "",
     "filter_color3": "",
@@ -359,9 +359,8 @@
     "filter_color8": "",
     "filter_color9": "",
     "filter_color10": "",
-    "mailchimp_form_action": "\/\/nordiclifting.us3.list-manage.com\/subscribe\/post?u=fb8b0f515c31c8ce80d93a28d&id=cf495dc8a1",
     "popup_newsletter_show": false,
-    "popup_newsletter_description": "<p>Please, rate theme 5. Thanks<\/p>\r\n<p class=\"color font24 custom-font font-lighter\">\r\nYOURStore\r\n<\/p>",
+    "popup_newsletter_description": "<p>Please, rate theme 5. Thanks</p>\r\n<p class=\"color font24 custom-font font-lighter\">\r\nYOURStore\r\n</p>",
     "popup_newsletter_delay_first": "2000",
     "popup_newsletter_delay": "3",
     "cart_design": "default",
@@ -421,13 +420,13 @@
     "use_favicon_pass": true,
     "title_pass": "WE'RE COMING SOON",
     "text_pass": "We are working very hard on the new version of our site.  It will bring a lot of new features. Stay tuned!",
-    "social_pass": "<div class=\"divider divider--md\"><\/div>\r\n          <div class=\"social-links social-links-no-bg  social-links--large text-center\">\r\n            <ul>\r\n              <li><a class=\"icon fa fa-facebook\" href=\"\/\/facebook.com\/\"><\/a><\/li>\r\n              <li><a class=\"icon fa fa-twitter\" href=\"\/\/twitter.com\/\"><\/a><\/li>\r\n              <li><a class=\"icon fa fa-google-plus\" href=\"\/\/google.com\/\"><\/a><\/li>\r\n              <li><a class=\"icon fa fa-instagram\" href=\"\/\/instagram.com\/\"><\/a><\/li>\r\n              <li><a class=\"icon fa fa-youtube-square\" href=\"\/\/youtube.com\/\"><\/a><\/li>\r\n            <\/ul>\r\n          <\/div>",
-    "countdown_pass": "2017\/01\/31 10:30:00",
+    "social_pass": "<div class=\"divider divider--md\"></div>\r\n          <div class=\"social-links social-links-no-bg  social-links--large text-center\">\r\n            <ul>\r\n              <li><a class=\"icon fa fa-facebook\" href=\"//facebook.com/\"></a></li>\r\n              <li><a class=\"icon fa fa-twitter\" href=\"//twitter.com/\"></a></li>\r\n              <li><a class=\"icon fa fa-google-plus\" href=\"//google.com/\"></a></li>\r\n              <li><a class=\"icon fa fa-instagram\" href=\"//instagram.com/\"></a></li>\r\n              <li><a class=\"icon fa fa-youtube-square\" href=\"//youtube.com/\"></a></li>\r\n            </ul>\r\n          </div>",
+    "countdown_pass": "2017/01/31 10:30:00",
     "title_nws_pass": "SUBSCRIBE TO OUR NEWSLETTER",
     "text_nws_pass": "Sign up now to our newsletter and you'll be one of the first to know when the site is ready:",
     "title_pass_pass": "ENTER STORE USING PASSWORD:",
     "button_pass": "ENTER",
-    "footer_address_pass": "<a href=\"\/\"><span>NORDIC LIFTING<\/span><\/a> © 2017 . All Rights Reserved.",
+    "footer_address_pass": "<a href=\"/\"><span>NORDIC LIFTING</span></a> © 2017 . All Rights Reserved.",
     "show_pbanners": false,
     "show_cdtimer": false,
     "custom_collection": false,
@@ -464,9 +463,9 @@
     "footercontenttexttitle_design4": "Contact",
     "shownewslettertext_design5": true,
     "newslettertitle_design5": "Contact",
-    "newslettertext_design5": "<address class=\"box-address\">\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-home\"><\/span> 7563 St. Vincent Place, Glasgow <br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-call\"><\/span> <b class=\"color-dark\">+777 2345 7885 <\/b><br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-access_time\"><\/span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-markunread\"><\/span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com<\/a>\r\n\t\t\t\t\t\t\t\t\t<\/address>",
+    "newslettertext_design5": "<address class=\"box-address\">\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-home\"></span> 7563 St. Vincent Place, Glasgow <br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-call\"></span> <b class=\"color-dark\">+777 2345 7885 </b><br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-access_time\"></span> 7 Days a week from  10:00 am to 6:00 pm<br>\r\n\t\t\t\t\t\t\t\t\t\t<span class=\"icon icon-markunread\"></span> <a class=\"color link-underline\" href=\"mailto:info@mydomain.com\">info@mydomain.com</a>\r\n\t\t\t\t\t\t\t\t\t</address>",
     "contentBlockAll_design6": true,
-    "footercontenttext_design6": "<h4 class=\"mobile-collapse__title text-left text-uppercase visible-xs\">telephone<\/h4>\r\n<div class=\"mobile-collapse__content\">\r\n<address class=\"font-medium\">\r\n<span class=\"icon icon-call\"><\/span> +777 2345 7885\t\t\t\t\t\t\t\t\t\t\r\n<\/address>\r\n<time class=\"color-gray\">7 Days a week from  10:00 am to 6:00 pm<\/time>\r\n<\/div>",
+    "footercontenttext_design6": "<h4 class=\"mobile-collapse__title text-left text-uppercase visible-xs\">telephone</h4>\r\n<div class=\"mobile-collapse__content\">\r\n<address class=\"font-medium\">\r\n<span class=\"icon icon-call\"></span> +777 2345 7885\t\t\t\t\t\t\t\t\t\t\r\n</address>\r\n<time class=\"color-gray\">7 Days a week from  10:00 am to 6:00 pm</time>\r\n</div>",
     "layout6_productsliderblock": true,
     "show_layout3_slider0": true,
     "show_collection_sidebar_menu": true,
@@ -496,11 +495,7 @@
             }
           }
         },
-        "block_order": [
-          "1478034348386",
-          "1478034350144",
-          "1478034351905"
-        ],
+        "block_order": ["1478034348386", "1478034350144", "1478034351905"],
         "settings": {
           "show_block": true,
           "show_line": false,
@@ -560,11 +555,7 @@
             }
           }
         },
-        "block_order": [
-          "1478039803755",
-          "1478039806013",
-          "1478039807795"
-        ],
+        "block_order": ["1478039803755", "1478039806013", "1478039807795"],
         "settings": {
           "show_block": true,
           "banner_design": "design2",
@@ -609,7 +600,7 @@
               "banner_link": "",
               "position": "center",
               "show_video": "no",
-              "video_url": "\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/explore.mp4?14925391354568980494",
+              "video_url": "//cdn.shopify.com/s/files/1/1236/4838/files/explore.mp4?14925391354568980494",
               "show_infoblock": "yes",
               "show_item_button": "yes",
               "text_design": "type1",
@@ -629,7 +620,7 @@
               "color_textactive": "#1fc0a0",
               "color_bgactive": "#1fc0a0",
               "show_customhtml": "no",
-              "code": "<div class=\"tp-caption lfl stb\" data-x=\"205\" data-y=\"center\" data-voffset=\"0\" data-speed=\"600\" data-start=\"900\" data-easing=\"Power4.easeOut\" data-endeasing=\"Power4.easeIn\" style=\"z-index: 2;\">\r\n<div>CONTENT<\/div>\r\n<a href=\"#\" class=\"link-button button--border-thick\">Shop now!<\/a>\r\n<\/div>"
+              "code": "<div class=\"tp-caption lfl stb\" data-x=\"205\" data-y=\"center\" data-voffset=\"0\" data-speed=\"600\" data-start=\"900\" data-easing=\"Power4.easeOut\" data-endeasing=\"Power4.easeIn\" style=\"z-index: 2;\">\r\n<div>CONTENT</div>\r\n<a href=\"#\" class=\"link-button button--border-thick\">Shop now!</a>\r\n</div>"
             }
           },
           "1478043090706": {
@@ -639,7 +630,7 @@
               "banner_link": "",
               "position": "center",
               "show_video": "no",
-              "video_url": "\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/explore.mp4?14925391354568980494",
+              "video_url": "//cdn.shopify.com/s/files/1/1236/4838/files/explore.mp4?14925391354568980494",
               "show_infoblock": "yes",
               "show_item_button": "yes",
               "text_design": "type1",
@@ -659,14 +650,11 @@
               "color_textactive": "#1fc0a0",
               "color_bgactive": "#1fc0a0",
               "show_customhtml": "no",
-              "code": "<div class=\"tp-caption lfl stb\" data-x=\"205\" data-y=\"center\" data-voffset=\"0\" data-speed=\"600\" data-start=\"900\" data-easing=\"Power4.easeOut\" data-endeasing=\"Power4.easeIn\" style=\"z-index: 2;\">\r\n<div>CONTENT<\/div>\r\n<a href=\"#\" class=\"link-button button--border-thick\">Shop now!<\/a>\r\n<\/div>"
+              "code": "<div class=\"tp-caption lfl stb\" data-x=\"205\" data-y=\"center\" data-voffset=\"0\" data-speed=\"600\" data-start=\"900\" data-easing=\"Power4.easeOut\" data-endeasing=\"Power4.easeIn\" style=\"z-index: 2;\">\r\n<div>CONTENT</div>\r\n<a href=\"#\" class=\"link-button button--border-thick\">Shop now!</a>\r\n</div>"
             }
           }
         },
-        "block_order": [
-          "1478043056757",
-          "1478043090706"
-        ],
+        "block_order": ["1478043056757", "1478043090706"],
         "settings": {
           "button_title": "Shop now!",
           "delay_time": "16000",
@@ -684,9 +672,9 @@
             "settings": {
               "image": "",
               "link": "",
-              "item_title": "<b>Eleanor<\/b><br><em>designer<\/em>",
+              "item_title": "<b>Eleanor</b><br><em>designer</em>",
               "item_hobby": "- Hobby",
-              "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet.<\/p>"
+              "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet.</p>"
             }
           },
           "1478045823732": {
@@ -700,10 +688,7 @@
             }
           }
         },
-        "block_order": [
-          "1478045755068",
-          "1478045823732"
-        ],
+        "block_order": ["1478045755068", "1478045823732"],
         "settings": {
           "show_widget": true,
           "title": "Testimonials",
@@ -850,75 +835,75 @@
           "1479767951397-0": {
             "type": "comment_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/powerlifting-shoes-megin.jpg",
+              "image": "shopify://shop_images/powerlifting-shoes-megin.jpg",
               "link": "",
               "item_title": "MEGIN Powerlifting Shoes",
               "item_name": "Kevin C.",
               "item_hobby": "",
               "text": "So glad I decided to invest in these. They provide a much sturdier platform than running shoes and are more comfortable than flat court shoes for lifting. I love the angle for squats or any leg pressing movements. \nI'm hooked. My lifting partner bought some 400 USD lifting shoes and these are just as good for way less.",
               "link_text": "amazon.com",
-              "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R1JD0DQPWRC18P\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01M2AU1BN",
-              "img_href": "https:\/\/nordiclifting.com\/collections\/bestsellers\/products\/nordic-lifting-powerlifting-shoes-megin",
+              "link_href": "https://www.amazon.com/gp/customer-reviews/R1JD0DQPWRC18P/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01M2AU1BN",
+              "img_href": "https://nordiclifting.com/collections/bestsellers/products/nordic-lifting-powerlifting-shoes-megin",
               "img_alt": "Nordic Lifting MEGIN Powerlifting Shoes"
             }
           },
           "1479767951397-1": {
             "type": "comment_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ankle-and-wrist-weights.jpg",
+              "image": "shopify://shop_images/ankle-and-wrist-weights.jpg",
               "link": "",
-              "item_title": "Ankle\/Wrist Weights",
+              "item_title": "Ankle/Wrist Weights",
               "item_name": "David",
               "item_hobby": "",
               "text": "Excellent quality- I can see why these have been rated so highly by others. I found that while many similar weights available on Amazon are comparably priced, these are of exceptional quality. \nThe construction and in particular the Velcro closures are really Heavy Duty, which suggests they will hold up well for repeated, heavy use. The product support offered by Nordic Lifting is also top notch, which makes these a very smart buy indeed!",
               "link_text": "amazon.com",
-              "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R1VAGX025F2MKT\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00V1WGG36",
-              "img_href": "https:\/\/nordiclifting.com\/collections\/bestsellers\/products\/nordic-lifting-ankle-and-wrist-weights",
+              "link_href": "https://www.amazon.com/gp/customer-reviews/R1VAGX025F2MKT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00V1WGG36",
+              "img_href": "https://nordiclifting.com/collections/bestsellers/products/nordic-lifting-ankle-and-wrist-weights",
               "img_alt": "Ankle and Wrist Weights"
             }
           },
           "1479767951397-2": {
             "type": "comment_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/elbow-compression-sleeves.jpg",
+              "image": "shopify://shop_images/elbow-compression-sleeves.jpg",
               "link": "",
               "item_title": "Elbow Compression Sleeves",
               "item_name": "Troy V.",
               "item_hobby": "",
               "text": "I have had continuing issues with my elbow on and off for over 5 years now. As someone who suffers from rheumatoid arthritis, I am desperately in need of something that will help alleviate some of the issues I have with my joints. \nTo my joy, this sleeve has alleviated the issues with my elbow. I would do my curls and tricep extensions and feel issues with my elbow including clicking and general joint pain. Wearing the sleeve has prevented that for me entirely. \nI can honestly say this was a godsend for me. I'm sure other brands will work as well, but this is the one I'm using and I'm quite satisfied.",
               "link_text": "amazon.com",
-              "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R1A1O619XKA60Z\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01EOR45CS",
-              "img_href": "https:\/\/nordiclifting.com\/collections\/bestsellers\/products\/nordic-lifting-elbow-compression-sleeves",
+              "link_href": "https://www.amazon.com/gp/customer-reviews/R1A1O619XKA60Z/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01EOR45CS",
+              "img_href": "https://nordiclifting.com/collections/bestsellers/products/nordic-lifting-elbow-compression-sleeves",
               "img_alt": "Elbow Compression Sleeves"
             }
           },
           "1508607250758": {
             "type": "comment_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/foam-roller-deep-tissue_0975385d-3469-4821-b132-ce9d86c76a8a.jpg",
+              "image": "shopify://shop_images/foam-roller-deep-tissue_0975385d-3469-4821-b132-ce9d86c76a8a.jpg",
               "link": "",
               "item_title": "Spiky Foam Roller",
               "item_name": "Dana M.",
               "item_hobby": "",
-              "text": "It took me a little while to enjoy this foam roller, at least while doing it. The first few days it was pretty painful as I have extremely tense muscles and fibromyalgia. \nStarting day one, however, I could feel a noticeable difference after rolling on it for a bit. I use it every night. I've worked up my tolerance to using it and try to work my back\/leg\/hip muscles for 5 minutes. My muscles are significantly less tense after using it and my pain is less intense. \nDon't let the first few days turn you away! One of the best investments I've made for my chronic pain and tension.",
+              "text": "It took me a little while to enjoy this foam roller, at least while doing it. The first few days it was pretty painful as I have extremely tense muscles and fibromyalgia. \nStarting day one, however, I could feel a noticeable difference after rolling on it for a bit. I use it every night. I've worked up my tolerance to using it and try to work my back/leg/hip muscles for 5 minutes. My muscles are significantly less tense after using it and my pain is less intense. \nDon't let the first few days turn you away! One of the best investments I've made for my chronic pain and tension.",
               "link_text": "amazon.com",
-              "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R31VCLG55CXBVT\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01DQBFOZK",
-              "img_href": "https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-foam-roller-deep-tissue",
+              "link_href": "https://www.amazon.com/gp/customer-reviews/R31VCLG55CXBVT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01DQBFOZK",
+              "img_href": "https://nordiclifting.com/collections/all/products/nordic-lifting-foam-roller-deep-tissue",
               "img_alt": "Spiky Foam Roller"
             }
           },
           "1508607433477": {
             "type": "comment_item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/knee-sleeves-7mm.jpg",
+              "image": "shopify://shop_images/knee-sleeves-7mm.jpg",
               "link": "",
               "item_title": "Knee Sleeves",
               "item_name": "Bryan Fuhs",
               "item_hobby": "",
               "text": "I have been using these knee sleeves for only a week now, and they are making a big difference in my barbell squats. Prior to using these knee sleeves, going to parallel was nearly impossible due to knee problems that I have from prior injury. \nWith the Nordic Lifting knee sleeves, I have been able to go to parallel and even slightly below during barbell squats, making the exercise more effective. They are very well made and fit comfortably. I am very happy with these knee sleeves and would highly recommend them.",
               "link_text": "amazon.com",
-              "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R17QD3WIJ4H7XB\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01MTB9192",
-              "img_href": "https:\/\/nordiclifting.com\/products\/knee-sleeves-7mm",
+              "link_href": "https://www.amazon.com/gp/customer-reviews/R17QD3WIJ4H7XB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01MTB9192",
+              "img_href": "https://nordiclifting.com/products/knee-sleeves-7mm",
               "img_alt": "Knee Sleeves"
             }
           }
@@ -933,7 +918,7 @@
         "settings": {
           "title": "Testimonials",
           "show_quotes": true,
-          "parllax_image": "shopify:\/\/shop_images\/testimonials-bg-p-l.jpg",
+          "parllax_image": "shopify://shop_images/testimonials-bg-p-l.jpg",
           "module_autoplay": true,
           "delay_time": "20000",
           "use_custom_color": false,
@@ -968,35 +953,35 @@
           "1479768269224-0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/amazon.png",
-              "link": "https:\/\/www.amazon.com\/stores\/NordicLifting\/page\/4595C767-61B7-45E3-9568-2AB74475A35F?ref_=ast_bln"
+              "image": "shopify://shop_images/amazon.png",
+              "link": "https://www.amazon.com/stores/NordicLifting/page/4595C767-61B7-45E3-9568-2AB74475A35F?ref_=ast_bln"
             }
           },
           "1479768269224-1": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/NordicQualityLogo_icon_f3e46eec-f68d-42bb-98d8-073c9c345f6e.png",
-              "link": "https:\/\/www.nordicquality.org\/"
+              "image": "shopify://shop_images/NordicQualityLogo_icon_f3e46eec-f68d-42bb-98d8-073c9c345f6e.png",
+              "link": "https://www.nordicquality.org/"
             }
           },
           "1479768269224-2": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/685_Nordic_Flash_logo_icon_d4c4f159-797a-4217-97c7-bea28ab3c33a.png",
-              "link": "https:\/\/nordicflash.com\/"
+              "image": "shopify://shop_images/685_Nordic_Flash_logo_icon_d4c4f159-797a-4217-97c7-bea28ab3c33a.png",
+              "link": "https://nordicflash.com/"
             }
           },
           "1479768269224-3": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/2409_Nordic_essentials_logo_01A_icon_e7e55d3c-1d2d-4e9a-86e4-37bdbf7328f0.png",
+              "image": "shopify://shop_images/2409_Nordic_essentials_logo_01A_icon_e7e55d3c-1d2d-4e9a-86e4-37bdbf7328f0.png",
               "link": ""
             }
           },
           "1479768269224-4": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/642_Nordic_Doggylogo_icon_cb568647-a94b-4500-8d38-f128b09d654a.png",
+              "image": "shopify://shop_images/642_Nordic_Doggylogo_icon_cb568647-a94b-4500-8d38-f128b09d654a.png",
               "link": ""
             }
           }
@@ -1045,7 +1030,7 @@
             "settings": {
               "collection": "weightlifting-accessories",
               "usecollectionimage": false,
-              "image": "shopify:\/\/shop_images\/6_Ankle_Wrist_Weights_grande_6969e3a9-8566-4ce1-94d5-501b750dbafc.jpg",
+              "image": "shopify://shop_images/6_Ankle_Wrist_Weights_grande_6969e3a9-8566-4ce1-94d5-501b750dbafc.jpg",
               "custom_name": "",
               "show_item_button": "yes",
               "use_custom_color": "no",
@@ -1057,7 +1042,7 @@
             "settings": {
               "collection": "compression-gear",
               "usecollectionimage": false,
-              "image": "shopify:\/\/shop_images\/5_Elbow_Sleeve_Black_new_grande_grande_5f732248-613b-4c2e-919f-d9108ff72538.jpg",
+              "image": "shopify://shop_images/5_Elbow_Sleeve_Black_new_grande_grande_5f732248-613b-4c2e-919f-d9108ff72538.jpg",
               "custom_name": "",
               "show_item_button": "yes",
               "use_custom_color": "no",
@@ -1069,7 +1054,7 @@
             "settings": {
               "collection": "straps-wraps",
               "usecollectionimage": false,
-              "image": "shopify:\/\/shop_images\/Heavy_Duty_Wrist_Wraps_-_8_grande_f8484a8f-4df4-459a-94bc-9c326b01a9a1.jpg",
+              "image": "shopify://shop_images/Heavy_Duty_Wrist_Wraps_-_8_grande_f8484a8f-4df4-459a-94bc-9c326b01a9a1.jpg",
               "custom_name": "",
               "show_item_button": "yes",
               "use_custom_color": "no",
@@ -1184,13 +1169,12 @@
           "button_title": "Shop now!",
           "hide_button": false,
           "use_custom_html": false,
-          "custom_html": "<div class=\"container\">\n\t<div class=\"row\">\n\t\t<!-- col-left -->\n\t\t<div class=\"col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-9 col-md-offset-0\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12 col-md-4\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-01.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">men’s<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t\t\t<div class=\"col-sm-12 col-md-8\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-02.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">women’s<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"divider\"><\/div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12 col-md-8\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-03.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">lingerie<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t\t\t<div class=\"col-sm-12 col-md-4\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-04.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">jackets<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t\t<!-- \/col-left -->\n\t\t<!-- col-right -->\n\t\t<div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-3 col-md-offset-0\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-05.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">aCCESSORIES<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t\t<div class=\"divider\"><\/div>\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-06.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">outerwear<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t<!-- \/col-right -->\n\t<\/div>\n\t<div class=\"divider\"><\/div>\n\t<div class=\"row\">\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-07.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">SWEATSHIRTS<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-08.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">t-shirts<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-09.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">Shoes<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+          "custom_html": "<div class=\"container\">\n\t<div class=\"row\">\n\t\t<!-- col-left -->\n\t\t<div class=\"col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-9 col-md-offset-0\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12 col-md-4\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-01.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">men’s</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"></div>\n\t\t\t\t<div class=\"col-sm-12 col-md-8\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-02.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">women’s</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"divider\"></div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12 col-md-8\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-03.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">lingerie</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"></div>\n\t\t\t\t<div class=\"col-sm-12 col-md-4\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-04.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">jackets</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<!-- /col-left -->\n\t\t<!-- col-right -->\n\t\t<div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-3 col-md-offset-0\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-05.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">aCCESSORIES</span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t\t<div class=\"divider\"></div>\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-06.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">outerwear</span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t</div>\n\t<!-- /col-right -->\n\t</div>\n\t<div class=\"divider\"></div>\n\t<div class=\"row\">\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-07.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">SWEATSHIRTS</span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"divider visible-sm visible-xs\"></div>\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-08.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">t-shirts</span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"divider visible-sm visible-xs\"></div>\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"//cdn.shopify.com/s/files/1/1236/4838/files/ollections-img-09.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">Shoes</span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</span>\n\t\t\t\t</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</div>"
         }
       },
       "show-helper": {
         "type": "show-helper",
-        "settings": {
-        }
+        "settings": {}
       },
       "16160030376d2165ea": {
         "type": "collection-list",
@@ -1263,80 +1247,80 @@
           "16160038318cf1c4dd-0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-2.jpg",
-              "link": "https:\/\/www.marketwatch.com\/press-release\/fuego-x9-heated-massage-gun-now-available-2021-02-26",
+              "image": "shopify://shop_images/Premium_outlets-2.jpg",
+              "link": "https://www.marketwatch.com/press-release/fuego-x9-heated-massage-gun-now-available-2021-02-26",
               "text1": ""
             }
           },
           "16160038318cf1c4dd-1": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-7.jpg",
-              "link": "https:\/\/www.wicz.com\/story\/43418968\/fuego-x9-heated-massage-gun-now-available",
+              "image": "shopify://shop_images/Premium_outlets-7.jpg",
+              "link": "https://www.wicz.com/story/43418968/fuego-x9-heated-massage-gun-now-available",
               "text1": ""
             }
           },
           "16160038318cf1c4dd-2": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-39.jpg",
-              "link": "https:\/\/digitaljournal.com\/pr\/4989104",
+              "image": "shopify://shop_images/Premium_outlets-39.jpg",
+              "link": "https://digitaljournal.com/pr/4989104",
               "text1": ""
             }
           },
           "16160038318cf1c4dd-3": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-40.jpg",
-              "link": "https:\/\/finance.azcentral.com\/azcentral\/news\/read\/41043574\/",
+              "image": "shopify://shop_images/Premium_outlets-40.jpg",
+              "link": "https://finance.azcentral.com/azcentral/news/read/41043574/",
               "text1": ""
             }
           },
           "16160038318cf1c4dd-4": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-43.jpg",
-              "link": "https:\/\/finance.dailyherald.com\/dailyherald\/news\/read\/41043574\/",
+              "image": "shopify://shop_images/Premium_outlets-43.jpg",
+              "link": "https://finance.dailyherald.com/dailyherald/news/read/41043574/",
               "text1": ""
             }
           },
           "16160038318cf1c4dd-5": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-92.jpg",
-              "link": "https:\/\/news.usandcanadareport.com\/story\/239962\/fuego-x9-heated-massage-gun-now-available.html",
+              "image": "shopify://shop_images/Premium_outlets-92.jpg",
+              "link": "https://news.usandcanadareport.com/story/239962/fuego-x9-heated-massage-gun-now-available.html",
               "text1": ""
             }
           },
           "a66732d9-aa24-40c7-a801-22f1e18ffb02": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-47.jpg",
-              "link": "https:\/\/business.pawtuckettimes.com\/pawtuckettimes\/markets\/news\/read\/41043574\/",
+              "image": "shopify://shop_images/Premium_outlets-47.jpg",
+              "link": "https://business.pawtuckettimes.com/pawtuckettimes/markets/news/read/41043574/",
               "text1": ""
             }
           },
           "9fe2df1e-af13-4e8d-a10c-497c45941da3": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-155.jpg",
-              "link": "http:\/\/markets.financialcontent.com\/startribune\/news\/read\/41043574\/",
+              "image": "shopify://shop_images/Premium_outlets-155.jpg",
+              "link": "http://markets.financialcontent.com/startribune/news/read/41043574/",
               "text1": ""
             }
           },
           "32bc4c4a-6f58-4943-aa33-328f2f774fd0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-28.jpg",
-              "link": "https:\/\/www.wrde.com\/story\/43418968\/fuego-x9-heated-massage-gun-now-available",
+              "image": "shopify://shop_images/Premium_outlets-28.jpg",
+              "link": "https://www.wrde.com/story/43418968/fuego-x9-heated-massage-gun-now-available",
               "text1": ""
             }
           },
           "a4240ead-c13d-43b1-9c7b-a231cd82c1f3": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Premium_outlets-175.jpg",
-              "link": "https:\/\/markets.financialcontent.com\/worldnow\/news\/read\/41043574\/",
+              "image": "shopify://shop_images/Premium_outlets-175.jpg",
+              "link": "https://markets.financialcontent.com/worldnow/news/read/41043574/",
               "text1": ""
             }
           }
@@ -1364,7 +1348,7 @@
       "1652945512fbc18201": {
         "type": "custom_html",
         "settings": {
-          "custom_html": "<style>\n #collections {\ntext-align: center;\nmargin-top: 1em;\n}\n<\/style>\n\n\n<div> <\/div>\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>",
+          "custom_html": "<style>\n #collections {\ntext-align: center;\nmargin-top: 1em;\n}\n</style>\n\n\n<div> </div>\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections </h2>",
           "custom_html_example": ""
         }
       },
@@ -1377,7 +1361,7 @@
             "settings": {
               "link": "",
               "text1": "Natural<br>Skin Care",
-              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis</p>"
             }
           },
           "1652945521bffe5572-1": {
@@ -1385,7 +1369,7 @@
             "settings": {
               "link": "",
               "text1": "Natural<br>Skin Care",
-              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis</p>"
             }
           },
           "1652945521bffe5572-2": {
@@ -1393,7 +1377,7 @@
             "settings": {
               "link": "",
               "text1": "Natural<br>Skin Care",
-              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis</p>"
             }
           },
           "1652945521bffe5572-3": {
@@ -1401,7 +1385,7 @@
             "settings": {
               "link": "",
               "text1": "Natural<br>Skin Care",
-              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis</p>"
             }
           }
         },
@@ -1419,7 +1403,7 @@
       "165389365353aaa713": {
         "type": "custom_html",
         "settings": {
-          "custom_html": "<style>\n#bestselling {\nfont-size: 2em;\n text-align: center;\n}\n.video-and-txt-container {\nmargin-top: 1.2em;\n width: 100%; \n position: relative;\noverflow: hidden;\n}\n\n\n.heading-container {\n width: 100%;\nheight: 100%;\n position: absolute;\ndisplay: flex;\nflex-direction: column; align-items: center\n}\n\n\n.heading-container h2 {\n text-align: center;\n font-size: 1em;\ncolor: #fff;\nmargin-top: 1em;\n}\n.product-short-description {\n display: none;\n}\n.view-product {\nfont-family:\nz-index: 500;\nfont-size: 1em;\ncolor: #fff;\n font-family: Oswald;\n margin-top: 6em;\n padding: 0.1em;\n text-decoration: none;\ncursor: pointer;\n}\n.view-product:hover {\ntransition: 0.5s all ease;\nbackground-color: white;\ncolor: black;\n}\n\n.video {\nheight: 100%;\nopacity: 1;\nwidth: 100vw;\n}\n\n.video:last-child {\n padding: 0;\nmargin: 0;\n}\n@media (min-width: 600px) {\n#bestselling,\n.bestselling-container,\n .heading-container,\n.view-product,\n.video  {\n display: none; \n}\n\n.video-and-txt-container {\npadding: 0;\ndisplay: flex;\nflex-direction: row;\nmargin: 1em;\n}\n\n\n.video-and-txt-container:nth-child(3),\n.video-and-txt-container:nth-child(5),\n.video-and-txt-container:nth-child(7) {\n flex-direction: row-reverse;\n\n}\n\n\n\n.heading-container {\n width: 100%;\nheight: 100%;\n position: relative;\ndisplay: flex;\nflex-direction: column; align-items: flex-start;\n}\n\n.heading-container:nth-child(1) {\n margin-left: 1.4em;\n}\n.heading-container h2\n {\n  font-size: 1.5em;\n}\n.product-short-description {\n\n display: inherit;\nfont-size: 0.7em;\n width: 350px;\n}\n.view-product {\nz-index: 1;\nfont-size: 0.8em;\n font-family: Oswald;\n text-decoration: none;\ncursor: pointer;\n  box-shadow: inset 0 0 0 0 #b2beb5;\n  margin: 0 -.25rem;\n  padding: 0 .25rem;\n  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;\n}\n.view-product:hover {\n\n  box-shadow: inset 100px 0 0 0 #b2beb5;\n  color: black;\n}\n}\n<\/style>\n<div class=\"bestselling-container\"> \n<h1 id=\"bestselling\">Bestselling Products<\/h1>\n<div class=\"video-and-txt-container\" data-aos=\"fade-right\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Powerlifting Shoes<\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-powerlifting-shoes-megin\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" style=\"background-color: white;\" playsinline autoplay=\"autoplay\" muted=\"\" controls=\"\" controlslist=\"nodownload\" preload=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Lifting_1.png?v=1651734622&width=110\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Nordic_Lifting_MEGIN_Powerlifting_Shoes.mp4?v=1652147862\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n<div class=\"video-and-txt-container\" data-aos=\"fade-left\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Knee Sleeves <\/h2>\n\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-knee-sleeves-7mm\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" preload=\"auto\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/videoplayback_1.mp4?v=1652245724\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n<div class=\"video-and-txt-container\" data-aos=\"fade-top\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting  Knee Compression Sleeves <\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-knee-compression-sleeves\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Nordic_Lifting_Knee_Compression_Sleeves_1.mp4?v=1652246911\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n\n<div class=\"video-and-txt-container\" data-aos=\"fade-up\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Ankle & Wrist Weights<\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-ankle-and-wrist-weights\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Y2Mate.is_-_Nordic_Lifting_Ankle_Wrist_Weights-sOlimoFnsrQ-720p-1652247555894.mp4?v=1652247675\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n\n<div class=\"video-and-txt-container\" data-aos=\"fade-down\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Elbow Sleeves<\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-elbow-sleeves-5mm\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Nordic_Lifting_Elbow_Sleeves_62ae8565-c273-43b4-a6cb-6a5d1142d46f.mp4?v=1652250169\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n<\/div>",
+          "custom_html": "<style>\n#bestselling {\nfont-size: 2em;\n text-align: center;\n}\n.video-and-txt-container {\nmargin-top: 1.2em;\n width: 100%; \n position: relative;\noverflow: hidden;\n}\n\n\n.heading-container {\n width: 100%;\nheight: 100%;\n position: absolute;\ndisplay: flex;\nflex-direction: column; align-items: center\n}\n\n\n.heading-container h2 {\n text-align: center;\n font-size: 1em;\ncolor: #fff;\nmargin-top: 1em;\n}\n.product-short-description {\n display: none;\n}\n.view-product {\nfont-family:\nz-index: 500;\nfont-size: 1em;\ncolor: #fff;\n font-family: Oswald;\n margin-top: 6em;\n padding: 0.1em;\n text-decoration: none;\ncursor: pointer;\n}\n.view-product:hover {\ntransition: 0.5s all ease;\nbackground-color: white;\ncolor: black;\n}\n\n.video {\nheight: 100%;\nopacity: 1;\nwidth: 100vw;\n}\n\n.video:last-child {\n padding: 0;\nmargin: 0;\n}\n@media (min-width: 600px) {\n#bestselling,\n.bestselling-container,\n .heading-container,\n.view-product,\n.video  {\n display: none; \n}\n\n.video-and-txt-container {\npadding: 0;\ndisplay: flex;\nflex-direction: row;\nmargin: 1em;\n}\n\n\n.video-and-txt-container:nth-child(3),\n.video-and-txt-container:nth-child(5),\n.video-and-txt-container:nth-child(7) {\n flex-direction: row-reverse;\n\n}\n\n\n\n.heading-container {\n width: 100%;\nheight: 100%;\n position: relative;\ndisplay: flex;\nflex-direction: column; align-items: flex-start;\n}\n\n.heading-container:nth-child(1) {\n margin-left: 1.4em;\n}\n.heading-container h2\n {\n  font-size: 1.5em;\n}\n.product-short-description {\n\n display: inherit;\nfont-size: 0.7em;\n width: 350px;\n}\n.view-product {\nz-index: 1;\nfont-size: 0.8em;\n font-family: Oswald;\n text-decoration: none;\ncursor: pointer;\n  box-shadow: inset 0 0 0 0 #b2beb5;\n  margin: 0 -.25rem;\n  padding: 0 .25rem;\n  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;\n}\n.view-product:hover {\n\n  box-shadow: inset 100px 0 0 0 #b2beb5;\n  color: black;\n}\n}\n</style>\n<div class=\"bestselling-container\"> \n<h1 id=\"bestselling\">Bestselling Products</h1>\n<div class=\"video-and-txt-container\" data-aos=\"fade-right\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Powerlifting Shoes</h2>\n<a class=\"view-product\" href=\"https://nordiclifting.com/collections/all/products/nordic-lifting-powerlifting-shoes-megin\"> View Product</a> \n</div>\n\n<video class=\"video\" style=\"background-color: white;\" playsinline autoplay=\"autoplay\" muted=\"\" controls=\"\" controlslist=\"nodownload\" preload=\"https://cdn.shopify.com/s/files/1/1822/7073/files/Lifting_1.png?v=1651734622&width=110\" loop>  <source src=\"https://cdn.shopify.com/s/files/1/1822/7073/files/Nordic_Lifting_MEGIN_Powerlifting_Shoes.mp4?v=1652147862\" type=\"video/mp4\"></source>\n</video>\n</div>\n<div class=\"video-and-txt-container\" data-aos=\"fade-left\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Knee Sleeves </h2>\n\n<a class=\"view-product\" href=\"https://nordiclifting.com/collections/all/products/nordic-lifting-knee-sleeves-7mm\"> View Product</a> \n</div>\n\n<video class=\"video\" preload=\"auto\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https://cdn.shopify.com/s/files/1/1822/7073/files/videoplayback_1.mp4?v=1652245724\" type=\"video/mp4\"></source>\n</video>\n</div>\n<div class=\"video-and-txt-container\" data-aos=\"fade-top\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting  Knee Compression Sleeves </h2>\n<a class=\"view-product\" href=\"https://nordiclifting.com/collections/all/products/nordic-lifting-knee-compression-sleeves\"> View Product</a> \n</div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https://cdn.shopify.com/s/files/1/1822/7073/files/Nordic_Lifting_Knee_Compression_Sleeves_1.mp4?v=1652246911\" type=\"video/mp4\"></source>\n</video>\n</div>\n\n<div class=\"video-and-txt-container\" data-aos=\"fade-up\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Ankle & Wrist Weights</h2>\n<a class=\"view-product\" href=\"https://nordiclifting.com/collections/all/products/nordic-lifting-ankle-and-wrist-weights\"> View Product</a> \n</div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https://cdn.shopify.com/s/files/1/1822/7073/files/Y2Mate.is_-_Nordic_Lifting_Ankle_Wrist_Weights-sOlimoFnsrQ-720p-1652247555894.mp4?v=1652247675\" type=\"video/mp4\"></source>\n</video>\n</div>\n\n<div class=\"video-and-txt-container\" data-aos=\"fade-down\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Elbow Sleeves</h2>\n<a class=\"view-product\" href=\"https://nordiclifting.com/collections/all/products/nordic-lifting-elbow-sleeves-5mm\"> View Product</a> \n</div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https://cdn.shopify.com/s/files/1/1822/7073/files/Nordic_Lifting_Elbow_Sleeves_62ae8565-c273-43b4-a6cb-6a5d1142d46f.mp4?v=1652250169\" type=\"video/mp4\"></source>\n</video>\n</div>\n</div>",
           "custom_html_example": ""
         }
       },
@@ -1428,7 +1412,7 @@
         "disabled": true,
         "settings": {
           "custom_html": "",
-          "custom_html_example": "<section class=\"content\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\tYour Content\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/section>"
+          "custom_html_example": "<section class=\"content\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\tYour Content\r\n\t\t</div>\r\n\t</div>\r\n</section>"
         }
       }
     },
@@ -1447,6 +1431,5 @@
       "1479766932162"
     ]
   },
-  "presets": {
-  }
+  "presets": {}
 }

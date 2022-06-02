@@ -13,7 +13,8 @@ robots.default_groups %}
 {{ group.sitemap }}
 {{ "Disallow: /pages/download" }}
 {{ "Disallow: /pages/bonus" }}
-{{ "Disallow: account/login" }}
+{{ "Disallow: /account/login" }}
 {{ "Disallow: /login" }}
+
 {%- endif -%} {%- if group.user_agent.value == 'Nutch' -%} {%- else -%} {%-
 endif -%} {% endfor %}
