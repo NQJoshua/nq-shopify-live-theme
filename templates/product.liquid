@@ -39,7 +39,7 @@
             <div class="delivery-banner__text">
               <h3>Free Shipping</h3>
               <h5>on all orders of $50 or more</h5>
-              <p>Automatically applied at checkout. All products are eligible. Ships from USA warehouse. <img class="lazyload" data-src="{{'usa-flag.png' | asset_url }}" /></p>
+              <p>Automatically applied at checkout. All products are eligible. Ships from USA warehouse. <img class="lazyload" data-src="{{'usa-flag.png' | asset_url }}" alt="USA Flag" /></p>
             </div>
           </div>
           <div class="delivery-banner col-lg-4" onclick="window.location.href = '#'">
@@ -74,7 +74,7 @@
       {% if settings.show_productpage_htmlblock %}
       <div class="custom-product-block col-xl-4 visible-xl">
         <div class="delivery-banner" onclick="window.location.href = '#'">
-            <div class="delivery-banner__icon"><span class="icon-local_shipping"></span></div>
+            <div class="delivery-banner__icon"><span class="icon-l//ocal_shipping"></span></div>
             <div class="delivery-banner__text">
               <h3>Free Shipping</h3>
               <h5>on all orders of $50 or more</h5>
@@ -136,13 +136,63 @@
       if(jQuery('.product-info .product-info__sku .sku').length) {
         if(jQuery('.product-info .product-info__sku .sku').text() == "") {
           var $ava = jQuery(".product-info .product-info__availability");
-          if($ava.hasClass('product-info__availability')){ $ava.removeClass('product-info__availability') }
+          i f($ava.hasClass('product-info__availability')){ $ava.removeClass('product-info__availability') }
           jQuery('.product-info .product-info__sku').remove();
         }
       }
 	</script>
   {% endif %}
 
+<!-- insert FAQs here -->
+
+{% if product.description contains '[faqs]'%}
+ {% assign faqContent = product.description | split: '[/faqs]' | first %}
+ {% assign faqContent = faqContent | split: '[faqs]' | last %}
+ {% style %}
+ 
+
+ .container.faqs h3 {
+  
+  font-size: 1.4em;
+ }
+
+ #faqs-section {
+   visibility: hidden;
+   
+ }
+ .content.faqs {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+.container.faqs {
+  border: 1px solid #e5e5e5; 
+  padding: 1.2em; 
+
+  margin-top: 2em;
+}
+
+@media(min-width: 1000px) {
+  .container.faqs h3 {
+    font-size: 2em;
+   }
+  h3 {
+    font-size: 2em;
+  }
+  .container.faqs {
+    width: 78.97%; 
+  }
+}
+ 
+ {% endstyle %}
+ <h3 id="faqs-section">Frequently Asked Questions</h3>
+ <section class="content faqs">
+  <div class="container faqs" >
+    <h3>Frequently Asked Questions</h3>
+      <div >{{ faqContent }}</div>  
+  </div>
+</section>
+{% endif %}
 
 {% if settings.product_tabs_work == "design3full" or settings.product_page_design == "design2" %}{% include "product-page-tabs2" %}{% endif %} 
 
@@ -355,6 +405,26 @@
   }]);
 </script>
   
+<script>
+  
+  let allTab = document.querySelector(`.nav-tabs li:not(:last-child)`);
+  let faqTab = document.querySelector(`.nav-tabs li:last-child`);  
+  function faqLink () {
+    let screenWidth = window.innerWidth;
+    
+    if(allTab.classList.contains('active')) {
+    allTab.classList.remove('active');    
+    faqTab.classList.add('active');
+    }
+
+    if(screenWidth >= 375 ) window.scrollTo(0, 4300);  
+    if(screenWidth >= 744) window.scrollTo(0, 4000);
+    if(screenWidth >= 1000) window.scrollTo(0, 2200);
+
+  }
+
+ </script>
+
   <style>
   	/* Style the Image Used to Trigger the Modal */
 #imageZoom{border-radius:5px;cursor:pointer;transition:.3s}#imageZoom:hover{opacity:.7}

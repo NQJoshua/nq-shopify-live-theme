@@ -359,7 +359,6 @@
     "filter_color8": "",
     "filter_color9": "",
     "filter_color10": "",
-    "mailchimp_form_action": "\/\/nordiclifting.us3.list-manage.com\/subscribe\/post?u=fb8b0f515c31c8ce80d93a28d&id=cf495dc8a1",
     "popup_newsletter_show": false,
     "popup_newsletter_description": "<p>Please, rate theme 5. Thanks<\/p>\r\n<p class=\"color font24 custom-font font-lighter\">\r\nYOURStore\r\n<\/p>",
     "popup_newsletter_delay_first": "2000",
@@ -858,8 +857,8 @@
               "text": "So glad I decided to invest in these. They provide a much sturdier platform than running shoes and are more comfortable than flat court shoes for lifting. I love the angle for squats or any leg pressing movements. \nI'm hooked. My lifting partner bought some 400 USD lifting shoes and these are just as good for way less.",
               "link_text": "amazon.com",
               "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R1JD0DQPWRC18P\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01M2AU1BN",
-              "img_href": "https:\/\/nordiclifting.com\/collections\/powerlifting-shoes\/products\/powerlifting-shoes-megin",
-              "img_alt": "MEGIN Powerlifting Shoes"
+              "img_href": "https:\/\/nordiclifting.com\/collections\/bestsellers\/products\/nordic-lifting-powerlifting-shoes-megin",
+              "img_alt": "Nordic Lifting MEGIN Powerlifting Shoes"
             }
           },
           "1479767951397-1": {
@@ -873,7 +872,7 @@
               "text": "Excellent quality- I can see why these have been rated so highly by others. I found that while many similar weights available on Amazon are comparably priced, these are of exceptional quality. \nThe construction and in particular the Velcro closures are really Heavy Duty, which suggests they will hold up well for repeated, heavy use. The product support offered by Nordic Lifting is also top notch, which makes these a very smart buy indeed!",
               "link_text": "amazon.com",
               "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R1VAGX025F2MKT\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00V1WGG36",
-              "img_href": "https:\/\/nordiclifting.com\/collections\/weightlifting-accessories\/products\/ankle-and-wrist-weights",
+              "img_href": "https:\/\/nordiclifting.com\/collections\/bestsellers\/products\/nordic-lifting-ankle-and-wrist-weights",
               "img_alt": "Ankle and Wrist Weights"
             }
           },
@@ -888,7 +887,7 @@
               "text": "I have had continuing issues with my elbow on and off for over 5 years now. As someone who suffers from rheumatoid arthritis, I am desperately in need of something that will help alleviate some of the issues I have with my joints. \nTo my joy, this sleeve has alleviated the issues with my elbow. I would do my curls and tricep extensions and feel issues with my elbow including clicking and general joint pain. Wearing the sleeve has prevented that for me entirely. \nI can honestly say this was a godsend for me. I'm sure other brands will work as well, but this is the one I'm using and I'm quite satisfied.",
               "link_text": "amazon.com",
               "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R1A1O619XKA60Z\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01EOR45CS",
-              "img_href": "https:\/\/nordiclifting.com\/products\/elbow-compression-sleeves",
+              "img_href": "https:\/\/nordiclifting.com\/collections\/bestsellers\/products\/nordic-lifting-elbow-compression-sleeves",
               "img_alt": "Elbow Compression Sleeves"
             }
           },
@@ -903,7 +902,7 @@
               "text": "It took me a little while to enjoy this foam roller, at least while doing it. The first few days it was pretty painful as I have extremely tense muscles and fibromyalgia. \nStarting day one, however, I could feel a noticeable difference after rolling on it for a bit. I use it every night. I've worked up my tolerance to using it and try to work my back\/leg\/hip muscles for 5 minutes. My muscles are significantly less tense after using it and my pain is less intense. \nDon't let the first few days turn you away! One of the best investments I've made for my chronic pain and tension.",
               "link_text": "amazon.com",
               "link_href": "https:\/\/www.amazon.com\/gp\/customer-reviews\/R31VCLG55CXBVT\/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B01DQBFOZK",
-              "img_href": "https:\/\/nordiclifting.com\/products\/foam-roller-deep-tissue",
+              "img_href": "https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-foam-roller-deep-tissue",
               "img_alt": "Spiky Foam Roller"
             }
           },
@@ -969,7 +968,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/amazon.png",
-              "link": "https:\/\/www.nordiclifting.com\/Amazon"
+              "link": "https:\/\/www.amazon.com\/stores\/NordicLifting\/page\/4595C767-61B7-45E3-9568-2AB74475A35F?ref_=ast_bln"
             }
           },
           "1479768269224-1": {
@@ -1075,12 +1074,25 @@
               "use_custom_color": "no",
               "color_title": "#ffffff"
             }
+          },
+          "e769efb6-5743-43fb-a341-6a1fc51055ff": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "usecollectionimage": false,
+              "custom_name": "",
+              "show_item_button": "yes",
+              "use_custom_color": "no",
+              "color_title": "#ffffff"
+            }
           }
         },
         "block_order": [
           "1479771757508-2",
           "1479771757508-0",
-          "1479771757508-1"
+          "1479771757508-1",
+          "e769efb6-5743-43fb-a341-6a1fc51055ff"
         ],
         "settings": {
           "items": "3",
@@ -1101,7 +1113,6 @@
             "settings": {
               "collection": "weightlifting-accessories",
               "usecollectionimage": true,
-              "image": "",
               "custom_name": "",
               "show_item_button": "yes",
               "use_custom_color": "no",
@@ -1113,7 +1124,6 @@
             "settings": {
               "collection": "compression-gear",
               "usecollectionimage": true,
-              "image": "",
               "custom_name": "",
               "show_item_button": "yes",
               "use_custom_color": "no",
@@ -1125,7 +1135,6 @@
             "settings": {
               "collection": "straps-wraps",
               "usecollectionimage": true,
-              "image": "",
               "custom_name": "",
               "show_item_button": "yes",
               "use_custom_color": "no",
@@ -1137,7 +1146,6 @@
             "settings": {
               "collection": "shoes",
               "usecollectionimage": true,
-              "image": "",
               "custom_name": "",
               "show_item_button": "yes",
               "use_custom_color": "no",
@@ -1171,7 +1179,7 @@
           "button_title": "Shop now!",
           "hide_button": false,
           "use_custom_html": false,
-          "custom_html": "<div class=\"container\">\n\t<div class=\"row\">\n\t\t<!-- col-left -->\n\t\t<div class=\"col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-9 col-md-offset-0\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12 col-md-4\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-01.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">men’s<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t\t\t<div class=\"col-sm-12 col-md-8\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-02.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">women’s<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"divider\"><\/div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-12 col-md-8\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-03.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">lingerie<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t\t\t<div class=\"col-sm-12 col-md-4\">\n\t\t\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-04.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">jackets<\/span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t\t<!-- \/col-left -->\n\t\t<!-- col-right -->\n\t\t<div class=\"col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-3 col-md-offset-0\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-05.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">aCCESSORIES<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t\t<div class=\"divider\"><\/div>\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-06.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">outerwear<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t<!-- \/col-right -->\n\t<\/div>\n\t<div class=\"divider\"><\/div>\n\t<div class=\"row\">\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-07.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">SWEATSHIRTS<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-08.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">t-shirts<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t\t<div class=\"divider visible-sm visible-xs\"><\/div>\n\t\t<div class=\"col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0 col-lg-4\">\n\t\t\t<a href=\"#\" class=\"banner zoom-in\">\n\t\t\t\t<span class=\"figure\">\n\t\t\t\t\t<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/ollections-img-09.jpg?17951191237238422449\" alt=\"\">\n\t\t\t\t\t<span class=\"figcaption\">\n\t\t\t\t\t\t<span class=\"block-table\">\n\t\t\t\t\t\t\t<span class=\"block-table-cell\">\n\t\t\t\t\t\t\t\t<span class=\"banner__title size40\">Shoes<\/span>\n\t\t\t\t\t\t\t\t<span class=\"btn btn--ys btn--xl\">Shop now!<\/span>\n\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/span>\n\t\t\t\t\t<\/span>\n\t\t\t\t<\/span>\n\t\t\t<\/a>\n\t\t<\/div>\n\t<\/div>\n<\/div>"
+          "custom_html": ""
         }
       },
       "show-helper": {
@@ -1236,7 +1244,7 @@
         "settings": {
           "items": "4",
           "step": "1",
-          "show_button": false,
+          "show_button": true,
           "button_title": "Shop now!",
           "hide_button": true,
           "base_color_title": "#ffffff",
@@ -1259,7 +1267,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Premium_outlets-7.jpg",
-              "link": "http:\/\/www.wicz.com\/story\/43418968\/fuego-x9-heated-massage-gun-now-available",
+              "link": "https:\/\/www.wicz.com\/story\/43418968\/fuego-x9-heated-massage-gun-now-available",
               "text1": ""
             }
           },
@@ -1267,7 +1275,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Premium_outlets-39.jpg",
-              "link": "http:\/\/digitaljournal.com\/pr\/4989104",
+              "link": "https:\/\/digitaljournal.com\/pr\/4989104",
               "text1": ""
             }
           },
@@ -1275,7 +1283,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Premium_outlets-40.jpg",
-              "link": "http:\/\/finance.azcentral.com\/azcentral\/news\/read\/41043574\/",
+              "link": "https:\/\/finance.azcentral.com\/azcentral\/news\/read\/41043574\/",
               "text1": ""
             }
           },
@@ -1283,7 +1291,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Premium_outlets-43.jpg",
-              "link": "http:\/\/finance.dailyherald.com\/dailyherald\/news\/read\/41043574\/",
+              "link": "https:\/\/finance.dailyherald.com\/dailyherald\/news\/read\/41043574\/",
               "text1": ""
             }
           },
@@ -1291,7 +1299,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Premium_outlets-92.jpg",
-              "link": "http:\/\/news.usandcanadareport.com\/story\/239962\/fuego-x9-heated-massage-gun-now-available.html",
+              "link": "https:\/\/news.usandcanadareport.com\/story\/239962\/fuego-x9-heated-massage-gun-now-available.html",
               "text1": ""
             }
           },
@@ -1299,7 +1307,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Premium_outlets-47.jpg",
-              "link": "http:\/\/business.pawtuckettimes.com\/pawtuckettimes\/markets\/news\/read\/41043574\/",
+              "link": "https:\/\/business.pawtuckettimes.com\/pawtuckettimes\/markets\/news\/read\/41043574\/",
               "text1": ""
             }
           },
@@ -1323,7 +1331,7 @@
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Premium_outlets-175.jpg",
-              "link": "http:\/\/markets.financialcontent.com\/worldnow\/news\/read\/41043574\/",
+              "link": "https:\/\/markets.financialcontent.com\/worldnow\/news\/read\/41043574\/",
               "text1": ""
             }
           }
@@ -1347,15 +1355,89 @@
           "base_color": "#1fc0a0",
           "active_color": "#333333"
         }
+      },
+      "1652945512fbc18201": {
+        "type": "custom_html",
+        "settings": {
+          "custom_html": "<style>\n #collections {\ntext-align: center;\nmargin-top: 1em;\n}\n<\/style>\n\n\n<div> <\/div>\n<h2 id=\"collections\" class=\"text-uppercase\"> Collections <\/h2>",
+          "custom_html_example": ""
+        }
+      },
+      "1652945521bffe5572": {
+        "type": "banners-info",
+        "disabled": true,
+        "blocks": {
+          "1652945521bffe5572-0": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          },
+          "1652945521bffe5572-1": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          },
+          "1652945521bffe5572-2": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          },
+          "1652945521bffe5572-3": {
+            "type": "item",
+            "settings": {
+              "link": "",
+              "text1": "Natural<br>Skin Care",
+              "text2": "<p>Donec eros tellus, scelerisque nec, rhoncus eget, laoreet sit amet, nunc. Ut sit amet turpis. In est arcu, sollicitudin eu, vehicula venenatis<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1652945521bffe5572-0",
+          "1652945521bffe5572-1",
+          "1652945521bffe5572-2",
+          "1652945521bffe5572-3"
+        ],
+        "settings": {
+          "show_border": true,
+          "button_name": "Shop Now!"
+        }
+      },
+      "165389365353aaa713": {
+        "type": "custom_html",
+        "settings": {
+          "custom_html": "<style>\n#bestselling {\nfont-size: 2em;\n text-align: center;\n}\n.video-and-txt-container {\nmargin-top: 1.2em;\n width: 100%; \n position: relative;\noverflow: hidden;\n}\n\n\n.heading-container {\n width: 100%;\nheight: 100%;\n position: absolute;\ndisplay: flex;\nflex-direction: column; align-items: center\n}\n\n\n.heading-container h2 {\n text-align: center;\n font-size: 1em;\ncolor: #fff;\nmargin-top: 1em;\n}\n.product-short-description {\n display: none;\n}\n.view-product {\nfont-family:\nz-index: 500;\nfont-size: 1em;\ncolor: #fff;\n font-family: Oswald;\n margin-top: 6em;\n padding: 0.1em;\n text-decoration: none;\ncursor: pointer;\n}\n.view-product:hover {\ntransition: 0.5s all ease;\nbackground-color: white;\ncolor: black;\n}\n\n.video {\nheight: 100%;\nopacity: 1;\nwidth: 100vw;\n}\n\n.video:last-child {\n padding: 0;\nmargin: 0;\n}\n@media (min-width: 600px) {\n#bestselling,\n.bestselling-container,\n .heading-container,\n.view-product,\n.video  {\n display: none; \n}\n\n.video-and-txt-container {\npadding: 0;\ndisplay: flex;\nflex-direction: row;\nmargin: 1em;\n}\n\n\n.video-and-txt-container:nth-child(3),\n.video-and-txt-container:nth-child(5),\n.video-and-txt-container:nth-child(7) {\n flex-direction: row-reverse;\n\n}\n\n\n\n.heading-container {\n width: 100%;\nheight: 100%;\n position: relative;\ndisplay: flex;\nflex-direction: column; align-items: flex-start;\n}\n\n.heading-container:nth-child(1) {\n margin-left: 1.4em;\n}\n.heading-container h2\n {\n  font-size: 1.5em;\n}\n.product-short-description {\n\n display: inherit;\nfont-size: 0.7em;\n width: 350px;\n}\n.view-product {\nz-index: 1;\nfont-size: 0.8em;\n font-family: Oswald;\n text-decoration: none;\ncursor: pointer;\n  box-shadow: inset 0 0 0 0 #b2beb5;\n  margin: 0 -.25rem;\n  padding: 0 .25rem;\n  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;\n}\n.view-product:hover {\n\n  box-shadow: inset 100px 0 0 0 #b2beb5;\n  color: black;\n}\n}\n<\/style>\n<div class=\"bestselling-container\"> \n<h1 id=\"bestselling\">Bestselling Products<\/h1>\n<div class=\"video-and-txt-container\" data-aos=\"fade-right\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Powerlifting Shoes<\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-powerlifting-shoes-megin\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" style=\"background-color: white;\" playsinline autoplay=\"autoplay\" muted=\"\" controls=\"\" controlslist=\"nodownload\" preload=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Lifting_1.png?v=1651734622&width=110\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Nordic_Lifting_MEGIN_Powerlifting_Shoes.mp4?v=1652147862\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n<div class=\"video-and-txt-container\" data-aos=\"fade-left\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Knee Sleeves <\/h2>\n\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-knee-sleeves-7mm\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" preload=\"auto\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/videoplayback_1.mp4?v=1652245724\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n<div class=\"video-and-txt-container\" data-aos=\"fade-top\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting  Knee Compression Sleeves <\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-knee-compression-sleeves\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Nordic_Lifting_Knee_Compression_Sleeves_1.mp4?v=1652246911\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n\n<div class=\"video-and-txt-container\" data-aos=\"fade-up\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Ankle & Wrist Weights<\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-ankle-and-wrist-weights\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Y2Mate.is_-_Nordic_Lifting_Ankle_Wrist_Weights-sOlimoFnsrQ-720p-1652247555894.mp4?v=1652247675\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n\n<div class=\"video-and-txt-container\" data-aos=\"fade-down\" data-aos-delay=\"100\" data-aos-easing=\"ease-in-out\">\n<div class=\"heading-container\">\n<h2>Nordic Lifting Elbow Sleeves<\/h2>\n<a class=\"view-product\" href=\"https:\/\/nordiclifting.com\/collections\/all\/products\/nordic-lifting-elbow-sleeves-5mm\"> View Product<\/a> \n<\/div>\n\n<video class=\"video\" autoplay=\"autoplay\" muted=\"\" controls=\"\" playsinline=\"\" controlslist=\"nodownload\" loop>  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1822\/7073\/files\/Nordic_Lifting_Elbow_Sleeves_62ae8565-c273-43b4-a6cb-6a5d1142d46f.mp4?v=1652250169\" type=\"video\/mp4\"><\/source>\n<\/video>\n<\/div>\n<\/div>",
+          "custom_html_example": ""
+        }
+      },
+      "1653968054959c45e7": {
+        "type": "custom_html",
+        "disabled": true,
+        "settings": {
+          "custom_html": "",
+          "custom_html_example": "<section class=\"content\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\tYour Content\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/section>"
+        }
       }
     },
     "content_for_index": [
+      "1653968054959c45e7",
+      "1479770924814",
+      "1652945512fbc18201",
       "1479771757508",
       "16160030376d2165ea",
-      "1479770924814",
+      "165389365353aaa713",
       "16160038318cf1c4dd",
       "1479767951397",
       "1479768233251",
+      "1652945521bffe5572",
       "1479768269224",
       "1479766932162"
     ]

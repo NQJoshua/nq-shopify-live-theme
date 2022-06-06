@@ -59,9 +59,11 @@
 {% else %}
   <div class="clearfix"></div>
   <ul id="mobileGallery"  data-slick='{"adaptiveHeight": true}'>
-    {% for image in product.images %}<li><img class="lazyload" data-src="{{ image.src | product_img_url: '1024x1024' }}" alt="" /></li>{% endfor %}
+    {% for image in product.images %}
+    <li><img class="lazyload" data-src="{{ image.src | product_img_url: '1024x1024' }}" alt="{{ image.alt }}"/></li>
+    {% endfor %}
   </ul>
-{% endif %}
+{% endif %} 
 
 {% if product.description contains "[video]" %}
 <a href="{% include "get-content-with-key" content: product.content key: "[video]" %}" class="video-link"><span class="icon icon-videocam"></span>Video</a>

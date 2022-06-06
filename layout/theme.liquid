@@ -3,10 +3,29 @@
 <!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
 <!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+
+{% unless customer %}
+ {% assign send_to_login = true %}
+{% endunless %}
+
+{% unless customer.orders_count %}
+{% assign send_to_login_again = true %}
+
+{% endunless %}
+{% if send_to_login and {request.path == "/pages/download" or request.path == "/pages/bonus"} %}
+<!-- Need to login -->
+<meta content="0; url=/account/login?checkout_url={{ request.path }}" http-equiv="refresh" />
+
+{% else %}
 <head>
 
   <!-- Organization Schema and Website Schema-->
 
+
+  {% if handle contains 'page-handle-you-want-to-exclude' %}
+<meta name="robots" content="noindex">
+{% endif %}
 <script defer type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -157,35 +176,6 @@
 <!-- <meta name="google-site-verification" content="ljCY-8NPr3w2oRlVdrq0-7IC-X60s0IRe_gVd5LOIU8" /> -->
 
 
-  {% comment %}
-  
-
-  
- {% if product.url %}
-   <meta property="og:title" content="{{product.title}}" />
-    <meta property="og:description" content="{{product.description}}" />
-    <meta property="og:image" content="https:{{product.image | image_url: width: 600}}" />
-    <meta property="og:url" content="{{product.url}}" />
-  {% endif%}
-
-  
-    {% if product.url %}
-          <meta property="og:image" content={{product.featured.image | image_url: width: 600}} />
-    {% endif %}
-    {% if collection.url %}
-    <meta property="og:image" content={{collection.image | image_url: width: 600}} />
-    {% endif %}
-
-
-    {% endcomment %}
-<!--     	
-    	{% if page.handle == "our-company" %}
-      			<meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Our_Company_32d6c0b5-2049-409d-bd22-31561f4a3cef.jpeg?v=1503682400" | image.url: width: 1200 height: 600}} />
-            {% elsif page.handle == "wholesale" %}
-  
-  <meta property="og:image" content={{"https://cdn.shopify.com/s/files/1/1822/7073/files/Wholesale.jpeg?v=1503368444" | image.url: width: 1200 height: 600}} />
-   			{% endif %}    
-   -->
  
 	
 
@@ -205,7 +195,10 @@
     
   <title>{{ page_title }}{% if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif %}{% if current_page != 1 %} &ndash; Page {{ current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}</title>
   {% if page_description %}<meta name="description" content="{{ page_description | escape }}" />{% endif %}
+  
+
   <link rel="canonical" href="{{ canonical_url }}" />
+
     
   {% if settings.use_favicon %}<link rel="shortcut icon" href="{{ 'favicon.png' | asset_url }}" type="image/x-icon" />{% endif %}
   
@@ -269,7 +262,6 @@
   {% endif %}
   {% capture headerlogo %}{% if settings.transparent_header and template == "index" %}{{ "logotransparent.png" | asset_url }}{% else %}{{ "logo.png" | asset_url }}{% endif %}{% endcapture %}
   
-  {% include 'preloader-main' %}
   
   <div id="fb-root"></div>
   
@@ -365,24 +357,27 @@
   {% if settings.show_helper and template == "index" %}{{ 'admin-panel.js' | asset_url | script_tag }}{% endif %}
   
 <script type="text/javascript" defer>
-var _learnq=_learnq||[];_learnq.push(["account","JyeuQE"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==document.location.protocol?"https://":"http://")+"a.klaviyo.com/media/js/analytics/analytics.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();
+var _learnq=_learnq||[];_learnq.push(["account","JyeuQE"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==document.location.protocol?"https://":"https://")+"a.klaviyo.com/media/js/analytics/analytics.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();
 </script>
   
 {% if settings.show_pbanners == false %}
   {% include 'promo-banner-js' %}
 {% endif %}
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.0/jquery.lazyloadxt.min.js"></script>
+
+
 <script>
   {% if page.handle == 'sponsored-athlete-program' or page.handle == "sponsored-athlete-program-prequal" or page.handle == "warranty-vip" %}
   	$('i').removeClass('lp-icon-react__icon');
   {% endif %}
   
   //lazyload();
+
+
 </script>  
 <!-- BEEKETINGSCRIPT CODE START -->{% include 'bk-tracking' %}<!-- BEEKETINGSCRIPT CODE END -->
 {% comment %}{% include 'swymSnippet' %}{% endcomment %}
 
-{% include 'daily-deals' %}
 
 {% if template contains 'product' %}
   <!--<script>    
@@ -396,9 +391,12 @@ var _learnq=_learnq||[];_learnq.push(["account","JyeuQE"]),function(){var t=docu
 {% if template == 'index' %}
   {% include 'instagram-feed-js' %}
 {% endif %}
- {% include 'smile-initializer' %}
-  
-
+<script
+charset="utf-8"
+type="text/javascript"
+src="https://js.mailercloud.com/form/form.js"
+></script>
 
 </body>
+{% endif %}
 </html>

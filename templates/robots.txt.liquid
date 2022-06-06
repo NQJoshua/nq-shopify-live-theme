@@ -1,19 +1,19 @@
-# we use Shopify as our ecommerce platform
-{%- comment -%}
-# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
-{% endcomment %}
-{% for group in robots.default_groups %}
-  {{- group.user_agent -}}
+# we use Shopify as our ecommerce platform {%- comment -%} # Caution! Please
+read
+https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt
+before proceeding to make changes to this file. {% endcomment %} {% for group in
+robots.default_groups %}
+{{- group.user_agent -}}
 
-  {% for rule in group.rules %}
-    {{- rule -}}
-  {% endfor %}
+{% for rule in group.rules %}
+{{- rule -}}
+{% endfor %} {%- if group.user_agent.value == '*' -%} {%- else -%} {%- endif -%}
+{%- if group.sitemap != blank -%}
 
-   {%- if group.user_agent.value == '*' -%}
-   {{'Disallow: /login'}}
-   {%- endif -%}
+{{ group.sitemap }}
+{{ "Disallow: /pages/download" }}
+{{ "Disallow: /pages/bonus" }}
+{{ "Disallow: /account/login" }}
 
-  {%- if group.sitemap != blank -%}
-    {{ group.sitemap }}
-  {%- endif -%}
-{% endfor %}
+{{ "Disallow: /products/product.handle" }} {%- endif -%} {%- if
+group.user_agent.value == 'Nutch' -%} {%- else -%} {%- endif -%} {% endfor %}

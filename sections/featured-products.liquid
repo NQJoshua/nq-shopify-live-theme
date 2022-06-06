@@ -1,5 +1,16 @@
 <!-- featured products -->
-<section class="content" data-section-id="{{ section.id }}" data-section-type="featuredproducts-section">
+
+<style>
+
+  @media(max-width: 450px) {
+  .featured-products {
+    
+    display: none;
+  }
+  }
+
+</style>
+<section class="content featured-products" data-section-id="{{ section.id }}" data-section-type="featuredproducts-section">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 {% if section.settings.show_lookbook %}col-xl-8{% else %}col-xl-12{% endif %}">

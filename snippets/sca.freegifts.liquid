@@ -1,11 +1,8 @@
-{% comment %}
-Smart e-commerce App (SEA Inc)
-http://www.secomapp.com
------------------------------
-This snippet provides the default templates for Freegifts app showing Gift Slider on Cart page/popup.
-It also have the script codes need for the app running, please do not reuse or edit those codes if doesn't
-have permission of us.
-{% endcomment %}
+{% comment %} Smart e-commerce App (SEA Inc) https://www.secomapp.com
+----------------------------- This snippet provides the default templates for
+Freegifts app showing Gift Slider on Cart page/popup. It also have the script
+codes need for the app running, please do not reuse or edit those codes if
+doesn't have permission of us. {% endcomment %}
 
 <script id="sca_fg_cart_ShowGiftAsProductTemplate" type="text/template">
   {%raw%}
@@ -33,7 +30,7 @@ have permission of us.
   </div>
   {%endraw%}
 </script>
-<script id = "sca_fg_cart_ShowGiftAsProductScriptTemplate" type="text/template">
+<script id="sca_fg_cart_ShowGiftAsProductScriptTemplate" type="text/template">
   {%raw%}
   var selectCallback_{{productID}}=function(_,t){if(_){if(_.available){$("#sca-btn-{{productID}}").removeClass("disabled").removeAttr("disabled").html("<span>{{AddToCartButton}}</span>").fadeTo(200,1);$("#sca-btn-{{productID}}").unbind("click");$("#sca-btn-{{productID}}").click(SECOMAPP.jQuery.proxy(function(){SECOMAPP.addGiftToCart(_.id,1)},_))}else{$("#sca-btn-{{productID}}").html("<span>{{UnavailableButton}}</span>").addClass("disabled").attr("disabled","disabled").fadeTo(200,.5)}if(_.compare_at_price>_.price){$("#price-field-{{productID}}").html("<span class='sca-old-price'>"+SECOMAPP.formatMoney(_.compare_at_price)+"</span>"+"&nbsp;<s class='sca-special-price'>"+SECOMAPP.formatMoney(_.price)+"</s>")}else{$("#price-field-{{productID}}").html("<span class='sca-special-price'>"+SECOMAPP.formatMoney(_.price)+"</span>")}}else{$("#sca-btn-{{productID}}").html("<span>{{UnavailableButton}}</span>").addClass("disabled").attr("disabled","disabled").fadeTo(200,.5)}if(_&&_.featured_image){var a=$("#sca-freegift-{{productID}} img");var o=_.featured_image;var n=a[0];Shopify.Image.switchImage(o,n,function(_,t,a){$(a).parents("a").attr("href",_);$(a).attr("src",_)})}};var onclickSelect_{{productID}}=function(){SECOMAPP.jQuery.getJSON("/products/{{productHandle}}.js",function(_){if(_.options.length==1){$("<label><strong>"+_.options[0].name+"</strong></label>").insertBefore("#product-select-{{productID}}")}var t=[];SECOMAPP.jQuery.each(_.options,function(_,a){t[_]=a.name});_.options=t;var a={{variantsGiftList}};var o={{mainVariantsList}};for(var n=_.variants.length-1;n>-1;n--){if(a.indexOf(_.variants[n].id)<0&&o.indexOf(_.variants[n].id)<0){_.variants.splice(n,1)}}for(var e=o.length-1;e>-1;e--){var i=a[e];var c=o[e];var s=0;var r=0;for(var n=_.variants.length-1;n>-1;n--){if(_.variants[n].id==i){s=n}else if(_.variants[n].id==c){r=n}}_.variants[s].inventory_management=_.variants[r].inventory_management;_.variants[s].inventory_policy=_.variants[r].inventory_policy;_.variants[s].inventory_quantity=_.variants[r].inventory_quantity;_.variants[s].available=_.variants[r].available;_.variants[s].option1=_.variants[r].option1;_.variants[s].options[0].name=_.variants[r].options[0].name;if(_.variants[s].options[1]){_.variants[s].options[1].name=_.variants[r].options[1].name;_.variants[s].option2=_.variants[r].option2}if(_.variants[s].options[2]){_.variants[s].options[2].name=_.variants[r].options[2].name;_.variants[s].option3=_.variants[r].option3}_.variants[s].title=_.variants[r].title;_.variants[s].name=_.variants[r].name;_.variants[s].public_title=_.variants[r].public_title;_.variants.splice(r,1)}$("#sca-btn-select-{{productID}}").hide();$("#product-select-{{productID}}").show();$("#sca-btn-{{productID}}").show();$("#stay-content-sca-freegift-{{productID}} .close_box").show();$("#stay-content-sca-freegift-{{productID}} .close_box").click(function(){$("#stay-content-sca-freegift-{{productID}}").hide();$("#sca-btn-{{productID}}").hide();$("#sca-btn-select-{{productID}}").show()});new Shopify.OptionSelectors("product-select-{{productID}}",{product:_,onVariantSelected:selectCallback_{{productID}},enableHistoryState:true});if(_.variants.length==1&&_.variants[0].title.indexOf("Default")!==-1){jQuery("#sca-freegift-{{productID}} .selector-wrapper").hide()}else{$("#stay-content-sca-freegift-{{productID}}").show();$("#stay-content-sca-freegift-{{productID}}").focus()}onclickSelect_{{productID}}=function(){$("#stay-content-sca-freegift-{{productID}}").show();$("#sca-btn-{{productID}}").show();$("#sca-btn-select-{{productID}}").hide()}})};
   {%endraw%}
@@ -106,15 +103,12 @@ have permission of us.
   {%endraw%}
 </script>
 
-{% comment %}
-========================================
-||  DO NOT EDIT THE CODES BELLOW !!!  ||
-========================================
-{% endcomment %}
+{% comment %} ======================================== || DO NOT EDIT THE CODES
+BELLOW !!! || ======================================== {% endcomment %}
 
-{{ 'sca.freegift.css' | asset_url | stylesheet_tag }}
-{{ 'option_selection.js' | shopify_asset_url | script_tag }}
+{{ "sca.freegift.css" | asset_url | stylesheet_tag }}
+{{ "option_selection.js" | shopify_asset_url | script_tag }}
 <script>
-    Shopify.money_format = {{ shop.money_format | json }};
+  Shopify.money_format = {{ shop.money_format | json }};
 </script>
 {% include 'sca.freegifts.status'%}

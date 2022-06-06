@@ -4,8 +4,8 @@
     "theme_name": "Yourstore",
     "theme_author": "Etheme",
     "theme_version": "2.0.0",
-    "theme_documentation_url": "http:\/\/ocean.tonytemplates.com\/shopify\/yourstore-doc-v2\/",
-    "theme_support_url": "http:\/\/etheme.tonytemplates.com\/forum\/viewforum.php?f=59"
+    "theme_documentation_url": "http://ocean.tonytemplates.com/shopify/yourstore-doc-v2/",
+    "theme_support_url": "http://etheme.tonytemplates.com/forum/viewforum.php?f=59"
   },
   {
     "name": "Layout",
@@ -994,7 +994,7 @@
           },
           {
             "value": "google_font",
-            "label": "[Google Font](http:\/\/www.google.com\/fonts)"
+            "label": "[Google Font](http://www.google.com/fonts)"
           }
         ],
         "default": "default_font"
@@ -1019,7 +1019,7 @@
           },
           {
             "value": "google_font",
-            "label": "[Google Font](http:\/\/www.google.com\/fonts)"
+            "label": "[Google Font](http://www.google.com/fonts)"
           }
         ],
         "default": "default_font"
@@ -1151,7 +1151,7 @@
           }
         ],
         "default": "header_design_nordic",
-        "info": "[View image with header designs](https:\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/headers.png?9864885890855400604)"
+        "info": "[View image with header designs](https://cdn.shopify.com/s/files/1/1236/4838/files/headers.png?9864885890855400604)"
       },
       {
         "type": "checkbox",
@@ -1314,7 +1314,7 @@
           }
         ],
         "default": "footer_design1",
-        "info": "[View image with header designs](https:\/\/cdn.shopify.com\/s\/files\/1\/1236\/4838\/files\/footers.png?9864885890855400604)"
+        "info": "[View image with header designs](https://cdn.shopify.com/s/files/1/1236/4838/files/footers.png?9864885890855400604)"
       },
       {
         "type": "header",
@@ -1409,7 +1409,7 @@
         "type": "textarea",
         "id": "footer_soc_but",
         "label": "Html Code",
-        "default": "<li><a class='icon fa fa-facebook' href='http:\/\/www.facebook.com\/'><\/a><\/li><li><a class='icon fa fa-twitter' href='http:\/\/www.twitter.com\/'><\/a><\/li><li><a class='icon fa fa-google-plus' href='http:\/\/www.google.com\/'><\/a><\/li><li><a class='icon fa fa-instagram' href='https:\/\/instagram.com\/'><\/a><\/li><li><a class='icon fa fa-youtube-square' href='https:\/\/www.youtube.com\/'><\/a><\/li>"
+        "default": "<li><a class='icon fa fa-facebook' href='http://www.facebook.com/'></a></li><li><a class='icon fa fa-twitter' href='http://www.twitter.com/'></a></li><li><a class='icon fa fa-google-plus' href='http://www.google.com/'></a></li><li><a class='icon fa fa-instagram' href='https://instagram.com/'></a></li><li><a class='icon fa fa-youtube-square' href='https://www.youtube.com/'></a></li>"
       },
       {
         "type": "header",
@@ -1646,7 +1646,7 @@
       },
       {
         "type": "paragraph",
-        "content": "Item HOT. Separate menu item with icon HOT. Text HOT you find in: EDIT LANGUAGE \/ GENERAL \/ MENU ICONS"
+        "content": "Item HOT. Separate menu item with icon HOT. Text HOT you find in: EDIT LANGUAGE / GENERAL / MENU ICONS"
       },
       {
         "type": "textarea",
@@ -1656,7 +1656,7 @@
       },
       {
         "type": "paragraph",
-        "content": "Item NEW. Separate menu item with icon NEW. Text NEW you find in: EDIT LANGUAGE \/ GENERAL \/ MENU ICONS"
+        "content": "Item NEW. Separate menu item with icon NEW. Text NEW you find in: EDIT LANGUAGE / GENERAL / MENU ICONS"
       },
       {
         "type": "textarea",
@@ -2157,7 +2157,7 @@
         "type": "checkbox",
         "id": "enable_payment_button",
         "label": "Show dynamic checkout button",
-        "info": "Lets customers check out directly using a familiar payment method. [Learn more](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
+        "info": "Lets customers check out directly using a familiar payment method. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
         "default": false
       },
       {
@@ -2653,7 +2653,7 @@
         "type": "textarea",
         "id": "blog_sidebar_customhtml2_content",
         "label": "Content",
-        "default": "<ul class=\"categories-list\"><li><a href=\"#\">Entries RSS<\/a><\/li><li><a href=\"#\">WordPress.org<\/a><\/li><li><a href=\"#\">Magento<\/a><\/li><li><a href=\"#\">Shopify<\/a><\/li><\/ul>"
+        "default": "<ul class=\"categories-list\"><li><a href=\"#\">Entries RSS</a></li><li><a href=\"#\">WordPress.org</a></li><li><a href=\"#\">Magento</a></li><li><a href=\"#\">Shopify</a></li></ul>"
       }
     ]
   },
@@ -2766,7 +2766,7 @@
       },
       {
         "type": "paragraph",
-        "content": "[Filter values correspond to the value \"Tags\" in the product.](https:\/\/docs.shopify.com\/manual\/your-store\/products\/edit-tags)"
+        "content": "[Filter values correspond to the value \"Tags\" in the product.](https://docs.shopify.com/manual/your-store/products/edit-tags)"
       },
       {
         "type": "checkbox",
@@ -2787,7 +2787,7 @@
       },
       {
         "type": "paragraph",
-        "content": "[Filter values correspond to the value \"Tags\" in the product.](https:\/\/docs.shopify.com\/manual\/your-store\/products\/edit-tags)"
+        "content": "[Filter values correspond to the value \"Tags\" in the product.](https://docs.shopify.com/manual/your-store/products/edit-tags)"
       },
       {
         "type": "paragraph",
@@ -2799,7 +2799,7 @@
       },
       {
         "type": "paragraph",
-        "content": "new Colors add in Edit Theme \/ css-liquid.css.liquid \/ [Colors](http:\/\/www.w3schools.com\/colors\/colors_names.asp)"
+        "content": "new Colors add in Edit Theme / css-liquid.css.liquid / [Colors](http://www.w3schools.com/colors/colors_names.asp)"
       },
       {
         "type": "checkbox",
@@ -2862,7 +2862,7 @@
       },
       {
         "type": "paragraph",
-        "content": "[Filter values correspond to the value \"Vendor\" in the product.](https:\/\/docs.shopify.com\/manual\/your-store\/products\/edit-tags)"
+        "content": "[Filter values correspond to the value \"Vendor\" in the product.](https://docs.shopify.com/manual/your-store/products/edit-tags)"
       },
       {
         "type": "checkbox",
@@ -3039,21 +3039,7 @@
       }
     ]
   },
-  {
-    "name": "Newsletter",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Newsletter Widget"
-      },
-      {
-        "type": "text",
-        "id": "mailchimp_form_action",
-        "label": "MailChimp form action URL",
-        "info": "[Where do I find my MailChimp form action URL?](http:\/\/docs.shopify.com\/support\/configuration\/store-customization\/where-do-i-get-my-mailchimp-form-action)"
-      }
-    ]
-  },
+
   {
     "name": "Popup Newsletter",
     "settings": [
@@ -4591,7 +4577,7 @@
       },
       {
         "type": "paragraph",
-        "content": "Write ISO 4217 Currency Codes [Click here](http:\/\/www.xe.com\/iso4217.php). Your currencies name: icon [Click here](http:\/\/character-code.com\/currency-html-codes.php), text."
+        "content": "Write ISO 4217 Currency Codes [Click here](http://www.xe.com/iso4217.php). Your currencies name: icon [Click here](http://character-code.com/currency-html-codes.php), text."
       },
       {
         "type": "textarea",
@@ -4665,7 +4651,7 @@
         "type": "textarea",
         "id": "countdown_pass",
         "label": "Countdown",
-        "info": "2017\/01\/31 10:30:00"
+        "info": "2017/01/31 10:30:00"
       },
       {
         "type": "header",
