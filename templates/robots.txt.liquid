@@ -15,5 +15,6 @@ robots.default_groups %}
 {{ "Disallow: /pages/bonus" }}
 {{ "Disallow: /account/login" }}
 {{ "Disallow: /login" }}
-{{ "Disallow: /products/{{ product.handle }}"}} {%- endif -%} {%- if
-group.user_agent.value == 'Nutch' -%} {%- else -%} {%- endif -%} {% endfor %}
+{%- for product in collection.products -%}
+{{ "Disallow: /products/{{ product.handle }}"}} {%- endfor -%} {%- endif -%} {%-
+if group.user_agent.value == 'Nutch' -%} {%- else -%} {%- endif -%} {% endfor %}
