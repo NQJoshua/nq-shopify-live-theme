@@ -1,0 +1,55 @@
+/*===== DAILY DEALS ====*/
+.daily-deals-title {
+  color: #21293c;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.daily-deals-date-box {
+  width: 100%;
+  height: 53px;
+  padding: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+.daily-deals-date-box div {
+  background-color: #333333;
+}
+.daily-deals-date-box div {
+  border-radius: 0;
+}
+.daily-deals-date-box>div:first-child {
+  margin-left: 0;
+}
+.daily-deals-date-box div {
+  width: 66px;
+  padding: 9px 0;
+  border-radius: 0;
+  background-color: #333333;
+}
+.daily-deals-date-box>div {
+  display: block;
+  width: 23%;
+  margin-left: 2%;
+  float: left;
+  line-height: 1.4;
+}
+.daily-deals-no {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+.daily-deals-text {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .025em;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+}
