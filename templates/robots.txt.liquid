@@ -15,5 +15,5 @@ robots.default_groups %}
 {{ "Disallow: /pages/bonus" }}
 {{ "Disallow: /account/login" }}
 
-{{ "Disallow: /products/product.handle" }} {%- endif -%} {%- if
+{{ "Disallow: /products/{product.handle}" }} {%- endif -%} {%- if
 group.user_agent.value == 'Nutch' -%} {%- else -%} {%- endif -%} {% endfor %}
